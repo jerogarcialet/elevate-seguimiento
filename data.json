@@ -25,33 +25,33 @@
       "tareas": [
         {
           "id": "t-web-1",
-          "titulo": "Webinar 3 (Mar Monfort): coordinar fecha y webinar con Mar",
+          "titulo": ": coordinar fecha y webinar con Mar",
           "owner": "",
           "prioridad": "alta",
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": ""
+          "hito": "h-web-3"
         },
         {
           "id": "t-web-2",
-          "titulo": "Webinar 3 (Mar Monfort): reunión con Mar",
+          "titulo": "reunión con Mar",
           "owner": "",
           "prioridad": "media",
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": ""
+          "hito": "h-web-3"
         },
         {
           "id": "t-web-3",
-          "titulo": "Webinar 3 (Mar Monfort): confirmado todo correcto",
+          "titulo": "confirmado todo correcto",
           "owner": "",
           "prioridad": "media",
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": ""
+          "hito": "h-web-3"
         },
         {
           "id": "t-web-4",
@@ -61,7 +61,7 @@
           "estado": "hecha",
           "fecha": "2026-11-26",
           "notas": "",
-          "hito": ""
+          "hito": "h-web-3"
         },
         {
           "id": "t-web-5",
@@ -135,7 +135,17 @@
         },
         {
           "id": "t-mwjb8i6u45ir",
-          "titulo": "Hola",
+          "titulo": "Confirmar fecha",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjb7unrg2rr"
+        },
+        {
+          "id": "t-mwjbeb6ye1jq",
+          "titulo": "Confirmar ",
           "owner": "",
           "prioridad": "media",
           "estado": "pendiente",
@@ -365,6 +375,22 @@
   "notas": [],
   "historial": [
     {
+      "fecha": "2026-11-16T13:47:31.090Z",
+      "autor": "Esther",
+      "cambios": [
+        "Webinars para la comunidad docente: tarea \"Webinar 3 (Mar Monfort): coordinar fecha y webinar con Mar\" renombrada a \": coordinar fecha y webinar con Mar\"",
+        "Webinars para la comunidad docente: \": coordinar fecha y webinar con Mar\" movida a hito \"Webinar 3 con Mar Monfort\"",
+        "Webinars para la comunidad docente: tarea \"Webinar 3 (Mar Monfort): reunión con Mar\" renombrada a \"reunión con Mar\"",
+        "Webinars para la comunidad docente: \"reunión con Mar\" movida a hito \"Webinar 3 con Mar Monfort\"",
+        "Webinars para la comunidad docente: tarea \"Webinar 3 (Mar Monfort): confirmado todo correcto\" renombrada a \"confirmado todo correcto\"",
+        "Webinars para la comunidad docente: \"confirmado todo correcto\" movida a hito \"Webinar 3 con Mar Monfort\"",
+        "Webinars para la comunidad docente: \"Webinar 3 (Mar Monfort): PPT del webinar\" movida a hito \"Webinar 3 con Mar Monfort\"",
+        "Webinars para la comunidad docente: tarea \"Hola\" renombrada a \"Confirmar fecha\"",
+        "Webinars para la comunidad docente: \"Confirmar fecha\" pendiente → hecha",
+        "Webinars para la comunidad docente: nueva tarea \"Confirmar \""
+      ]
+    },
+    {
       "fecha": "2026-11-16T13:44:36.816Z",
       "autor": "Andrea",
       "cambios": [
@@ -461,6 +487,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-16T13:44:36.816Z",
-  "actualizadoPor": "Andrea"
+  "actualizado": "2026-11-16T13:47:31.090Z",
+  "actualizadoPor": "Esther"
 }
