@@ -123,14 +123,29 @@ input[type=date].late{border-color:#F3B3B8;color:var(--alta);background:#FFF8F8}
 .hi{border:1px solid transparent;border-radius:4px;padding:3px 6px;background:transparent;width:100%}
 .hrow.done .hi{text-decoration:line-through;color:var(--faint)}
 .tasks{padding:6px 16px 12px 22px}
-.thead,.trow{display:grid;grid-template-columns:minmax(220px,1fr) 118px 96px 116px 136px minmax(140px,.7fr) 32px;gap:8px;align-items:center}
+.thead,.trow{display:grid;grid-template-columns:minmax(200px,1fr) 130px 132px 92px 112px 132px minmax(110px,.6fr) 32px;gap:8px;align-items:center}
+.group{margin-top:10px;border:1px solid var(--line2);border-radius:8px;overflow:hidden}
+.group .trow{padding-left:10px;padding-right:6px}
+.tasks .thead{padding-left:10px;padding-right:6px}
+.ghead{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:7px 10px;background:color-mix(in srgb,var(--c) 8%,#fff);border-bottom:1px solid var(--line2)}
+.ghead input[type=checkbox]{width:16px;height:16px;accent-color:var(--brand)}
+.ghead .flag{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.4px;color:#fff;background:var(--c);border-radius:4px;padding:1px 6px}
+.ghead .hi{font-weight:600;flex:1;min-width:180px}
+.ghead.done .hi{text-decoration:line-through;color:var(--faint)}
+.ghead.nohito{background:#FAFAFA}
+.gname{font-weight:600;color:var(--ink2);flex:1}
+.gcount{font-size:12px;color:var(--muted);white-space:nowrap}
+.gfoot{display:flex;align-items:center;gap:12px;padding:4px 6px;color:var(--faint);font-size:12.5px}
+.gempty{margin-top:6px}
+.gpad{padding:6px 10px}
+.ghead:hover .del{opacity:1}
 .thead{font-size:11.5px;color:var(--muted);font-weight:600;padding:6px 0;border-bottom:1px solid var(--line2);text-transform:uppercase;letter-spacing:.3px}
 .trow{padding:5px 0;border-bottom:1px solid #F3F2F1}
 .trow:hover{background:#FAFAFA}
 .ti,.tn{border:1px solid transparent;border-radius:4px;padding:4px 6px;background:transparent;width:100%}
 .tn{color:var(--muted);font-size:13px}
 .trow.done .ti{text-decoration:line-through;color:var(--faint)}
-.del{opacity:0;color:var(--faint)}
+.del{opacity:.5;color:var(--faint)}
 .trow:hover .del,.hrow:hover .del,.note:hover .del{opacity:1}
 .del:hover{color:var(--alta)!important;background:#FDE7E9!important}
 .tfoot{display:flex;align-items:center;gap:12px;padding-top:8px;color:var(--faint);font-size:12.5px}
@@ -256,6 +271,7 @@ textarea.big:focus,.nrow select:focus,.nrow input:focus,.toolbar .search:focus,.
 /* ===== Configuración por defecto (se puede cambiar desde el engranaje) ===== */
 const CONFIG = { owner: "__OWNER__", repo: "__REPO__", branch: "main", path: "data.json" };
 const PERSONAS = ["Andrea", "Jero", "Esther"];
+const OWNERS = ["Andrea", "Jero", "Esther", "Andrea y Jero", "Andrea y Esther", "Jero y Esther", "Todos"];
 const PRIORIDADES = ["alta", "media", "baja"];
 const ESTADOS = ["pendiente", "en curso", "bloqueada", "hecha"];
 const COLORES = ["#0F6CBD", "#107C10", "#8764B8", "#CA5010", "#038387", "#C239B3", "#986F0B", "#4F6BED"];
@@ -312,7 +328,7 @@ function normalize(d) {
     b.owner = b.owner || ""; b.prioridad = b.prioridad || "media"; b.descripcion = b.descripcion || "";
     b.hitos = Array.isArray(b.hitos) ? b.hitos : []; b.tareas = Array.isArray(b.tareas) ? b.tareas : [];
     b.hitos.forEach(h => { h.id = h.id || uid("h"); h.titulo = h.titulo || ""; h.fecha = h.fecha || ""; h.hecho = !!h.hecho; });
-    b.tareas.forEach(t => { t.id = t.id || uid("t"); t.titulo = t.titulo || ""; t.owner = t.owner || ""; t.prioridad = t.prioridad || "media"; t.estado = t.estado || "pendiente"; t.fecha = t.fecha || ""; t.notas = t.notas || ""; });
+    b.tareas.forEach(t => { t.id = t.id || uid("t"); t.titulo = t.titulo || ""; t.owner = t.owner || ""; t.prioridad = t.prioridad || "media"; t.estado = t.estado || "pendiente"; t.fecha = t.fecha || ""; t.notas = t.notas || ""; t.hito = b.hitos.some(h => h.id === t.hito) ? t.hito : ""; });
   });
   d.notas = Array.isArray(d.notas) ? d.notas : [];
   d.notas.forEach(n => { n.id = n.id || uid("n"); n.texto = n.texto || ""; n.fecha = n.fecha || todayISO(); n.autor = n.autor || ""; n.bloque = n.bloque || ""; });
@@ -414,6 +430,7 @@ function diff(a, b) {
       if (o.prioridad !== T.prioridad) out.push(n + ": " + tt + " prioridad " + o.prioridad + " → " + T.prioridad);
       if (o.fecha !== T.fecha) out.push(n + ": " + tt + " fecha " + (fmtDay(o.fecha) || "sin fecha") + " → " + (fmtDay(T.fecha) || "sin fecha"));
       if (o.notas !== T.notas) out.push(n + ": " + tt + " notas editadas");
+      if ((o.hito || "") !== (T.hito || "")) { const hh = B.hitos.find(x => x.id === T.hito); out.push(n + ": " + tt + " movida a " + (hh ? "hito " + q(hh.titulo) : "sin hito")); }
     }
     for (const o of A.tareas) if (!B.tareas.some(x => x.id === o.id)) out.push(n + ": tarea eliminada " + q(o.titulo));
   }
@@ -612,14 +629,14 @@ function renderToolbar() {
 const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
 function optList(list, val, labelFn = cap) { return list.map(p => '<option value="' + esc(p) + '"' + (p === val ? " selected" : "") + ">" + esc(labelFn(p)) + "</option>").join(""); }
 function ownerSel(ref, f, val, extraCls = "") {
-  return '<select class="pill ' + (val ? "" : "o-none ") + extraCls + '" data-ref="' + ref + '" data-f="' + f + '" title="Owner"><option value="">Sin asignar</option>' + PERSONAS.map(p => "<option" + (p === val ? " selected" : "") + ">" + p + "</option>").join("") + (val && !PERSONAS.includes(val) ? "<option selected>" + esc(val) + "</option>" : "") + "</select>";
+  return '<select class="pill ' + (val ? "" : "o-none ") + extraCls + '" data-ref="' + ref + '" data-f="' + f + '" title="Owner"><option value="">Sin asignar</option>' + OWNERS.map(p => "<option" + (p === val ? " selected" : "") + ">" + p + "</option>").join("") + (val && !OWNERS.includes(val) ? "<option selected>" + esc(val) + "</option>" : "") + "</select>";
 }
 const prioSel = (ref, val) => '<select class="pill p-' + esc(val) + '" data-ref="' + ref + '" data-f="prioridad" title="Prioridad">' + optList(PRIORIDADES, val) + "</select>";
 const estSel = (ref, val) => '<select class="pill e-' + esc(val) + '" data-ref="' + ref + '" data-f="estado" title="Estado">' + optList(ESTADOS, val) + "</select>";
 function taskVisible(t) {
   const f = S.filters;
   if (f.ocultarHechas && t.estado === "hecha") return false;
-  if (f.owner === "__none" ? t.owner : f.owner && t.owner !== f.owner) return false;
+  if (f.owner === "__none" ? t.owner : f.owner && !(t.owner === f.owner || t.owner === "Todos" || t.owner.split(" y ").includes(f.owner))) return false;
   if (f.prio && t.prioridad !== f.prio) return false;
   if (f.estado && t.estado !== f.estado) return false;
   if (f.q) { const q = f.q.toLowerCase(); if (!(t.titulo + " " + t.notas).toLowerCase().includes(q)) return false; }
@@ -638,11 +655,46 @@ function renderMain() {
 function renderBlock(b) {
   const ref = "b:" + b.id, nh = nextHito(b), r = nh ? rel(nh.fecha) : null;
   const prioRank = { alta: 0, media: 1, baja: 2 };
-  let tareas = b.tareas.filter(taskVisible);
-  if (S.filters.orden === "prioridad") tareas = [...tareas].sort((x, y) => ((x.estado === "hecha") - (y.estado === "hecha")) || (prioRank[x.prioridad] - prioRank[y.prioridad]) || ((x.fecha || "9999") < (y.fecha || "9999") ? -1 : (x.fecha || "9999") > (y.fecha || "9999") ? 1 : 0));
-  if (S.filters.orden === "fecha") tareas = [...tareas].sort((x, y) => (x.fecha || "9999") < (y.fecha || "9999") ? -1 : 1);
-  const hidden = b.tareas.length - tareas.length;
-  const hd = b.hitos.filter(h => h.hecho).length;
+  const fk = x => x.fecha || "9999";
+  const sortT = list => {
+    let t = list.filter(taskVisible);
+    if (S.filters.orden === "prioridad") t = [...t].sort((x, y) => ((x.estado === "hecha") - (y.estado === "hecha")) || (prioRank[x.prioridad] - prioRank[y.prioridad]) || (fk(x) < fk(y) ? -1 : fk(x) > fk(y) ? 1 : 0));
+    if (S.filters.orden === "fecha") t = [...t].sort((x, y) => fk(x) < fk(y) ? -1 : 1);
+    return t;
+  };
+  const hitos = [...b.hitos].sort((x, y) => (x.hecho - y.hecho) || (fk(x) < fk(y) ? -1 : fk(x) > fk(y) ? 1 : 0));
+  const hitoOpts = val => '<option value="">Sin hito</option>' + hitos.map(h => '<option value="' + esc(h.id) + '"' + (h.id === val ? " selected" : "") + ">" + esc(h.titulo || "(hito sin título)") + "</option>").join("");
+  const row = t => {
+    const tr = "t:" + b.id + ":" + t.id, done = t.estado === "hecha";
+    return '<div class="trow' + (done ? " done" : "") + '">' +
+      '<input class="ti" data-ref="' + tr + '" data-f="titulo" value="' + esc(t.titulo) + '" placeholder="Describe la tarea…">' +
+      '<select class="pill' + (t.hito ? "" : " o-none") + '" data-ref="' + tr + '" data-f="hito" title="Hito al que pertenece">' + hitoOpts(t.hito) + "</select>" +
+      ownerSel(tr, "owner", t.owner) + prioSel(tr, t.prioridad) + estSel(tr, t.estado) +
+      '<input type="date" data-ref="' + tr + '" data-f="fecha" value="' + esc(t.fecha) + '"' + (isLate(t.fecha, done) ? ' class="late" title="Vencida"' : "") + ">" +
+      '<input class="tn" data-ref="' + tr + '" data-f="notas" value="' + esc(t.notas) + '" placeholder="Notas…">' +
+      '<button class="btn icon subtle del" data-act="delTask" data-b="' + esc(b.id) + '" data-id="' + esc(t.id) + '" title="Eliminar tarea">' + trash + "</button></div>";
+  };
+  const group = h => {
+    const hid = h ? h.id : "";
+    const all = b.tareas.filter(t => (t.hito || "") === hid), vis = sortT(all);
+    const done = all.filter(t => t.estado === "hecha").length, hidden = all.length - vis.length;
+    let head;
+    if (h) {
+      const hr = "h:" + b.id + ":" + h.id, rr = rel(h.fecha);
+      head = '<div class="ghead' + (h.hecho ? " done" : "") + '"><input type="checkbox" data-ref="' + hr + '" data-f="hecho"' + (h.hecho ? " checked" : "") + ' title="Marcar hito como cumplido">' +
+        '<span class="flag">Hito</span><input class="hi" data-ref="' + hr + '" data-f="titulo" value="' + esc(h.titulo) + '" placeholder="Nombre del hito…">' +
+        '<input type="date" data-ref="' + hr + '" data-f="fecha" value="' + esc(h.fecha) + '"' + (isLate(h.fecha, h.hecho) ? ' class="late"' : "") + ">" +
+        '<span class="when ' + (h.hecho ? "ok" : rr.cls) + '">' + (h.hecho ? "Cumplido" : rr.txt) + "</span>" +
+        '<span class="gcount">' + (all.length ? done + "/" + all.length + " tareas hechas" : "Sin tareas") + "</span>" +
+        '<button class="btn icon subtle del" data-act="delHito" data-b="' + esc(b.id) + '" data-id="' + esc(h.id) + '" title="Eliminar hito">' + trash + "</button></div>";
+    } else {
+      if (!all.length && hitos.length) return '<div class="gempty"><button class="btn subtle" data-act="addTask" data-b="' + esc(b.id) + '" data-h="">+ Añadir tarea sin hito</button></div>';
+      head = '<div class="ghead nohito"><span class="gname">' + (hitos.length ? "Tareas sin hito" : "Tareas") + '</span><span class="gcount">' + done + "/" + all.length + " hechas</span></div>";
+    }
+    return '<div class="group">' + head + vis.map(row).join("") +
+      (all.length && !vis.length ? '<div class="empty gpad">Ninguna tarea coincide con los filtros.</div>' : "") +
+      '<div class="gfoot"><button class="btn subtle" data-act="addTask" data-b="' + esc(b.id) + '" data-h="' + esc(hid) + '">+ Añadir tarea</button>' + (hidden ? "<span>" + hidden + " oculta" + (hidden > 1 ? "s" : "") + " por los filtros</span>" : "") + "</div></div>";
+  };
   return '<article class="block" id="blk-' + esc(b.id) + '" style="--c:' + esc(b.color) + '">' +
     '<div class="bhead"><div>' +
       '<input class="bname" data-ref="' + ref + '" data-f="nombre" value="' + esc(b.nombre) + '" aria-label="Nombre del bloque">' +
@@ -655,31 +707,11 @@ function renderBlock(b) {
         ? '<div class="t">' + esc(nh.titulo || "(sin título)") + '</div><div class="r"><input type="date" data-ref="h:' + b.id + ":" + nh.id + '" data-f="fecha" value="' + esc(nh.fecha) + '" title="Cambiar la fecha del próximo hito"><span class="when ' + r.cls + '">' + r.txt + "</span></div>"
         : '<div class="t" style="color:var(--faint);font-weight:400">Sin hitos pendientes</div><button class="btn subtle" data-act="addHito" data-b="' + esc(b.id) + '">+ Añadir hito</button>') +
       "</div>" +
-      '<button class="btn icon subtle del" style="opacity:.6" data-act="delBlock" data-b="' + esc(b.id) + '" title="Eliminar bloque">' + trash + "</button>" +
+      '<button class="btn icon subtle del" data-act="delBlock" data-b="' + esc(b.id) + '" title="Eliminar bloque">' + trash + "</button>" +
     "</div></div>" +
-    '<details class="hitos"' + (b.hitos.length ? " open" : "") + '><summary><span class="chev">▸</span> Hitos (' + hd + "/" + b.hitos.length + " cumplidos)</summary>" +
-      b.hitos.map(h => {
-        const hr = "h:" + b.id + ":" + h.id, rr = rel(h.fecha);
-        return '<div class="hrow' + (h.hecho ? " done" : "") + '"><input type="checkbox" data-ref="' + hr + '" data-f="hecho"' + (h.hecho ? " checked" : "") + ' title="Marcar como cumplido">' +
-          '<input class="hi" data-ref="' + hr + '" data-f="titulo" value="' + esc(h.titulo) + '" placeholder="Describe el hito…">' +
-          '<input type="date" data-ref="' + hr + '" data-f="fecha" value="' + esc(h.fecha) + '"' + (isLate(h.fecha, h.hecho) ? ' class="late"' : "") + ">" +
-          '<span class="when ' + (h.hecho ? "ok" : rr.cls) + '">' + (h.hecho ? "Cumplido" : rr.txt) + "</span>" +
-          '<button class="btn icon subtle del" data-act="delHito" data-b="' + esc(b.id) + '" data-id="' + esc(h.id) + '" title="Eliminar hito">' + trash + "</button></div>";
-      }).join("") +
-      '<button class="btn subtle" data-act="addHito" data-b="' + esc(b.id) + '">+ Añadir hito</button>' +
-    "</details>" +
-    '<div class="tasks"><div class="thead"><span>Tarea</span><span>Owner</span><span>Prioridad</span><span>Estado</span><span>Fecha límite</span><span>Notas</span><span></span></div>' +
-      tareas.map(t => {
-        const tr = "t:" + b.id + ":" + t.id, done = t.estado === "hecha";
-        return '<div class="trow' + (done ? " done" : "") + '">' +
-          '<input class="ti" data-ref="' + tr + '" data-f="titulo" value="' + esc(t.titulo) + '" placeholder="Describe la tarea…">' +
-          ownerSel(tr, "owner", t.owner) + prioSel(tr, t.prioridad) + estSel(tr, t.estado) +
-          '<input type="date" data-ref="' + tr + '" data-f="fecha" value="' + esc(t.fecha) + '"' + (isLate(t.fecha, done) ? ' class="late" title="Vencida"' : "") + ">" +
-          '<input class="tn" data-ref="' + tr + '" data-f="notas" value="' + esc(t.notas) + '" placeholder="Notas…">' +
-          '<button class="btn icon subtle del" data-act="delTask" data-b="' + esc(b.id) + '" data-id="' + esc(t.id) + '" title="Eliminar tarea">' + trash + "</button></div>";
-      }).join("") +
-      (b.tareas.length === 0 ? '<div class="empty">Todavía no hay tareas en este bloque.</div>' : tareas.length === 0 ? '<div class="empty">Ninguna tarea coincide con los filtros.</div>' : "") +
-      '<div class="tfoot"><button class="btn subtle" data-act="addTask" data-b="' + esc(b.id) + '">+ Añadir tarea</button>' + (hidden ? "<span>" + hidden + " oculta" + (hidden > 1 ? "s" : "") + " por los filtros</span>" : "") + "</div>" +
+    '<div class="tasks"><div class="thead"><span>Tarea</span><span>Hito</span><span>Owner</span><span>Prioridad</span><span>Estado</span><span>Fecha límite</span><span>Notas</span><span></span></div>' +
+      hitos.map(group).join("") + group(null) +
+      '<div class="tfoot"><button class="btn subtle" data-act="addHito" data-b="' + esc(b.id) + '">+ Añadir hito</button></div>' +
     "</div></article>";
 }
 const trash = '<svg width="14" height="14" viewBox="0 0 20 20" fill="currentColor"><path d="M8 2h4a1 1 0 011 1v1h4v1.5H3V4h4V3a1 1 0 011-1zm-3 5h10l-.8 9.1a1 1 0 01-1 .9H6.8a1 1 0 01-1-.9L5 7z"/></svg>';
@@ -759,7 +791,7 @@ document.addEventListener("click", async e => {
   if (act === "settings") return openSettings();
   if (act === "goto") { const el = $("#blk-" + CSS.escape(t.dataset.id)); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" }); return; }
   if (act === "addTask" && b) {
-    const nt = { id: uid("t"), titulo: "", owner: "", prioridad: "media", estado: "pendiente", fecha: "", notas: "" };
+    const nt = { id: uid("t"), titulo: "", owner: "", prioridad: "media", estado: "pendiente", fecha: "", notas: "", hito: t.dataset.h || "" };
     b.tareas.push(nt); S.filters.ocultarHechas = S.filters.ocultarHechas; renderChrome(); renderMain();
     const el = $('[data-ref="t:' + b.id + ":" + nt.id + '"][data-f="titulo"]'); if (el) el.focus();
     return;
@@ -776,7 +808,11 @@ document.addEventListener("click", async e => {
     if (await ask("Eliminar tarea", '¿Seguro que quieres eliminar "' + (x.titulo || "sin título") + '"? Podrás recuperarla desde el historial de versiones.', "Eliminar")) { b.tareas = b.tareas.filter(z => z !== x); renderChrome(); renderMain(); }
     return;
   }
-  if (act === "delHito" && b) { b.hitos = b.hitos.filter(z => z.id !== t.dataset.id); renderChrome(); renderMain(); return; }
+  if (act === "delHito" && b) {
+    const h = b.hitos.find(z => z.id === t.dataset.id), nt = b.tareas.filter(z => z.hito === t.dataset.id).length;
+    if (await ask("Eliminar hito", '¿Eliminar el hito "' + ((h && h.titulo) || "sin título") + '"?' + (nt ? " Sus " + nt + " tareas pasarán a Tareas sin hito." : ""), "Eliminar")) { b.hitos = b.hitos.filter(z => z !== h); b.tareas.forEach(z => { if (z.hito === t.dataset.id) z.hito = ""; }); renderChrome(); renderMain(); }
+    return;
+  }
   if (act === "delBlock" && b) {
     if (await ask("Eliminar bloque", '¿Eliminar el bloque "' + b.nombre + '" con sus ' + b.tareas.length + " tareas y " + b.hitos.length + " hitos?", "Eliminar")) { S.data.bloques = S.data.bloques.filter(z => z !== b); renderChrome(); renderMain(); }
     return;
@@ -842,7 +878,7 @@ function convertNote(id, kind) {
     '<label class="f">Título<input id="cT" value="' + esc(first) + '"></label>' +
     '<label class="f">Bloque<select id="cB">' + opts + "</select></label>" +
     '<div class="grid2">' + (kind === "tarea"
-      ? '<label class="f">Owner<select id="cO"><option value="">Sin asignar</option>' + PERSONAS.map(p => "<option" + (p === user() ? " selected" : "") + ">" + p + "</option>").join("") + '</select></label><label class="f">Prioridad<select id="cP">' + optList(PRIORIDADES, "media") + "</select></label>"
+      ? '<label class="f">Owner<select id="cO"><option value="">Sin asignar</option>' + OWNERS.map(p => "<option" + (p === user() ? " selected" : "") + ">" + p + "</option>").join("") + '</select></label><label class="f">Prioridad<select id="cP">' + optList(PRIORIDADES, "media") + "</select></label>"
       : "") + '<label class="f">Fecha<input type="date" id="cF"></label></div>' +
     '<div class="acts"><button class="btn" id="cNo">Cancelar</button><button class="btn primary" id="cOk">Añadir ' + kind + "</button></div>");
   $("#cNo").onclick = () => closeModal();
