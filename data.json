@@ -26,6 +26,12 @@
           "titulo": "Webinar 5  Sara Galisteo",
           "fecha": "",
           "hecho": false
+        },
+        {
+          "id": "h-mwjeysavh5b3",
+          "titulo": "Webinar 6 David MArtínez",
+          "fecha": "",
+          "hecho": false
         }
       ],
       "tareas": [
@@ -444,14 +450,174 @@
           "titulo": "Contactar con el ponente.",
           "owner": "",
           "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "2026-11-03",
+          "notas": "",
+          "hito": "h-mwjcq5jsqjrw"
+        },
+        {
+          "id": "t-mwjcrl8lfer0",
+          "titulo": "Definir el día.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "2026-11-03",
+          "notas": "",
+          "hito": "h-mwjcq5jsqjrw"
+        },
+        {
+          "id": "t-mwjevv4bh2jm",
+          "titulo": "Definir el tema.",
+          "owner": "",
+          "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
           "hito": "h-mwjcq5jsqjrw"
         },
         {
-          "id": "t-mwjcrl8lfer0",
-          "titulo": "",
+          "id": "t-mwjevyvq8qzf",
+          "titulo": "Pedir al ponente su cargo, teléfono y dirección de envío.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjcq5jsqjrw"
+        },
+        {
+          "id": "t-mwjew2lw3u03",
+          "titulo": "Enviar al ponente la plantilla PPT de la carpeta Externos.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjcq5jsqjrw"
+        },
+        {
+          "id": "t-mwjew5xvvqof",
+          "titulo": "Redactar la descripción del webinar.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjcq5jsqjrw"
+        },
+        {
+          "id": "t-mwjew9hbt6k1",
+          "titulo": "Preparar las creatividades.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjcq5jsqjrw"
+        },
+        {
+          "id": "t-mwjewcp6o1jz",
+          "titulo": "Configurar el registro en Teams.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjcq5jsqjrw"
+        },
+        {
+          "id": "t-mwjewghn8xd9",
+          "titulo": "Acortar el enlace de registro con Bitly.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjcq5jsqjrw"
+        },
+        {
+          "id": "t-mwjewjq1jdtt",
+          "titulo": "Vincular Teams con YouTube.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjcq5jsqjrw"
+        },
+        {
+          "id": "t-mwjewp627psr",
+          "titulo": "Revisar el PPT del ponente.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjcq5jsqjrw"
+        },
+        {
+          "id": "t-mwjewszcsc4s",
+          "titulo": "Publicar un recordatorio en redes antes del webinar.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjcq5jsqjrw"
+        },
+        {
+          "id": "t-mwjeww313n7a",
+          "titulo": "Hacer la prueba técnica y emitir el webinar.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjcq5jsqjrw"
+        },
+        {
+          "id": "t-mwjex06t4ctv",
+          "titulo": "Publicar la grabación en YouTube.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjcq5jsqjrw"
+        },
+        {
+          "id": "t-mwjex669j75g",
+          "titulo": "Compartir el enlace de la grabación con Andrea.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjcq5jsqjrw"
+        },
+        {
+          "id": "t-mwjexoljf5ar",
+          "titulo": "Gestionar el pago de 100 € al ponente.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjcq5jsqjrw"
+        },
+        {
+          "id": "t-mwjexqd6gml5",
+          "titulo": "Enviar el kit al ponente.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjcq5jsqjrw"
+        },
+        {
+          "id": "t-mwjexu0isc2m",
+          "titulo": "Actualizar el Excel de Founderz con Andrea.",
           "owner": "",
           "prioridad": "media",
           "estado": "pendiente",
@@ -681,6 +847,34 @@
   "notas": [],
   "historial": [
     {
+      "fecha": "2026-11-16T15:35:51.590Z",
+      "autor": "Esther",
+      "cambios": [
+        "Webinars para la comunidad docente: nuevo hito \"Webinar 6 David MArtínez\"",
+        "Webinars para la comunidad docente: \"Contactar con el ponente.\" pendiente → hecha",
+        "Webinars para la comunidad docente: \"Contactar con el ponente.\" fecha sin fecha → mar, 3 nov",
+        "Webinars para la comunidad docente: tarea \"(sin título)\" renombrada a \"Definir el día.\"",
+        "Webinars para la comunidad docente: \"Definir el día.\" pendiente → hecha",
+        "Webinars para la comunidad docente: \"Definir el día.\" fecha sin fecha → mar, 3 nov",
+        "Webinars para la comunidad docente: nueva tarea \"Definir el tema.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Pedir al ponente su cargo, teléfono y dirección de envío.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Enviar al ponente la plantilla PPT de la carpeta Externos.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Redactar la descripción del webinar.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Preparar las creatividades.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Configurar el registro en Teams.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Acortar el enlace de registro con Bitly.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Vincular Teams con YouTube.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Revisar el PPT del ponente.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Publicar un recordatorio en redes antes del webinar.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Hacer la prueba técnica y emitir el webinar.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Publicar la grabación en YouTube.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Compartir el enlace de la grabación con Andrea.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Gestionar el pago de 100 € al ponente.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Enviar el kit al ponente.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Actualizar el Excel de Founderz con Andrea.\""
+      ]
+    },
+    {
       "fecha": "2026-11-16T14:22:45.100Z",
       "autor": "Esther",
       "cambios": [
@@ -880,6 +1074,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-16T14:22:45.100Z",
+  "actualizado": "2026-11-16T15:35:51.590Z",
   "actualizadoPor": "Esther"
 }
