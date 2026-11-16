@@ -152,6 +152,12 @@ input[type=date].late{border-color:#F3B3B8;color:var(--alta);background:#FFF8F8}
 .ti,.tn{border:1px solid transparent;border-radius:4px;padding:4px 6px;background:transparent;width:100%}
 .tn{color:var(--muted);font-size:13px}
 .trow.done .ti{text-decoration:line-through;color:var(--faint)}
+.trow.done{opacity:.45;transition:opacity .15s}
+.trow.done:hover,.trow.done:focus-within{opacity:1}
+.trow.done select.pill{filter:grayscale(1)}
+.trow.done input[type=date],.trow.done .tn{color:var(--faint)}
+.ghead.done{opacity:.6}
+.ghead.done:hover{opacity:1}
 .del{opacity:.5;color:var(--faint)}
 .trow:hover .del,.hrow:hover .del,.note:hover .del{opacity:1}
 .del:hover{color:var(--alta)!important;background:#FDE7E9!important}
