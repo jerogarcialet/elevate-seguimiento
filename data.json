@@ -1006,13 +1006,19 @@
           "titulo": "Dinamización LinkedIn",
           "fecha": "2027-06-30",
           "hecho": false
+        },
+        {
+          "id": "h-mwjfzig4p1lu",
+          "titulo": "",
+          "fecha": "",
+          "hecho": false
         }
       ],
       "tareas": [
         {
           "id": "t-lin-1",
           "titulo": "Comunicaciones periódicas de novedades",
-          "owner": "",
+          "owner": "Jero",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
@@ -1048,6 +1054,16 @@
           "fecha": "",
           "notas": "Estado: parado",
           "hito": "h-mwjbe12dp0b5"
+        },
+        {
+          "id": "t-mwjfzj9n30b6",
+          "titulo": "",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": ""
         }
       ]
     },
@@ -1315,6 +1331,15 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-16T15:52:49.204Z",
+      "autor": "Andrea",
+      "cambios": [
+        "Dinamización grupo de LinkedIn: nuevo hito \"(sin título)\"",
+        "Dinamización grupo de LinkedIn: \"Comunicaciones periódicas de novedades\" owner sin asignar → Jero",
+        "Dinamización grupo de LinkedIn: nueva tarea \"(sin título)\""
+      ]
+    },
     {
       "fecha": "2026-11-16T15:52:41.779Z",
       "autor": "Esther",
@@ -1640,6 +1665,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-16T15:52:41.779Z",
-  "actualizadoPor": "Esther"
+  "actualizado": "2026-11-16T15:52:49.204Z",
+  "actualizadoPor": "Andrea"
 }
