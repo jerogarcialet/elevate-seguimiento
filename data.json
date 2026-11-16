@@ -65,7 +65,7 @@
         },
         {
           "id": "t-web-5",
-          "titulo": "Webinar 3 (Mar Monfort): pago ponente 100 € + envío kit",
+          "titulo": "pago ponente 100 € + envío kit",
           "owner": "",
           "prioridad": "media",
           "estado": "pendiente",
@@ -75,7 +75,7 @@
         },
         {
           "id": "t-web-6",
-          "titulo": "Webinar 3 (Mar Monfort): subir grabación a YouTube",
+          "titulo": "subir grabación a YouTube",
           "owner": "Esther",
           "prioridad": "media",
           "estado": "pendiente",
@@ -375,6 +375,14 @@
   "notas": [],
   "historial": [
     {
+      "fecha": "2026-11-16T13:48:18.417Z",
+      "autor": "Esther",
+      "cambios": [
+        "Webinars para la comunidad docente: tarea \"Webinar 3 (Mar Monfort): pago ponente 100 € + envío kit\" renombrada a \"pago ponente 100 € + envío kit\"",
+        "Webinars para la comunidad docente: tarea \"Webinar 3 (Mar Monfort): subir grabación a YouTube\" renombrada a \"subir grabación a YouTube\""
+      ]
+    },
+    {
       "fecha": "2026-11-16T13:47:56.225Z",
       "autor": "Esther",
       "cambios": [
@@ -494,6 +502,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-16T13:47:56.225Z",
+  "actualizado": "2026-11-16T13:48:18.417Z",
   "actualizadoPor": "Esther"
 }
