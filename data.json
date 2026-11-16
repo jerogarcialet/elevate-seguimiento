@@ -908,10 +908,34 @@
           "hito": "h-mwjbazx485bo"
         }
       ]
+    },
+    {
+      "id": "b-mwjfml5c6bov",
+      "nombre": "Pilotos Yasira - Minecraft",
+      "descripcion": "Seguimiento y coordinación del proyecto Yasira",
+      "color": "#038387",
+      "owner": "Andrea y Esther",
+      "prioridad": "media",
+      "hitos": [
+        {
+          "id": "h-mwjfn2mo71xg",
+          "titulo": "Colegio SEK",
+          "fecha": "",
+          "hecho": false
+        }
+      ],
+      "tareas": []
     }
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-16T15:52:18.922Z",
+      "autor": "Andrea",
+      "cambios": [
+        "Nuevo bloque \"Pilotos Yasira - Minecraft\""
+      ]
+    },
     {
       "fecha": "2026-11-16T15:42:15.503Z",
       "autor": "Andrea",
@@ -1185,6 +1209,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-16T15:42:15.503Z",
+  "actualizado": "2026-11-16T15:52:18.922Z",
   "actualizadoPor": "Andrea"
 }
