@@ -251,6 +251,7 @@ textarea.big:focus,.nrow select:focus,.nrow input:focus,.toolbar .search:focus,.
   <span class="sp"></span>
   <span class="status ro" id="status"><span class="dot"></span><span id="statusTxt">Cargando…</span></span>
   <select class="who" id="who" title="¿Quién eres?"></select>
+  <button class="btn ghost icon" id="btnUndo" title="Deshacer (Ctrl+Z / Cmd+Z)" disabled><svg width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4L3 8l4 4"/><path d="M3 8h9a5 5 0 010 10H9"/></svg></button>
   <button class="btn ghost" id="btnDiscard" style="display:none" title="Deshacer los cambios sin guardar">Descartar</button>
   <button class="btn primary" id="btnSave" title="Guardar (Ctrl+S)"><svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor"><path d="M4 3h9.6L17 6.4V16a1 1 0 01-1 1H4a1 1 0 01-1-1V4a1 1 0 011-1zm1 1.5v3h7v-3H5zm5 6a2 2 0 100 4 2 2 0 000-4z"/></svg><span>Guardar</span></button>
   <button class="btn ghost icon" id="btnSettings" title="Configuración y conexión con GitHub"><svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor"><path d="M11.3 2l.4 2.1c.5.2 1 .5 1.4.8l2-.8 1.3 2.3-1.6 1.4a5.6 5.6 0 010 1.6l1.6 1.4-1.3 2.3-2-.8c-.4.3-.9.6-1.4.8l-.4 2.1H8.7l-.4-2.1c-.5-.2-1-.5-1.4-.8l-2 .8-1.3-2.3 1.6-1.4a5.6 5.6 0 010-1.6L3.6 6.4l1.3-2.3 2 .8c.4-.3.9-.6 1.4-.8L8.7 2h2.6zM10 7.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5z" transform="translate(0 0.5)"/></svg></button>
@@ -405,6 +406,7 @@ async function load() {
     if (!S.data) setData(seed(), null);
     S.mode = "error"; S.loadErr = e.message;
   }
+  resetUndo();
   renderAll();
 }
 function setData(d, sha) { S.data = normalize(d); S.baseline = clone(S.data); S.sha = sha; }
@@ -532,6 +534,23 @@ async function save(retry) {
 const stripHist = d => { const o = clone(d); delete o.historial; delete o.actualizado; delete o.actualizadoPor; return o; };
 function setSaving(v) { S.saving = v; const b = $("#btnSave"); b.disabled = v; b.querySelector("span").textContent = v ? "Guardando…" : "Guardar"; }
 
+const UNDO = [], REDO = [];
+let lastTyping = null;
+const snap = () => JSON.stringify(stripHist(S.data));
+function track(key) {
+  const now = Date.now();
+  if (key && lastTyping && lastTyping.key === key && now - lastTyping.t < 2000) { lastTyping.t = now; return; }
+  lastTyping = key ? { key, t: now } : null;
+  const s = snap();
+  if (UNDO[UNDO.length - 1] !== s) { UNDO.push(s); if (UNDO.length > 100) UNDO.shift(); }
+  REDO.length = 0; updUndo();
+}
+function applySnap(s) { const d = JSON.parse(s); d.historial = S.data.historial; d.actualizado = S.data.actualizado; d.actualizadoPor = S.data.actualizadoPor; S.data = normalize(d); lastTyping = null; renderChrome(); renderMain(); updUndo(); }
+function undo() { if (!UNDO.length) { toast("No hay nada que deshacer"); return; } REDO.push(snap()); applySnap(UNDO.pop()); toast("Deshecho. Recuerda pulsar Guardar si quieres conservarlo."); }
+function redo() { if (!REDO.length) return; UNDO.push(snap()); applySnap(REDO.pop()); toast("Rehecho"); }
+function resetUndo() { UNDO.length = 0; REDO.length = 0; lastTyping = null; updUndo(); }
+function updUndo() { const b = $("#btnUndo"); if (b) b.disabled = !UNDO.length; }
+
 /* ===== Sincronización automática ===== */
 async function poll() {
   if (!canApi() || S.saving || document.hidden || !S.data) return;
@@ -554,7 +573,7 @@ async function poll() {
       setData(remote, j.sha);
       toast("Actualizado con los cambios de " + (remote.actualizadoPor || "otra persona"));
     }
-    S.etag = r.headers.get("ETag"); S.commits = null;
+    S.etag = r.headers.get("ETag"); S.commits = null; resetUndo();
     renderAll();
   } catch (e) {}
 }
@@ -786,6 +805,7 @@ function getRef(ref) {
 document.addEventListener("input", e => {
   const el = e.target; if (!el.dataset || !el.dataset.ref || el.type === "checkbox" || el.tagName === "SELECT" || el.type === "date") return;
   const o = getRef(el.dataset.ref); if (!o) return;
+  track(el.dataset.ref + "|" + el.dataset.f);
   o[el.dataset.f] = el.value;
   if (el.classList.contains("bdesc")) autoGrow(el);
   renderChrome();
@@ -793,6 +813,7 @@ document.addEventListener("input", e => {
 document.addEventListener("change", e => {
   const el = e.target; if (!el.dataset || !el.dataset.ref) return;
   const o = getRef(el.dataset.ref); if (!o) return;
+  if (el.type === "checkbox" || el.tagName === "SELECT" || el.type === "date") track();
   if (el.type === "checkbox") { o[el.dataset.f] = el.checked; delete S.fold[o.id]; }
   else if (el.tagName === "SELECT" || el.type === "date") o[el.dataset.f] = el.value;
   else return; // los textos ya se guardan al escribir
@@ -806,45 +827,45 @@ document.addEventListener("click", async e => {
   if (act === "goto") { const el = $("#blk-" + CSS.escape(t.dataset.id)); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" }); return; }
   if (act === "addTask" && b) {
     const nt = { id: uid("t"), titulo: "", owner: "", prioridad: "media", estado: "pendiente", fecha: "", notas: "", hito: t.dataset.h || "" };
-    b.tareas.push(nt); S.filters.ocultarHechas = S.filters.ocultarHechas; renderChrome(); renderMain();
+    track(); b.tareas.push(nt); S.filters.ocultarHechas = S.filters.ocultarHechas; renderChrome(); renderMain();
     const el = $('[data-ref="t:' + b.id + ":" + nt.id + '"][data-f="titulo"]'); if (el) el.focus();
     return;
   }
   if (act === "addHito" && b) {
     const nh = { id: uid("h"), titulo: "", fecha: "", hecho: false };
-    b.hitos.push(nh); renderChrome(); renderMain();
+    track(); b.hitos.push(nh); renderChrome(); renderMain();
     const d = $("#blk-" + CSS.escape(b.id) + " details.hitos"); if (d) d.open = true;
     const el = $('[data-ref="h:' + b.id + ":" + nh.id + '"][data-f="titulo"]'); if (el) el.focus();
     return;
   }
   if (act === "delTask" && b) {
     const x = b.tareas.find(z => z.id === t.dataset.id);
-    if (await ask("Eliminar tarea", '¿Seguro que quieres eliminar "' + (x.titulo || "sin título") + '"? Podrás recuperarla desde el historial de versiones.', "Eliminar")) { b.tareas = b.tareas.filter(z => z !== x); renderChrome(); renderMain(); }
+    if (await ask("Eliminar tarea", '¿Seguro que quieres eliminar "' + (x.titulo || "sin título") + '"? Podrás recuperarla desde el historial de versiones.', "Eliminar")) { track(); b.tareas = b.tareas.filter(z => z !== x); renderChrome(); renderMain(); }
     return;
   }
   if (act === "delHito" && b) {
     const h = b.hitos.find(z => z.id === t.dataset.id), nt = b.tareas.filter(z => z.hito === t.dataset.id).length;
-    if (await ask("Eliminar hito", '¿Eliminar el hito "' + ((h && h.titulo) || "sin título") + '"?' + (nt ? " Sus " + nt + " tareas pasarán a Tareas sin hito." : ""), "Eliminar")) { b.hitos = b.hitos.filter(z => z !== h); b.tareas.forEach(z => { if (z.hito === t.dataset.id) z.hito = ""; }); renderChrome(); renderMain(); }
+    if (await ask("Eliminar hito", '¿Eliminar el hito "' + ((h && h.titulo) || "sin título") + '"?' + (nt ? " Sus " + nt + " tareas pasarán a Tareas sin hito." : ""), "Eliminar")) { track(); b.hitos = b.hitos.filter(z => z !== h); b.tareas.forEach(z => { if (z.hito === t.dataset.id) z.hito = ""; }); renderChrome(); renderMain(); }
     return;
   }
   if (act === "delBlock" && b) {
-    if (await ask("Eliminar bloque", '¿Eliminar el bloque "' + b.nombre + '" con sus ' + b.tareas.length + " tareas y " + b.hitos.length + " hitos?", "Eliminar")) { S.data.bloques = S.data.bloques.filter(z => z !== b); renderChrome(); renderMain(); }
+    if (await ask("Eliminar bloque", '¿Eliminar el bloque "' + b.nombre + '" con sus ' + b.tareas.length + " tareas y " + b.hitos.length + " hitos?", "Eliminar")) { track(); S.data.bloques = S.data.bloques.filter(z => z !== b); renderChrome(); renderMain(); }
     return;
   }
   if (act === "addBlock") {
     const nb = { id: uid("b"), nombre: "Nuevo bloque", descripcion: "", color: COLORES[S.data.bloques.length % COLORES.length], owner: "", prioridad: "media", hitos: [], tareas: [] };
-    S.data.bloques.push(nb); renderChrome(); renderMain();
+    track(); S.data.bloques.push(nb); renderChrome(); renderMain();
     const el = $('[data-ref="b:' + nb.id + '"][data-f="nombre"]'); if (el) { el.focus(); el.select(); }
     return;
   }
   if (act === "addNote") {
     const tx = $("#nTexto").value.trim(); if (!tx) { toast("Escribe algo en la nota"); return; }
-    S.data.notas.push({ id: uid("n"), fecha: $("#nFecha").value || todayISO(), bloque: $("#nBloque").value, autor: user(), texto: tx });
+    track(); S.data.notas.push({ id: uid("n"), fecha: $("#nFecha").value || todayISO(), bloque: $("#nBloque").value, autor: user(), texto: tx });
     renderChrome(); renderMain(); toast("Nota añadida. Recuerda pulsar Guardar.");
     return;
   }
   if (act === "delNote") {
-    if (await ask("Eliminar nota", "¿Eliminar esta nota de reunión?", "Eliminar")) { S.data.notas = S.data.notas.filter(n => n.id !== t.dataset.id); renderChrome(); renderMain(); }
+    if (await ask("Eliminar nota", "¿Eliminar esta nota de reunión?", "Eliminar")) { track(); S.data.notas = S.data.notas.filter(n => n.id !== t.dataset.id); renderChrome(); renderMain(); }
     return;
   }
   if (act === "noteToTask" || act === "noteToHito") return convertNote(t.dataset.id, act === "noteToTask" ? "tarea" : "hito");
@@ -853,7 +874,15 @@ document.addEventListener("click", async e => {
 document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => { S.tab = t.dataset.tab; $("#toolbar").dataset.ready = ""; renderAll(); window.scrollTo({ top: 0 }); }));
 $("#btnSave").addEventListener("click", () => save());
 $("#btnSettings").addEventListener("click", () => openSettings());
-$("#btnDiscard").addEventListener("click", async () => { if (await ask("Descartar cambios", "Se perderán los cambios que no has guardado.", "Descartar")) { S.data = clone(S.baseline); renderAll(); } });
+$("#btnDiscard").addEventListener("click", async () => { if (await ask("Descartar cambios", "Se perderán los cambios que no has guardado.", "Descartar")) { track(); S.data = clone(S.baseline); renderAll(); } });
+$("#btnUndo").addEventListener("click", undo);
+document.addEventListener("keydown", e => {
+  if (!(e.ctrlKey || e.metaKey) || $("#scrim").classList.contains("show")) return;
+  const k = e.key.toLowerCase(), a = document.activeElement;
+  if (a && /INPUT|TEXTAREA/.test(a.tagName) && !(a.dataset && a.dataset.ref)) return;
+  if (k === "z" && !e.shiftKey) { e.preventDefault(); undo(); }
+  else if ((k === "z" && e.shiftKey) || k === "y") { e.preventDefault(); redo(); }
+});
 $("#who").addEventListener("change", e => { lsSet("user", e.target.value); toast(e.target.value ? "Hola, " + e.target.value : "Sin identificar"); });
 document.addEventListener("keydown", e => { if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "s") { e.preventDefault(); if (document.activeElement) document.activeElement.blur(); save(); } if (e.key === "Escape") closeModal(); });
 window.addEventListener("beforeunload", e => { if (isDirty()) { e.preventDefault(); e.returnValue = ""; } });
@@ -865,6 +894,7 @@ async function restore(sha) {
     if (!r.ok) throw new Error(await apiErr(r));
     const old = normalize(JSON.parse(b64dec((await r.json()).content)));
     if (!await ask("Restaurar versión", "Se cargará la versión del " + fmtDT(old.actualizado) + " (guardada por " + (old.actualizadoPor || "—") + "). Revísala y pulsa Guardar para que vuelva a ser la actual.", "Cargar versión")) return;
+    track();
     const hist = S.data.historial;
     S.data = old; S.data.historial = hist;
     S.tab = "bloques"; $("#toolbar").dataset.ready = ""; renderAll(); window.scrollTo({ top: 0 });
@@ -899,6 +929,7 @@ function convertNote(id, kind) {
   $("#cOk").onclick = () => {
     const b = blockById($("#cB").value), titulo = $("#cT").value.trim();
     if (!b || !titulo) { toast("Falta el título"); return; }
+    track();
     if (kind === "tarea") b.tareas.push({ id: uid("t"), titulo, owner: $("#cO").value, prioridad: $("#cP").value, estado: "pendiente", fecha: $("#cF").value, notas: "De la reunión del " + fmtDay(n.fecha) });
     else b.hitos.push({ id: uid("h"), titulo, fecha: $("#cF").value, hecho: false });
     closeModal(); renderChrome(); renderMain();
