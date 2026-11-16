@@ -6,7 +6,7 @@
       "nombre": "Webinars para la comunidad docente",
       "descripcion": "Ciclo de webinars abiertos para la comunidad docente de Microsoft Elevate for Educators.",
       "color": "#0F6CBD",
-      "owner": "",
+      "owner": "Esther",
       "prioridad": "alta",
       "hitos": [
         {
@@ -150,7 +150,7 @@
       "nombre": "Dinamización grupo de LinkedIn",
       "descripcion": "Mantener vivo el grupo de LinkedIn de la comunidad: novedades, anuncios y dinamizadores.",
       "color": "#107C10",
-      "owner": "",
+      "owner": "Esther",
       "prioridad": "media",
       "hitos": [],
       "tareas": [
@@ -311,7 +311,7 @@
       "nombre": "Campaña de comunicación del curso Microsoft gratuito (paid media)",
       "descripcion": "Difusión y comunicación con acciones de pago del curso de formación gratuito de Microsoft.",
       "color": "#CA5010",
-      "owner": "",
+      "owner": "Jero y Esther",
       "prioridad": "media",
       "hitos": [],
       "tareas": [
@@ -350,6 +350,15 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-16T13:40:15.762Z",
+      "autor": "Andrea",
+      "cambios": [
+        "Webinars para la comunidad docente: owner del bloque sin asignar → Esther",
+        "Dinamización grupo de LinkedIn: owner del bloque sin asignar → Esther",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): owner del bloque sin asignar → Jero y Esther"
+      ]
+    },
     {
       "fecha": "2026-11-16T13:39:39.392Z",
       "autor": "Andrea",
@@ -409,6 +418,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-16T13:39:39.392Z",
+  "actualizado": "2026-11-16T13:40:15.762Z",
   "actualizadoPor": "Andrea"
 }
