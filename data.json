@@ -313,43 +313,68 @@
       "color": "#CA5010",
       "owner": "Jero y Esther",
       "prioridad": "media",
-      "hitos": [],
+      "hitos": [
+        {
+          "id": "h-mwjbazx485bo",
+          "titulo": "Curso gratuito Microsoft 365 - Explorer",
+          "fecha": "2026-12-31",
+          "hecho": false
+        }
+      ],
       "tareas": [
         {
           "id": "t-dif-1",
           "titulo": "Preparar comunicación del curso",
-          "owner": "",
-          "prioridad": "alta",
+          "owner": "Esther",
+          "prioridad": "media",
           "estado": "pendiente",
-          "fecha": "",
+          "fecha": "2026-11-20",
           "notas": "",
-          "hito": ""
+          "hito": "h-mwjbazx485bo"
         },
         {
           "id": "t-dif-2",
           "titulo": "Paid media: 500 € en Meta",
-          "owner": "",
-          "prioridad": "alta",
+          "owner": "Jero",
+          "prioridad": "media",
           "estado": "pendiente",
-          "fecha": "",
+          "fecha": "2026-11-23",
           "notas": "Paymedia 500€, Meta y…",
-          "hito": ""
+          "hito": "h-mwjbazx485bo"
         },
         {
           "id": "t-dif-3",
           "titulo": "Vídeo de 30 segundos en vertical",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
           "estado": "pendiente",
-          "fecha": "",
+          "fecha": "2026-11-23",
           "notas": "",
-          "hito": ""
+          "hito": "h-mwjbazx485bo"
         }
       ]
     }
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-16T13:42:28.806Z",
+      "autor": "Andrea",
+      "cambios": [
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): nuevo hito \"Curso gratuito Microsoft 365 - Explorer\" (jue, 31 dic)",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Preparar comunicación del curso\" owner sin asignar → Esther",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Preparar comunicación del curso\" prioridad alta → media",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Preparar comunicación del curso\" fecha sin fecha → vie, 20 nov",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Preparar comunicación del curso\" movida a hito \"Curso gratuito Microsoft 365 - Explorer\"",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Paid media: 500 € en Meta\" owner sin asignar → Jero",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Paid media: 500 € en Meta\" prioridad alta → media",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Paid media: 500 € en Meta\" fecha sin fecha → lun, 23 nov",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Paid media: 500 € en Meta\" movida a hito \"Curso gratuito Microsoft 365 - Explorer\"",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Vídeo de 30 segundos en vertical\" owner sin asignar → Esther",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Vídeo de 30 segundos en vertical\" fecha sin fecha → lun, 23 nov",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Vídeo de 30 segundos en vertical\" movida a hito \"Curso gratuito Microsoft 365 - Explorer\""
+      ]
+    },
     {
       "fecha": "2026-11-16T13:40:15.762Z",
       "autor": "Andrea",
@@ -418,6 +443,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-16T13:40:15.762Z",
+  "actualizado": "2026-11-16T13:42:28.806Z",
   "actualizadoPor": "Andrea"
 }
