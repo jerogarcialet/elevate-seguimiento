@@ -139,6 +139,13 @@ input[type=date].late{border-color:#F3B3B8;color:var(--alta);background:#FFF8F8}
 .gempty{margin-top:6px}
 .gpad{padding:6px 10px}
 .ghead:hover .del{opacity:1}
+.group.collapsed .trow,.group.collapsed .gfoot,.group.collapsed .gpad{display:none}
+.group.collapsed .ghead{border-bottom:0}
+.ghead .chev2{border:none;background:none;width:22px;height:22px;padding:0;color:var(--muted);font-size:14px;transition:transform .15s}
+.ghead .chev2:hover{color:var(--ink)}
+.ghead[data-act=fold]{cursor:pointer}
+.ghead[data-act=fold]:hover{filter:brightness(.98)}
+.group:not(.collapsed) .chev2{transform:rotate(90deg)}
 .thead{font-size:11.5px;color:var(--muted);font-weight:600;padding:6px 0;border-bottom:1px solid var(--line2);text-transform:uppercase;letter-spacing:.3px}
 .trow{padding:5px 0;border-bottom:1px solid #F3F2F1}
 .trow:hover{background:#FAFAFA}
@@ -279,7 +286,7 @@ const LS = "elevatePanel.";
 
 const S = { data: null, baseline: null, sha: null, etag: null, mode: "lectura", saving: false,
   tab: "bloques", filters: { owner: "", prio: "", estado: "", q: "", ocultarHechas: false, orden: "prioridad" },
-  commits: null, commitsErr: null, seedFallback: false };
+  commits: null, commitsErr: null, seedFallback: false, fold: {} };
 
 /* ===== Utilidades ===== */
 const $ = (s, el = document) => el.querySelector(s);
@@ -681,7 +688,7 @@ function renderBlock(b) {
     let head;
     if (h) {
       const hr = "h:" + b.id + ":" + h.id, rr = rel(h.fecha);
-      head = '<div class="ghead' + (h.hecho ? " done" : "") + '"><input type="checkbox" data-ref="' + hr + '" data-f="hecho"' + (h.hecho ? " checked" : "") + ' title="Marcar hito como cumplido">' +
+      head = '<div class="ghead' + (h.hecho ? " done" : "") + '" data-act="fold" data-id="' + esc(h.id) + '"><button class="chev2" data-act="fold" data-id="' + esc(h.id) + '" title="Mostrar u ocultar sus tareas">▸</button><input type="checkbox" data-ref="' + hr + '" data-f="hecho"' + (h.hecho ? " checked" : "") + ' title="Marcar hito como cumplido">' +
         '<span class="flag">Hito</span><input class="hi" data-ref="' + hr + '" data-f="titulo" value="' + esc(h.titulo) + '" placeholder="Nombre del hito…">' +
         '<input type="date" data-ref="' + hr + '" data-f="fecha" value="' + esc(h.fecha) + '"' + (isLate(h.fecha, h.hecho) ? ' class="late"' : "") + ">" +
         '<span class="when ' + (h.hecho ? "ok" : rr.cls) + '">' + (h.hecho ? "Cumplido" : rr.txt) + "</span>" +
@@ -691,7 +698,7 @@ function renderBlock(b) {
       if (!all.length && hitos.length) return '<div class="gempty"><button class="btn subtle" data-act="addTask" data-b="' + esc(b.id) + '" data-h="">+ Añadir tarea sin hito</button></div>';
       head = '<div class="ghead nohito"><span class="gname">' + (hitos.length ? "Tareas sin hito" : "Tareas") + '</span><span class="gcount">' + done + "/" + all.length + " hechas</span></div>";
     }
-    return '<div class="group">' + head + vis.map(row).join("") +
+    return '<div class="group' + (h && (h.id in S.fold ? S.fold[h.id] : (h.hecho || !nh || h.id !== nh.id)) ? " collapsed" : "") + '">' + head + vis.map(row).join("") +
       (all.length && !vis.length ? '<div class="empty gpad">Ninguna tarea coincide con los filtros.</div>' : "") +
       '<div class="gfoot"><button class="btn subtle" data-act="addTask" data-b="' + esc(b.id) + '" data-h="' + esc(hid) + '">+ Añadir tarea</button>' + (hidden ? "<span>" + hidden + " oculta" + (hidden > 1 ? "s" : "") + " por los filtros</span>" : "") + "</div></div>";
   };
@@ -780,7 +787,7 @@ document.addEventListener("input", e => {
 document.addEventListener("change", e => {
   const el = e.target; if (!el.dataset || !el.dataset.ref) return;
   const o = getRef(el.dataset.ref); if (!o) return;
-  if (el.type === "checkbox") o[el.dataset.f] = el.checked;
+  if (el.type === "checkbox") { o[el.dataset.f] = el.checked; delete S.fold[o.id]; }
   else if (el.tagName === "SELECT" || el.type === "date") o[el.dataset.f] = el.value;
   else return; // los textos ya se guardan al escribir
   renderChrome(); renderMain();
@@ -789,6 +796,7 @@ document.addEventListener("click", async e => {
   const t = e.target.closest("[data-act]"); if (!t) return;
   const act = t.dataset.act, b = t.dataset.b ? blockById(t.dataset.b) : null;
   if (act === "settings") return openSettings();
+  if (act === "fold") { if (e.target.closest("input,select,textarea,.del")) return; const g = t.closest(".group"); S.fold[t.dataset.id] = !g.classList.contains("collapsed"); g.classList.toggle("collapsed"); return; }
   if (act === "goto") { const el = $("#blk-" + CSS.escape(t.dataset.id)); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" }); return; }
   if (act === "addTask" && b) {
     const nt = { id: uid("t"), titulo: "", owner: "", prioridad: "media", estado: "pendiente", fecha: "", notas: "", hito: t.dataset.h || "" };
