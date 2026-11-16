@@ -55,7 +55,7 @@
         },
         {
           "id": "t-web-4",
-          "titulo": "Webinar 3 (Mar Monfort): PPT del webinar",
+          "titulo": " PPT del webinar",
           "owner": "",
           "prioridad": "alta",
           "estado": "hecha",
@@ -375,6 +375,13 @@
   "notas": [],
   "historial": [
     {
+      "fecha": "2026-11-16T13:47:56.225Z",
+      "autor": "Esther",
+      "cambios": [
+        "Webinars para la comunidad docente: tarea \"Webinar 3 (Mar Monfort): PPT del webinar\" renombrada a \" PPT del webinar\""
+      ]
+    },
+    {
       "fecha": "2026-11-16T13:47:31.090Z",
       "autor": "Esther",
       "cambios": [
@@ -487,6 +494,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-16T13:47:31.090Z",
+  "actualizado": "2026-11-16T13:47:56.225Z",
   "actualizadoPor": "Esther"
 }
