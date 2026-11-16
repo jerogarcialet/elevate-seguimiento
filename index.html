@@ -262,7 +262,7 @@ const COLORES = ["#0F6CBD", "#107C10", "#8764B8", "#CA5010", "#038387", "#C239B3
 const LS = "elevatePanel.";
 
 const S = { data: null, baseline: null, sha: null, etag: null, mode: "lectura", saving: false,
-  tab: "bloques", filters: { owner: "", prio: "", estado: "", q: "", ocultarHechas: false, orden: "manual" },
+  tab: "bloques", filters: { owner: "", prio: "", estado: "", q: "", ocultarHechas: false, orden: "prioridad" },
   commits: null, commitsErr: null, seedFallback: false };
 
 /* ===== Utilidades ===== */
@@ -601,7 +601,7 @@ function renderToolbar() {
     '<select id="fowner"><option value="">Todas las personas</option>' + PERSONAS.map(p => "<option>" + p + "</option>").join("") + '<option value="__none">Sin asignar</option></select>' +
     '<select id="fprio"><option value="">Todas las prioridades</option>' + PRIORIDADES.map(p => '<option value="' + p + '">Prioridad ' + p + "</option>").join("") + "</select>" +
     '<select id="festado"><option value="">Todos los estados</option>' + ESTADOS.map(p => '<option value="' + p + '">' + cap(p) + "</option>").join("") + "</select>" +
-    '<select id="forden"><option value="manual">Orden manual</option><option value="prioridad">Ordenar por prioridad</option><option value="fecha">Ordenar por fecha</option></select>' +
+    '<select id="forden"><option value="prioridad">Ordenar por prioridad</option><option value="manual">Orden manual</option><option value="fecha">Ordenar por fecha</option></select>' +
     '<label><input type="checkbox" id="fhechas"> Ocultar hechas</label>' +
     "</div>";
   tb.dataset.ready = "1";
@@ -639,7 +639,7 @@ function renderBlock(b) {
   const ref = "b:" + b.id, nh = nextHito(b), r = nh ? rel(nh.fecha) : null;
   const prioRank = { alta: 0, media: 1, baja: 2 };
   let tareas = b.tareas.filter(taskVisible);
-  if (S.filters.orden === "prioridad") tareas = [...tareas].sort((x, y) => prioRank[x.prioridad] - prioRank[y.prioridad]);
+  if (S.filters.orden === "prioridad") tareas = [...tareas].sort((x, y) => ((x.estado === "hecha") - (y.estado === "hecha")) || (prioRank[x.prioridad] - prioRank[y.prioridad]) || ((x.fecha || "9999") < (y.fecha || "9999") ? -1 : (x.fecha || "9999") > (y.fecha || "9999") ? 1 : 0));
   if (S.filters.orden === "fecha") tareas = [...tareas].sort((x, y) => (x.fecha || "9999") < (y.fecha || "9999") ? -1 : 1);
   const hidden = b.tareas.length - tareas.length;
   const hd = b.hitos.filter(h => h.hecho).length;
