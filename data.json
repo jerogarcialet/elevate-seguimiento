@@ -1,0 +1,83 @@
+{
+  "proyecto": "Microsoft Elevate for Educators",
+  "actualizado": "2026-11-16T13:15:00.000Z",
+  "actualizadoPor": "Jero",
+  "bloques": [
+    {
+      "id": "webinars",
+      "nombre": "Webinars para la comunidad docente",
+      "descripcion": "Ciclo de webinars abiertos para la comunidad docente de Microsoft Elevate for Educators.",
+      "color": "#0F6CBD",
+      "owner": "",
+      "prioridad": "alta",
+      "hitos": [
+        { "id": "h-web-3", "titulo": "Webinar 3 con Mar Monfort", "fecha": "2026-11-26", "hecho": false }
+      ],
+      "tareas": [
+        { "id": "t-web-1", "titulo": "Webinar 3 (Mar Monfort): coordinar fecha y webinar con Mar", "owner": "", "prioridad": "alta", "estado": "hecha", "fecha": "", "notas": "" },
+        { "id": "t-web-2", "titulo": "Webinar 3 (Mar Monfort): reunión con Mar", "owner": "", "prioridad": "media", "estado": "hecha", "fecha": "", "notas": "" },
+        { "id": "t-web-3", "titulo": "Webinar 3 (Mar Monfort): confirmado todo correcto", "owner": "", "prioridad": "media", "estado": "hecha", "fecha": "", "notas": "" },
+        { "id": "t-web-4", "titulo": "Webinar 3 (Mar Monfort): PPT del webinar", "owner": "", "prioridad": "alta", "estado": "hecha", "fecha": "2026-11-26", "notas": "" },
+        { "id": "t-web-5", "titulo": "Webinar 3 (Mar Monfort): pago ponente 100 € + envío kit", "owner": "", "prioridad": "media", "estado": "pendiente", "fecha": "2026-11-29", "notas": "2-3 días después del webinar" },
+        { "id": "t-web-6", "titulo": "Webinar 3 (Mar Monfort): subir grabación a YouTube", "owner": "", "prioridad": "media", "estado": "pendiente", "fecha": "2026-11-27", "notas": "" },
+        { "id": "t-web-7", "titulo": "Andrea Excel Founderz", "owner": "", "prioridad": "media", "estado": "pendiente", "fecha": "", "notas": "Copiado tal cual de la hoja de Andrea: concretar" }
+      ]
+    },
+    {
+      "id": "linkedin",
+      "nombre": "Dinamización grupo de LinkedIn",
+      "descripcion": "Mantener vivo el grupo de LinkedIn de la comunidad: novedades, anuncios y dinamizadores.",
+      "color": "#107C10",
+      "owner": "",
+      "prioridad": "media",
+      "hitos": [],
+      "tareas": [
+        { "id": "t-lin-1", "titulo": "Comunicaciones periódicas de novedades", "owner": "", "prioridad": "media", "estado": "pendiente", "fecha": "", "notas": "" },
+        { "id": "t-lin-2", "titulo": "Anuncios de webinars", "owner": "", "prioridad": "media", "estado": "pendiente", "fecha": "", "notas": "" },
+        { "id": "t-lin-3", "titulo": "Convocatoria MEE", "owner": "", "prioridad": "media", "estado": "pendiente", "fecha": "", "notas": "" },
+        { "id": "t-lin-4", "titulo": "Dinamizadores: profes en activo", "owner": "", "prioridad": "media", "estado": "bloqueada", "fecha": "", "notas": "Estado: parado" }
+      ]
+    },
+    {
+      "id": "consejerias",
+      "nombre": "Formaciones MOOC Microsoft 365 para consejerías",
+      "descripcion": "Curso de 30 h con los módulos de Microsoft (Explorer y Expert) para docentes de las consejerías, con fondos de partner.",
+      "color": "#8764B8",
+      "owner": "Jero",
+      "prioridad": "alta",
+      "hitos": [
+        { "id": "h-con-1", "titulo": "Castilla y León: se abre la matrícula", "fecha": "2026-11-23", "hecho": false },
+        { "id": "h-con-2", "titulo": "Castilla y León: cierre de matrícula", "fecha": "2026-12-11", "hecho": false },
+        { "id": "h-con-3", "titulo": "Castilla y León: sesión de bienvenida", "fecha": "2026-12-14", "hecho": false }
+      ],
+      "tareas": [
+        { "id": "t-con-1", "titulo": "Castilla y León: documento propuesta de formación", "owner": "Jero", "prioridad": "alta", "estado": "hecha", "fecha": "", "notas": "" },
+        { "id": "t-con-2", "titulo": "Castilla y León: mail de puesta en marcha de la formación", "owner": "Andrea", "prioridad": "alta", "estado": "hecha", "fecha": "", "notas": "" },
+        { "id": "t-con-3", "titulo": "Castilla y León: OK reunión, fechas cerradas", "owner": "", "prioridad": "alta", "estado": "pendiente", "fecha": "", "notas": "" },
+        { "id": "t-con-4", "titulo": "Castilla y León: montaje del curso", "owner": "Jero", "prioridad": "alta", "estado": "pendiente", "fecha": "2026-11-23", "notas": "Jero y Esther" },
+        { "id": "t-con-5", "titulo": "Castilla y León: seguimiento de la formación", "owner": "", "prioridad": "media", "estado": "pendiente", "fecha": "", "notas": "" },
+        { "id": "t-con-6", "titulo": "Castilla y León: sesiones de formación", "owner": "", "prioridad": "media", "estado": "pendiente", "fecha": "2026-12-14", "notas": "" },
+        { "id": "t-con-7", "titulo": "Seguimiento propuesta Cantabria", "owner": "Jero", "prioridad": "media", "estado": "en curso", "fecha": "", "notas": "" },
+        { "id": "t-con-8", "titulo": "Seguimiento propuesta Valencia (GVA)", "owner": "Jero", "prioridad": "media", "estado": "en curso", "fecha": "", "notas": "" }
+      ]
+    },
+    {
+      "id": "difusion",
+      "nombre": "Campaña de comunicación del curso Microsoft gratuito (paid media)",
+      "descripcion": "Difusión y comunicación con acciones de pago del curso de formación gratuito de Microsoft.",
+      "color": "#CA5010",
+      "owner": "",
+      "prioridad": "media",
+      "hitos": [],
+      "tareas": [
+        { "id": "t-dif-1", "titulo": "Preparar comunicación del curso", "owner": "", "prioridad": "alta", "estado": "pendiente", "fecha": "", "notas": "" },
+        { "id": "t-dif-2", "titulo": "Paid media: 500 € en Meta", "owner": "", "prioridad": "alta", "estado": "pendiente", "fecha": "", "notas": "Paymedia 500€, Meta y…" },
+        { "id": "t-dif-3", "titulo": "Vídeo de 30 segundos en vertical", "owner": "", "prioridad": "media", "estado": "pendiente", "fecha": "", "notas": "" }
+      ]
+    }
+  ],
+  "notas": [],
+  "historial": [
+    { "fecha": "2026-11-16T13:15:00.000Z", "autor": "Jero", "cambios": ["Panel creado con los 4 bloques de trabajo y las tareas de la hoja de Andrea"] }
+  ]
+}
