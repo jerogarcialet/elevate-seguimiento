@@ -1392,15 +1392,78 @@
         {
           "id": "h-mwjfn2mo71xg",
           "titulo": "Colegio SEK",
-          "fecha": "",
+          "fecha": "2026-11-30",
           "hecho": false
         }
       ],
-      "tareas": []
+      "tareas": [
+        {
+          "id": "t-mwju62hmo33u",
+          "titulo": "Escribir correo a Juanjo para que complete formulario de fechas e información",
+          "owner": "Andrea",
+          "prioridad": "media",
+          "estado": "en curso",
+          "fecha": "2026-11-17",
+          "notas": "",
+          "hito": "h-mwjfn2mo71xg"
+        },
+        {
+          "id": "t-mwju7n4yz8jn",
+          "titulo": "Esther revisar que haya completado formulario",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjfn2mo71xg"
+        },
+        {
+          "id": "t-mwju802p1vrc",
+          "titulo": "Andrea ver con AEPAE disponibilidad psicóloga Madrid para talleres AEPAE",
+          "owner": "Andrea",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjfn2mo71xg"
+        },
+        {
+          "id": "t-mwju8gcjejmu",
+          "titulo": "Andrea pasar el contacto a la psicóloga de SEK para que coordinen los talleres AEPAE",
+          "owner": "Andrea",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjfn2mo71xg"
+        },
+        {
+          "id": "t-mwju8y3u0nvx",
+          "titulo": "Esther coordinar con Juanjo SEK 15 días después los talleres de Minecraft",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "Talleristas Madrid: Elisa",
+          "hito": "h-mwjfn2mo71xg"
+        }
+      ]
     }
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-16T22:32:21.657Z",
+      "autor": "Andrea",
+      "cambios": [
+        "Pilotos Yasira - Minecraft: fecha del hito \"Colegio SEK\" sin fecha → lun, 30 nov",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Escribir correo a Juanjo para que complete formulario de fechas e información\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Esther revisar que haya completado formulario\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Andrea ver con AEPAE disponibilidad psicóloga Madrid para talleres AEPAE\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Andrea pasar el contacto a la psicóloga de SEK para que coordinen los talleres AEPAE\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Esther coordinar con Juanjo SEK 15 días después los talleres de Minecraft\""
+      ]
+    },
     {
       "fecha": "2026-11-16T22:28:30.855Z",
       "autor": "Andrea",
@@ -1818,6 +1881,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-16T22:28:30.855Z",
+  "actualizado": "2026-11-16T22:32:21.657Z",
   "actualizadoPor": "Andrea"
 }
