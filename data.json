@@ -97,6 +97,24 @@
           "estado": "pendiente",
           "fecha": "2026-11-09",
           "notas": ""
+        },
+        {
+          "id": "t-mwjb1xxhh11c",
+          "titulo": "Añadir registro Teams",
+          "owner": "Andrea",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": ""
+        },
+        {
+          "id": "t-mwjb2e1mqxvw",
+          "titulo": "Actualizar Excel con la info",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "descripción,  correo, cargo"
         }
       ]
     },
@@ -291,6 +309,14 @@
   "notas": [],
   "historial": [
     {
+      "fecha": "2026-11-16T13:37:16.538Z",
+      "autor": "Esther",
+      "cambios": [
+        "Webinars para la comunidad docente: nueva tarea \"Añadir registro Teams\"",
+        "Webinars para la comunidad docente: nueva tarea \"Actualizar Excel con la info\""
+      ]
+    },
+    {
       "fecha": "2026-11-16T13:34:04.775Z",
       "autor": "Esther",
       "cambios": [
@@ -322,6 +348,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-16T13:34:04.775Z",
+  "actualizado": "2026-11-16T13:37:16.538Z",
   "actualizadoPor": "Esther"
 }
