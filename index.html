@@ -152,9 +152,9 @@ input[type=date].late{border-color:#F3B3B8;color:var(--alta);background:#FFF8F8}
 .ti,.tn{border:1px solid transparent;border-radius:4px;padding:4px 6px;background:transparent;width:100%}
 .tn{color:var(--muted);font-size:13px}
 .trow.done .ti{text-decoration:line-through;color:var(--faint)}
-.trow.done{opacity:.45;transition:opacity .15s}
-.trow.done:hover,.trow.done:focus-within{opacity:1}
-.trow.done select.pill{filter:grayscale(1)}
+.trow.done{position:relative}
+.trow.done::after{content:"";position:absolute;inset:0;background:linear-gradient(transparent calc(50% - 1px),rgba(66,66,66,.55) calc(50% - 1px),rgba(66,66,66,.55) calc(50% + 1px),transparent calc(50% + 1px)),rgba(255,255,255,.5);pointer-events:none;transition:opacity .15s}
+.trow.done:hover::after,.trow.done:focus-within::after{opacity:0}
 .trow.done input[type=date],.trow.done .tn{color:var(--faint)}
 .ghead.done{opacity:.6}
 .ghead.done:hover{opacity:1}
