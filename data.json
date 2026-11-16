@@ -32,6 +32,12 @@
           "titulo": "Webinar 6 David MArtínez",
           "fecha": "",
           "hecho": false
+        },
+        {
+          "id": "h-mwjfx6f664pl",
+          "titulo": "Webinar 7 Judit Cañamero",
+          "fecha": "",
+          "hecho": false
         }
       ],
       "tareas": [
@@ -604,6 +610,386 @@
           "fecha": "",
           "notas": "",
           "hito": "h-mwjcq5jsqjrw"
+        },
+        {
+          "id": "t-mwjfunonxnqg",
+          "titulo": "Contactar con el ponente.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "2026-11-16",
+          "notas": "",
+          "hito": "h-mwjeysavh5b3"
+        },
+        {
+          "id": "t-mwjfuxov85kk",
+          "titulo": "Definir el día.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjeysavh5b3"
+        },
+        {
+          "id": "t-mwjfv1nr0vay",
+          "titulo": "Definir el tema.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjeysavh5b3"
+        },
+        {
+          "id": "t-mwjfv5ehmj3a",
+          "titulo": "Pedir al ponente su cargo, teléfono y dirección de envío.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjeysavh5b3"
+        },
+        {
+          "id": "t-mwjfvfy1ipom",
+          "titulo": "Enviar al ponente la plantilla PPT de la carpeta Externos.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjeysavh5b3"
+        },
+        {
+          "id": "t-mwjfvj4dl9bj",
+          "titulo": "Redactar la descripción del webinar.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjeysavh5b3"
+        },
+        {
+          "id": "t-mwjfvn2mqwm1",
+          "titulo": "Preparar las creatividades.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjeysavh5b3"
+        },
+        {
+          "id": "t-mwjfvqsllm70",
+          "titulo": "Configurar el registro en Teams.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjeysavh5b3"
+        },
+        {
+          "id": "t-mwjfvuczsp5u",
+          "titulo": "Acortar el enlace de registro con Bitly.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjeysavh5b3"
+        },
+        {
+          "id": "t-mwjfvxl0j4iz",
+          "titulo": "Anunciar el webinar en redes sociales.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjeysavh5b3"
+        },
+        {
+          "id": "t-mwjfw13y0ii9",
+          "titulo": "Vincular Teams con YouTube.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjeysavh5b3"
+        },
+        {
+          "id": "t-mwjfw5e2jpw7",
+          "titulo": "Revisar el PPT del ponente.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjeysavh5b3"
+        },
+        {
+          "id": "t-mwjfw92or8it",
+          "titulo": "Publicar un recordatorio en redes antes del webinar.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjeysavh5b3"
+        },
+        {
+          "id": "t-mwjfwc6nysik",
+          "titulo": "Hacer la prueba técnica y emitir el webinar.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjeysavh5b3"
+        },
+        {
+          "id": "t-mwjfwf8ht9pf",
+          "titulo": "Publicar la grabación en YouTube.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjeysavh5b3"
+        },
+        {
+          "id": "t-mwjfwj186mht",
+          "titulo": "Compartir el enlace de la grabación con Andrea.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjeysavh5b3"
+        },
+        {
+          "id": "t-mwjfwm8od7v4",
+          "titulo": "Gestionar el pago de 100 € al ponente.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjeysavh5b3"
+        },
+        {
+          "id": "t-mwjfwrds5wsa",
+          "titulo": "Enviar el kit al ponente.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjeysavh5b3"
+        },
+        {
+          "id": "t-mwjfwsmqkkjd",
+          "titulo": "1. Actualizar el Excel de Founderz con Andrea.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjeysavh5b3"
+        },
+        {
+          "id": "t-mwjfxm8hq1as",
+          "titulo": "Contactar con el ponente.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": ""
+        },
+        {
+          "id": "t-mwjfxp7j0801",
+          "titulo": "Definir el día.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": ""
+        },
+        {
+          "id": "t-mwjfxz0exw2k",
+          "titulo": "Definir el tema.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": ""
+        },
+        {
+          "id": "t-mwjfy22hv2n6",
+          "titulo": "Pedir al ponente su cargo, teléfono y dirección de envío.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": ""
+        },
+        {
+          "id": "t-mwjfy5sj4snh",
+          "titulo": "Enviar al ponente la plantilla PPT de la carpeta Externos.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": ""
+        },
+        {
+          "id": "t-mwjfy8t5l0mw",
+          "titulo": "Redactar la descripción del webinar.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": ""
+        },
+        {
+          "id": "t-mwjfybxfrll1",
+          "titulo": "Preparar las creatividades.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": ""
+        },
+        {
+          "id": "t-mwjfyfjfirpl",
+          "titulo": "Configurar el registro en Teams.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": ""
+        },
+        {
+          "id": "t-mwjfyj5vonxg",
+          "titulo": "Acortar el enlace de registro con Bitly.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": ""
+        },
+        {
+          "id": "t-mwjfylyjiucl",
+          "titulo": "Anunciar el webinar en redes sociales.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": ""
+        },
+        {
+          "id": "t-mwjfyozs6uv2",
+          "titulo": "Vincular Teams con YouTube.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": ""
+        },
+        {
+          "id": "t-mwjfysfw415b",
+          "titulo": "Revisar el PPT del ponente.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": ""
+        },
+        {
+          "id": "t-mwjfyvgs70sj",
+          "titulo": "Publicar un recordatorio en redes antes del webinar.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": ""
+        },
+        {
+          "id": "t-mwjfyy6h6wn3",
+          "titulo": "Hacer la prueba técnica y emitir el webinar.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": ""
+        },
+        {
+          "id": "t-mwjfz1jdytus",
+          "titulo": "Publicar la grabación en YouTube.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": ""
+        },
+        {
+          "id": "t-mwjfz51aueuk",
+          "titulo": "Compartir el enlace de la grabación con Andrea.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": ""
+        },
+        {
+          "id": "t-mwjfz94zpu1k",
+          "titulo": "Gestionar el pago de 100 € al ponente.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": ""
+        },
+        {
+          "id": "t-mwjfzds2tr88",
+          "titulo": "Enviar el kit al ponente.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": ""
+        },
+        {
+          "id": "t-mwjfzhjdp7ez",
+          "titulo": "Actualizar el Excel de Founderz con Andrea.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": ""
         }
       ]
     },
@@ -930,6 +1316,51 @@
   "notas": [],
   "historial": [
     {
+      "fecha": "2026-11-16T15:52:41.779Z",
+      "autor": "Esther",
+      "cambios": [
+        "Webinars para la comunidad docente: nuevo hito \"Webinar 7 Judit Cañamero\"",
+        "Webinars para la comunidad docente: nueva tarea \"Contactar con el ponente.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Definir el día.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Definir el tema.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Pedir al ponente su cargo, teléfono y dirección de envío.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Enviar al ponente la plantilla PPT de la carpeta Externos.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Redactar la descripción del webinar.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Preparar las creatividades.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Configurar el registro en Teams.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Acortar el enlace de registro con Bitly.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Anunciar el webinar en redes sociales.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Vincular Teams con YouTube.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Revisar el PPT del ponente.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Publicar un recordatorio en redes antes del webinar.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Hacer la prueba técnica y emitir el webinar.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Publicar la grabación en YouTube.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Compartir el enlace de la grabación con Andrea.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Gestionar el pago de 100 € al ponente.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Enviar el kit al ponente.\"",
+        "Webinars para la comunidad docente: nueva tarea \"1. Actualizar el Excel de Founderz con Andrea.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Contactar con el ponente.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Definir el día.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Definir el tema.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Pedir al ponente su cargo, teléfono y dirección de envío.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Enviar al ponente la plantilla PPT de la carpeta Externos.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Redactar la descripción del webinar.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Preparar las creatividades.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Configurar el registro en Teams.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Acortar el enlace de registro con Bitly.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Anunciar el webinar en redes sociales.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Vincular Teams con YouTube.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Revisar el PPT del ponente.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Publicar un recordatorio en redes antes del webinar.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Hacer la prueba técnica y emitir el webinar.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Publicar la grabación en YouTube.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Compartir el enlace de la grabación con Andrea.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Gestionar el pago de 100 € al ponente.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Enviar el kit al ponente.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Actualizar el Excel de Founderz con Andrea.\""
+      ]
+    },
+    {
       "fecha": "2026-11-16T15:52:18.922Z",
       "autor": "Andrea",
       "cambios": [
@@ -1209,6 +1640,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-16T15:52:18.922Z",
-  "actualizadoPor": "Andrea"
+  "actualizado": "2026-11-16T15:52:41.779Z",
+  "actualizadoPor": "Esther"
 }
