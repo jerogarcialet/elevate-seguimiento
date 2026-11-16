@@ -152,7 +152,14 @@
       "color": "#107C10",
       "owner": "Esther",
       "prioridad": "media",
-      "hitos": [],
+      "hitos": [
+        {
+          "id": "h-mwjbe12dp0b5",
+          "titulo": "Dinamización LinkedIn",
+          "fecha": "2027-06-30",
+          "hecho": false
+        }
+      ],
       "tareas": [
         {
           "id": "t-lin-1",
@@ -162,7 +169,7 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": ""
+          "hito": "h-mwjbe12dp0b5"
         },
         {
           "id": "t-lin-2",
@@ -172,7 +179,7 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": ""
+          "hito": "h-mwjbe12dp0b5"
         },
         {
           "id": "t-lin-3",
@@ -182,7 +189,7 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": ""
+          "hito": "h-mwjbe12dp0b5"
         },
         {
           "id": "t-lin-4",
@@ -192,7 +199,7 @@
           "estado": "bloqueada",
           "fecha": "",
           "notas": "Estado: parado",
-          "hito": ""
+          "hito": "h-mwjbe12dp0b5"
         }
       ]
     },
@@ -358,6 +365,17 @@
   "notas": [],
   "historial": [
     {
+      "fecha": "2026-11-16T13:44:36.816Z",
+      "autor": "Andrea",
+      "cambios": [
+        "Dinamización grupo de LinkedIn: nuevo hito \"Dinamización LinkedIn\" (mié, 30 jun)",
+        "Dinamización grupo de LinkedIn: \"Comunicaciones periódicas de novedades\" movida a hito \"Dinamización LinkedIn\"",
+        "Dinamización grupo de LinkedIn: \"Anuncios de webinars\" movida a hito \"Dinamización LinkedIn\"",
+        "Dinamización grupo de LinkedIn: \"Convocatoria MEE\" movida a hito \"Dinamización LinkedIn\"",
+        "Dinamización grupo de LinkedIn: \"Dinamizadores: profes en activo\" movida a hito \"Dinamización LinkedIn\""
+      ]
+    },
+    {
       "fecha": "2026-11-16T13:42:28.806Z",
       "autor": "Andrea",
       "cambios": [
@@ -443,6 +461,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-16T13:42:28.806Z",
+  "actualizado": "2026-11-16T13:44:36.816Z",
   "actualizadoPor": "Andrea"
 }
