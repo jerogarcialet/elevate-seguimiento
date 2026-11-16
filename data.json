@@ -226,9 +226,9 @@
           "titulo": "Enviar el kit al ponente.",
           "owner": "Andrea y Esther",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "bloqueada",
           "fecha": "2026-11-30",
-          "notas": "2-3 días después del webinar",
+          "notas": "Ya le dimos a Mar el kit en SIMO. 2-3 días después del webinar",
           "hito": "h-web-3"
         },
         {
@@ -1402,6 +1402,14 @@
   "notas": [],
   "historial": [
     {
+      "fecha": "2026-11-16T22:28:30.855Z",
+      "autor": "Andrea",
+      "cambios": [
+        "Webinars para la comunidad docente: \"Enviar el kit al ponente.\" pendiente → bloqueada",
+        "Webinars para la comunidad docente: \"Enviar el kit al ponente.\" notas editadas"
+      ]
+    },
+    {
       "fecha": "2026-11-16T19:12:26.063Z",
       "autor": "Esther",
       "cambios": [
@@ -1810,6 +1818,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-16T19:12:26.063Z",
-  "actualizadoPor": "Esther"
+  "actualizado": "2026-11-16T22:28:30.855Z",
+  "actualizadoPor": "Andrea"
 }
