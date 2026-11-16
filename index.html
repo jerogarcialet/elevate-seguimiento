@@ -297,8 +297,8 @@ function cfg() {
   for (const k of ["owner", "repo"]) if (/^__.*__$/.test(c[k])) c[k] = "";
   const m = location.hostname.match(/^([^.]+)\.github\.io$/i);
   if (m) {
-    if (!c.owner) c.owner = m[1];
-    if (!c.repo) { const seg = location.pathname.split("/").filter(Boolean)[0]; c.repo = seg && !/\.html?$/.test(seg) ? seg : m[1] + ".github.io"; }
+    c.owner = m[1];
+    { const seg = location.pathname.split("/").filter(Boolean)[0]; c.repo = seg && !/\.html?$/.test(seg) ? seg : m[1] + ".github.io"; }
   }
   return c;
 }
@@ -859,7 +859,7 @@ function openSettings(msg) {
   const c = cfg(), t = token(), u = user();
   openModal("<h2>Configuración</h2>" + (msg ? '<p style="color:var(--brand-d);font-weight:600">' + esc(msg) + "</p>" : "<p>Esto se guarda solo en este navegador.</p>") +
     '<label class="f">¿Quién eres?<select id="sU"><option value="">Elige…</option>' + PERSONAS.map(p => "<option" + (p === u ? " selected" : "") + ">" + p + "</option>").join("") + "</select><small>Aparecerá en el historial de cada guardado.</small></label>" +
-    '<div class="grid2"><label class="f">Usuario u organización de GitHub<input id="sO" value="' + esc(c.owner) + '" placeholder="letcraft-educacion"></label>' +
+    '<div class="grid2"' + (/\.github\.io$/i.test(location.hostname) ? ' style="display:none"' : "") + '><label class="f">Usuario u organización de GitHub<input id="sO" value="' + esc(c.owner) + '" placeholder="letcraft-educacion"></label>' +
     '<label class="f">Repositorio<input id="sR" value="' + esc(c.repo) + '" placeholder="elevate"></label></div>' +
     '<label class="f">Token de GitHub<input id="sT" type="password" value="' + esc(t) + '" placeholder="github_pat_…  o  ghp_…" autocomplete="off"><small>Solo lo necesitas para editar. Quien solo consulta, no.</small></label>' +
     "<details><summary>¿Cómo consigo el token? (2 minutos)</summary><ol>" +
@@ -868,7 +868,7 @@ function openSettings(msg) {
     "<li>Deja marcada la casilla <code>repo</code> y pulsa <b>Generate token</b> abajo del todo.</li>" +
     "<li>Copia el token (empieza por <code>ghp_</code>) y pégalo aquí.</li></ol>" +
     "<p style='margin:6px 0 0;font-size:12.5px;color:var(--muted)'>Tienes que haber sido invitada/o al repositorio u organización. El token es personal: no lo compartas.</p></details>" +
-    '<div class="grid2"><label class="f">Rama<input id="sB" value="' + esc(c.branch) + '"></label><label class="f">Archivo de datos<input id="sP" value="' + esc(c.path) + '"></label></div>' +
+    '<div class="grid2"' + (/\.github\.io$/i.test(location.hostname) ? ' style="display:none"' : "") + '><label class="f">Rama<input id="sB" value="' + esc(c.branch) + '"></label><label class="f">Archivo de datos<input id="sP" value="' + esc(c.path) + '"></label></div>' +
     '<div class="acts"><button class="btn" id="sExp" style="margin-right:auto">Descargar copia (JSON)</button>' + (t ? '<button class="btn" id="sOut">Desconectar</button>' : "") + '<button class="btn" id="sNo">Cancelar</button><button class="btn primary" id="sOk">Guardar y conectar</button></div>');
   $("#sNo").onclick = () => closeModal();
   $("#sExp").onclick = () => { const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([JSON.stringify(S.data, null, 2)], { type: "application/json" })); a.download = "seguimiento-elevate-" + todayISO() + ".json"; a.click(); };
