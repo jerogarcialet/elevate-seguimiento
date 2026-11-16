@@ -166,7 +166,7 @@
           "titulo": "Pedir al ponente su cargo, teléfono y dirección de envío.",
           "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "en curso",
           "fecha": "2026-11-16",
           "notas": "",
           "hito": "h-web-3"
@@ -236,7 +236,7 @@
           "titulo": "Anunciar el webinar en redes sociales. ",
           "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "en curso",
           "fecha": "2026-11-17",
           "notas": "Linked in, Insta, X",
           "hito": "h-web-3"
@@ -274,10 +274,10 @@
         {
           "id": "t-mwjcgdh9227t",
           "titulo": "Pedir al ponente su cargo, teléfono y dirección de envío.",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
-          "fecha": "",
+          "estado": "en curso",
+          "fecha": "2026-11-16",
           "notas": "",
           "hito": "h-mwjb7unrg2rr"
         },
@@ -324,7 +324,7 @@
         {
           "id": "t-mwjch4m3bq6i",
           "titulo": "Acortar el enlace de registro con Bitly.",
-          "owner": "",
+          "owner": "Andrea y Jero",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
@@ -364,7 +364,7 @@
         {
           "id": "t-mwjchmktuqt2",
           "titulo": "Publicar un recordatorio en redes antes del webinar.",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
@@ -374,7 +374,7 @@
         {
           "id": "t-mwjchqzl2qop",
           "titulo": "Hacer la prueba técnica y emitir el webinar.",
-          "owner": "",
+          "owner": "Jero y Esther",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
@@ -394,7 +394,7 @@
         {
           "id": "t-mwjchyg7zz4i",
           "titulo": "Compartir el enlace de la grabación con Andrea.",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
@@ -414,7 +414,7 @@
         {
           "id": "t-mwjci70qrm2l",
           "titulo": "Enviar el kit al ponente.",
-          "owner": "",
+          "owner": "Andrea y Esther",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
@@ -1006,6 +1006,12 @@
           "titulo": "Dinamización LinkedIn",
           "fecha": "2027-06-30",
           "hecho": false
+        },
+        {
+          "id": "h-mwjice769636",
+          "titulo": "Newsletter mensual ",
+          "fecha": "",
+          "hecho": false
         }
       ],
       "tareas": [
@@ -1047,6 +1053,86 @@
           "estado": "bloqueada",
           "fecha": "",
           "notas": "Estado: parado",
+          "hito": "h-mwjbe12dp0b5"
+        },
+        {
+          "id": "t-mwji9kcb9pv4",
+          "titulo": "Newsletter Post SIMO y  convocatoria Expert",
+          "owner": "Jero y Esther",
+          "prioridad": "media",
+          "estado": "en curso",
+          "fecha": "2026-11-16",
+          "notas": "",
+          "hito": "h-mwjice769636"
+        },
+        {
+          "id": "t-mwjiffnimdt4",
+          "titulo": "Subir las fotos de los ponentes y montarla en la herramienta de envío",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjice769636"
+        },
+        {
+          "id": "t-mwjig76g5u8k",
+          "titulo": "Prueba de envío y revisión",
+          "owner": "Jero",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjice769636"
+        },
+        {
+          "id": "t-mwjignm4kidw",
+          "titulo": "Guardar evidencias (POE): captura y métricas de apertura",
+          "owner": "Jero y Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjice769636"
+        },
+        {
+          "id": "t-mwjigy0jg15q",
+          "titulo": "Planificar la newsletter de diciembre",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjice769636"
+        },
+        {
+          "id": "t-mwjiic2tbj4h",
+          "titulo": "Anuncio de cada webinar: una semana antes y el mismo día",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "en curso",
+          "fecha": "2026-11-17",
+          "notas": "",
+          "hito": "h-mwjbe12dp0b5"
+        },
+        {
+          "id": "t-mwjiiqku3y6y",
+          "titulo": "Recordatorio de la convocatoria Expert y Showcase School",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "2026-11-25",
+          "notas": "",
+          "hito": "h-mwjbe12dp0b5"
+        },
+        {
+          "id": "t-mwjijvnd4afr",
+          "titulo": "Bienvenida a los nuevos miembros y respuesta a las dudas",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "en curso",
+          "fecha": "",
+          "notas": "",
           "hito": "h-mwjbe12dp0b5"
         }
       ]
@@ -1315,6 +1401,31 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-16T17:04:51.167Z",
+      "autor": "Esther",
+      "cambios": [
+        "Webinars para la comunidad docente: \"Pedir al ponente su cargo, teléfono y dirección de envío.\" pendiente → en curso",
+        "Webinars para la comunidad docente: \"Anunciar el webinar en redes sociales. \" pendiente → en curso",
+        "Webinars para la comunidad docente: \"Pedir al ponente su cargo, teléfono y dirección de envío.\" pendiente → en curso",
+        "Webinars para la comunidad docente: \"Pedir al ponente su cargo, teléfono y dirección de envío.\" owner sin asignar → Esther",
+        "Webinars para la comunidad docente: \"Pedir al ponente su cargo, teléfono y dirección de envío.\" fecha sin fecha → lun, 16 nov",
+        "Webinars para la comunidad docente: \"Acortar el enlace de registro con Bitly.\" owner sin asignar → Andrea y Jero",
+        "Webinars para la comunidad docente: \"Publicar un recordatorio en redes antes del webinar.\" owner sin asignar → Esther",
+        "Webinars para la comunidad docente: \"Hacer la prueba técnica y emitir el webinar.\" owner sin asignar → Jero y Esther",
+        "Webinars para la comunidad docente: \"Compartir el enlace de la grabación con Andrea.\" owner sin asignar → Esther",
+        "Webinars para la comunidad docente: \"Enviar el kit al ponente.\" owner sin asignar → Andrea y Esther",
+        "Dinamización grupo de LinkedIn: nuevo hito \"Newsletter mensual \"",
+        "Dinamización grupo de LinkedIn: nueva tarea \"Newsletter Post SIMO y  convocatoria Expert\"",
+        "Dinamización grupo de LinkedIn: nueva tarea \"Subir las fotos de los ponentes y montarla en la herramienta de envío\"",
+        "Dinamización grupo de LinkedIn: nueva tarea \"Prueba de envío y revisión\"",
+        "Dinamización grupo de LinkedIn: nueva tarea \"Guardar evidencias (POE): captura y métricas de apertura\"",
+        "Dinamización grupo de LinkedIn: nueva tarea \"Planificar la newsletter de diciembre\"",
+        "Dinamización grupo de LinkedIn: nueva tarea \"Anuncio de cada webinar: una semana antes y el mismo día\"",
+        "Dinamización grupo de LinkedIn: nueva tarea \"Recordatorio de la convocatoria Expert y Showcase School\"",
+        "Dinamización grupo de LinkedIn: nueva tarea \"Bienvenida a los nuevos miembros y respuesta a las dudas\""
+      ]
+    },
     {
       "fecha": "2026-11-16T16:43:19.737Z",
       "autor": "Andrea",
@@ -1691,6 +1802,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-16T16:43:19.737Z",
-  "actualizadoPor": "Andrea"
+  "actualizado": "2026-11-16T17:04:51.167Z",
+  "actualizadoPor": "Esther"
 }
