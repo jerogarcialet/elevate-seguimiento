@@ -20,6 +20,12 @@
           "titulo": "Webinar 4 con Yasmina Moscardó",
           "fecha": "2026-12-03",
           "hecho": false
+        },
+        {
+          "id": "h-mwjcq5jsqjrw",
+          "titulo": "Webinar 5  Sara Galisteo",
+          "fecha": "",
+          "hecho": false
         }
       ],
       "tareas": [
@@ -66,7 +72,7 @@
         {
           "id": "t-web-5",
           "titulo": "Gestionar el pago de 100 € al ponente.",
-          "owner": "Andrea y Esther",
+          "owner": "Andrea",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "2026-11-30",
@@ -87,7 +93,7 @@
           "id": "t-web-7",
           "titulo": "Actualizar el Excel de Founderz ",
           "owner": "Andrea",
-          "prioridad": "alta",
+          "prioridad": "media",
           "estado": "pendiente",
           "fecha": "2026-11-30",
           "notas": "Copiado tal cual de la hoja de Andrea: concretar",
@@ -135,21 +141,11 @@
         },
         {
           "id": "t-mwjb8i6u45ir",
-          "titulo": "Confirmar fecha",
+          "titulo": "Definir el día.",
           "owner": "",
           "prioridad": "media",
           "estado": "hecha",
-          "fecha": "",
-          "notas": "",
-          "hito": "h-mwjb7unrg2rr"
-        },
-        {
-          "id": "t-mwjbeb6ye1jq",
-          "titulo": "Confirmar ",
-          "owner": "",
-          "prioridad": "media",
-          "estado": "pendiente",
-          "fecha": "",
+          "fecha": "2026-11-03",
           "notas": "",
           "hito": "h-mwjb7unrg2rr"
         },
@@ -262,6 +258,206 @@
           "fecha": "2026-11-24",
           "notas": "",
           "hito": "h-web-3"
+        },
+        {
+          "id": "t-mwjcfh5ao65s",
+          "titulo": "Contactar con el ponente.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "2026-11-09",
+          "notas": "",
+          "hito": "h-mwjb7unrg2rr"
+        },
+        {
+          "id": "t-mwjcg7sbx4wf",
+          "titulo": "Definir el tema.",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "2026-11-02",
+          "notas": "",
+          "hito": "h-mwjb7unrg2rr"
+        },
+        {
+          "id": "t-mwjcgdh9227t",
+          "titulo": "Pedir al ponente su cargo, teléfono y dirección de envío.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjb7unrg2rr"
+        },
+        {
+          "id": "t-mwjcghxf4phd",
+          "titulo": "Enviar al ponente la plantilla PPT de la carpeta Externos.",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjb7unrg2rr"
+        },
+        {
+          "id": "t-mwjcgtzn808f",
+          "titulo": "Redactar la descripción del webinar.",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "2026-11-09",
+          "notas": "",
+          "hito": "h-mwjb7unrg2rr"
+        },
+        {
+          "id": "t-mwjcgvyivudl",
+          "titulo": "Preparar las creatividades.",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "2026-11-09",
+          "notas": "",
+          "hito": "h-mwjb7unrg2rr"
+        },
+        {
+          "id": "t-mwjcgz6itne5",
+          "titulo": "Configurar el registro en Teams.",
+          "owner": "Andrea",
+          "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "2026-11-04",
+          "notas": "",
+          "hito": "h-mwjb7unrg2rr"
+        },
+        {
+          "id": "t-mwjch4m3bq6i",
+          "titulo": "Acortar el enlace de registro con Bitly.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjb7unrg2rr"
+        },
+        {
+          "id": "t-mwjchal208p6",
+          "titulo": "Anunciar el webinar en redes sociales.",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "2026-11-30",
+          "notas": "",
+          "hito": "h-mwjb7unrg2rr"
+        },
+        {
+          "id": "t-mwjchczz25nm",
+          "titulo": "Vincular Teams con YouTube.",
+          "owner": "Jero y Esther",
+          "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "2026-11-02",
+          "notas": "",
+          "hito": "h-mwjb7unrg2rr"
+        },
+        {
+          "id": "t-mwjchhdiv4ua",
+          "titulo": "Revisar el PPT del ponente.",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "2026-12-02",
+          "notas": "",
+          "hito": "h-mwjb7unrg2rr"
+        },
+        {
+          "id": "t-mwjchmktuqt2",
+          "titulo": "Publicar un recordatorio en redes antes del webinar.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjb7unrg2rr"
+        },
+        {
+          "id": "t-mwjchqzl2qop",
+          "titulo": "Hacer la prueba técnica y emitir el webinar.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjb7unrg2rr"
+        },
+        {
+          "id": "t-mwjchurr6nu0",
+          "titulo": "Publicar la grabación en YouTube.",
+          "owner": "Andrea",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "2026-12-04",
+          "notas": "",
+          "hito": "h-mwjb7unrg2rr"
+        },
+        {
+          "id": "t-mwjchyg7zz4i",
+          "titulo": "Compartir el enlace de la grabación con Andrea.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjb7unrg2rr"
+        },
+        {
+          "id": "t-mwjci34hmi0k",
+          "titulo": "Gestionar el pago de 100 € al ponente.",
+          "owner": "Andrea",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "2026-12-07",
+          "notas": "",
+          "hito": "h-mwjb7unrg2rr"
+        },
+        {
+          "id": "t-mwjci70qrm2l",
+          "titulo": "Enviar el kit al ponente.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjb7unrg2rr"
+        },
+        {
+          "id": "t-mwjciajaza7r",
+          "titulo": "Actualizar el Excel de Founderz con Andrea.",
+          "owner": "Andrea",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "2026-12-07",
+          "notas": "",
+          "hito": "h-mwjb7unrg2rr"
+        },
+        {
+          "id": "t-mwjcrdr5l8af",
+          "titulo": "Contactar con el ponente.",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjcq5jsqjrw"
+        },
+        {
+          "id": "t-mwjcrl8lfer0",
+          "titulo": "",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjcq5jsqjrw"
         }
       ]
     },
@@ -485,6 +681,38 @@
   "notas": [],
   "historial": [
     {
+      "fecha": "2026-11-16T14:22:45.100Z",
+      "autor": "Esther",
+      "cambios": [
+        "Webinars para la comunidad docente: nuevo hito \"Webinar 5  Sara Galisteo\"",
+        "Webinars para la comunidad docente: \"Gestionar el pago de 100 € al ponente.\" owner Andrea y Esther → Andrea",
+        "Webinars para la comunidad docente: \"Actualizar el Excel de Founderz \" prioridad alta → media",
+        "Webinars para la comunidad docente: tarea \"Confirmar fecha\" renombrada a \"Definir el día.\"",
+        "Webinars para la comunidad docente: \"Definir el día.\" fecha sin fecha → mar, 3 nov",
+        "Webinars para la comunidad docente: nueva tarea \"Contactar con el ponente.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Definir el tema.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Pedir al ponente su cargo, teléfono y dirección de envío.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Enviar al ponente la plantilla PPT de la carpeta Externos.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Redactar la descripción del webinar.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Preparar las creatividades.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Configurar el registro en Teams.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Acortar el enlace de registro con Bitly.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Anunciar el webinar en redes sociales.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Vincular Teams con YouTube.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Revisar el PPT del ponente.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Publicar un recordatorio en redes antes del webinar.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Hacer la prueba técnica y emitir el webinar.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Publicar la grabación en YouTube.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Compartir el enlace de la grabación con Andrea.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Gestionar el pago de 100 € al ponente.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Enviar el kit al ponente.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Actualizar el Excel de Founderz con Andrea.\"",
+        "Webinars para la comunidad docente: nueva tarea \"Contactar con el ponente.\"",
+        "Webinars para la comunidad docente: nueva tarea \"(sin título)\"",
+        "Webinars para la comunidad docente: tarea eliminada \"Confirmar \""
+      ]
+    },
+    {
       "fecha": "2026-11-16T14:11:08.781Z",
       "autor": "Esther",
       "cambios": [
@@ -652,6 +880,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-16T14:11:08.781Z",
+  "actualizado": "2026-11-16T14:22:45.100Z",
   "actualizadoPor": "Esther"
 }
