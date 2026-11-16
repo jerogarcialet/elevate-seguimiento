@@ -66,7 +66,7 @@
         {
           "id": "t-web-5",
           "titulo": "pago ponente 100 € + envío kit",
-          "owner": "",
+          "owner": "Andrea y Esther",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "2026-11-29",
@@ -119,7 +119,7 @@
           "owner": "Andrea",
           "prioridad": "media",
           "estado": "pendiente",
-          "fecha": "",
+          "fecha": "2026-11-02",
           "notas": "",
           "hito": "h-web-3"
         },
@@ -152,6 +152,16 @@
           "fecha": "",
           "notas": "",
           "hito": "h-mwjb7unrg2rr"
+        },
+        {
+          "id": "t-mwjbk4mbvkx0",
+          "titulo": "Enlaces con bit.ly",
+          "owner": "Jero y Esther",
+          "prioridad": "alta",
+          "estado": "pendiente",
+          "fecha": "2026-11-03",
+          "notas": "",
+          "hito": "h-web-3"
         }
       ]
     },
@@ -375,6 +385,15 @@
   "notas": [],
   "historial": [
     {
+      "fecha": "2026-11-16T13:57:17.101Z",
+      "autor": "Esther",
+      "cambios": [
+        "Webinars para la comunidad docente: \"pago ponente 100 € + envío kit\" owner sin asignar → Andrea y Esther",
+        "Webinars para la comunidad docente: \"Añadir registro Teams\" fecha sin fecha → lun, 2 nov",
+        "Webinars para la comunidad docente: nueva tarea \"Enlaces con bit.ly\""
+      ]
+    },
+    {
       "fecha": "2026-11-16T13:48:18.417Z",
       "autor": "Esther",
       "cambios": [
@@ -502,6 +521,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-16T13:48:18.417Z",
+  "actualizado": "2026-11-16T13:57:17.101Z",
   "actualizadoPor": "Esther"
 }
