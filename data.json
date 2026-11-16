@@ -1006,12 +1006,6 @@
           "titulo": "Dinamización LinkedIn",
           "fecha": "2027-06-30",
           "hecho": false
-        },
-        {
-          "id": "h-mwjfzig4p1lu",
-          "titulo": "",
-          "fecha": "",
-          "hecho": false
         }
       ],
       "tareas": [
@@ -1054,16 +1048,6 @@
           "fecha": "",
           "notas": "Estado: parado",
           "hito": "h-mwjbe12dp0b5"
-        },
-        {
-          "id": "t-mwjfzj9n30b6",
-          "titulo": "",
-          "owner": "",
-          "prioridad": "media",
-          "estado": "pendiente",
-          "fecha": "",
-          "notas": "",
-          "hito": ""
         }
       ]
     },
@@ -1331,6 +1315,14 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-16T16:43:19.737Z",
+      "autor": "Andrea",
+      "cambios": [
+        "Dinamización grupo de LinkedIn: hito eliminado \"(sin título)\"",
+        "Dinamización grupo de LinkedIn: tarea eliminada \"(sin título)\""
+      ]
+    },
     {
       "fecha": "2026-11-16T15:54:16.391Z",
       "autor": "Esther",
@@ -1699,6 +1691,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-16T15:54:16.391Z",
-  "actualizadoPor": "Esther"
+  "actualizado": "2026-11-16T16:43:19.737Z",
+  "actualizadoPor": "Andrea"
 }
