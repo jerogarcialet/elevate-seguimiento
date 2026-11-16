@@ -804,32 +804,32 @@
         {
           "id": "t-mwjfxm8hq1as",
           "titulo": "Contactar con el ponente.",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
-          "fecha": "",
+          "estado": "hecha",
+          "fecha": "2026-11-04",
           "notas": "",
-          "hito": ""
+          "hito": "h-mwjfx6f664pl"
         },
         {
           "id": "t-mwjfxp7j0801",
           "titulo": "Definir el día.",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
-          "fecha": "",
+          "estado": "hecha",
+          "fecha": "2026-11-04",
           "notas": "",
-          "hito": ""
+          "hito": "h-mwjfx6f664pl"
         },
         {
           "id": "t-mwjfxz0exw2k",
           "titulo": "Definir el tema.",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
-          "fecha": "",
+          "estado": "hecha",
+          "fecha": "2026-11-04",
           "notas": "",
-          "hito": ""
+          "hito": "h-mwjfx6f664pl"
         },
         {
           "id": "t-mwjfy22hv2n6",
@@ -839,7 +839,7 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": ""
+          "hito": "h-mwjfx6f664pl"
         },
         {
           "id": "t-mwjfy5sj4snh",
@@ -849,7 +849,7 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": ""
+          "hito": "h-mwjfx6f664pl"
         },
         {
           "id": "t-mwjfy8t5l0mw",
@@ -859,7 +859,7 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": ""
+          "hito": "h-mwjfx6f664pl"
         },
         {
           "id": "t-mwjfybxfrll1",
@@ -869,7 +869,7 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": ""
+          "hito": "h-mwjfx6f664pl"
         },
         {
           "id": "t-mwjfyfjfirpl",
@@ -879,7 +879,7 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": ""
+          "hito": "h-mwjfx6f664pl"
         },
         {
           "id": "t-mwjfyj5vonxg",
@@ -889,7 +889,7 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": ""
+          "hito": "h-mwjfx6f664pl"
         },
         {
           "id": "t-mwjfylyjiucl",
@@ -899,7 +899,7 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": ""
+          "hito": "h-mwjfx6f664pl"
         },
         {
           "id": "t-mwjfyozs6uv2",
@@ -909,7 +909,7 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": ""
+          "hito": "h-mwjfx6f664pl"
         },
         {
           "id": "t-mwjfysfw415b",
@@ -919,7 +919,7 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": ""
+          "hito": "h-mwjfx6f664pl"
         },
         {
           "id": "t-mwjfyvgs70sj",
@@ -929,7 +929,7 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": ""
+          "hito": "h-mwjfx6f664pl"
         },
         {
           "id": "t-mwjfyy6h6wn3",
@@ -939,7 +939,7 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": ""
+          "hito": "h-mwjfx6f664pl"
         },
         {
           "id": "t-mwjfz1jdytus",
@@ -949,7 +949,7 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": ""
+          "hito": "h-mwjfx6f664pl"
         },
         {
           "id": "t-mwjfz51aueuk",
@@ -959,7 +959,7 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": ""
+          "hito": "h-mwjfx6f664pl"
         },
         {
           "id": "t-mwjfz94zpu1k",
@@ -969,7 +969,7 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": ""
+          "hito": "h-mwjfx6f664pl"
         },
         {
           "id": "t-mwjfzds2tr88",
@@ -979,7 +979,7 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": ""
+          "hito": "h-mwjfx6f664pl"
         },
         {
           "id": "t-mwjfzhjdp7ez",
@@ -989,7 +989,7 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": ""
+          "hito": "h-mwjfx6f664pl"
         }
       ]
     },
@@ -1332,6 +1332,40 @@
   "notas": [],
   "historial": [
     {
+      "fecha": "2026-11-16T15:54:16.391Z",
+      "autor": "Esther",
+      "cambios": [
+        "Webinars para la comunidad docente: \"Contactar con el ponente.\" pendiente → hecha",
+        "Webinars para la comunidad docente: \"Contactar con el ponente.\" owner sin asignar → Esther",
+        "Webinars para la comunidad docente: \"Contactar con el ponente.\" fecha sin fecha → mié, 4 nov",
+        "Webinars para la comunidad docente: \"Contactar con el ponente.\" movida a hito \"Webinar 7 Judit Cañamero\"",
+        "Webinars para la comunidad docente: \"Definir el día.\" pendiente → hecha",
+        "Webinars para la comunidad docente: \"Definir el día.\" owner sin asignar → Esther",
+        "Webinars para la comunidad docente: \"Definir el día.\" fecha sin fecha → mié, 4 nov",
+        "Webinars para la comunidad docente: \"Definir el día.\" movida a hito \"Webinar 7 Judit Cañamero\"",
+        "Webinars para la comunidad docente: \"Definir el tema.\" pendiente → hecha",
+        "Webinars para la comunidad docente: \"Definir el tema.\" owner sin asignar → Esther",
+        "Webinars para la comunidad docente: \"Definir el tema.\" fecha sin fecha → mié, 4 nov",
+        "Webinars para la comunidad docente: \"Definir el tema.\" movida a hito \"Webinar 7 Judit Cañamero\"",
+        "Webinars para la comunidad docente: \"Pedir al ponente su cargo, teléfono y dirección de envío.\" movida a hito \"Webinar 7 Judit Cañamero\"",
+        "Webinars para la comunidad docente: \"Enviar al ponente la plantilla PPT de la carpeta Externos.\" movida a hito \"Webinar 7 Judit Cañamero\"",
+        "Webinars para la comunidad docente: \"Redactar la descripción del webinar.\" movida a hito \"Webinar 7 Judit Cañamero\"",
+        "Webinars para la comunidad docente: \"Preparar las creatividades.\" movida a hito \"Webinar 7 Judit Cañamero\"",
+        "Webinars para la comunidad docente: \"Configurar el registro en Teams.\" movida a hito \"Webinar 7 Judit Cañamero\"",
+        "Webinars para la comunidad docente: \"Acortar el enlace de registro con Bitly.\" movida a hito \"Webinar 7 Judit Cañamero\"",
+        "Webinars para la comunidad docente: \"Anunciar el webinar en redes sociales.\" movida a hito \"Webinar 7 Judit Cañamero\"",
+        "Webinars para la comunidad docente: \"Vincular Teams con YouTube.\" movida a hito \"Webinar 7 Judit Cañamero\"",
+        "Webinars para la comunidad docente: \"Revisar el PPT del ponente.\" movida a hito \"Webinar 7 Judit Cañamero\"",
+        "Webinars para la comunidad docente: \"Publicar un recordatorio en redes antes del webinar.\" movida a hito \"Webinar 7 Judit Cañamero\"",
+        "Webinars para la comunidad docente: \"Hacer la prueba técnica y emitir el webinar.\" movida a hito \"Webinar 7 Judit Cañamero\"",
+        "Webinars para la comunidad docente: \"Publicar la grabación en YouTube.\" movida a hito \"Webinar 7 Judit Cañamero\"",
+        "Webinars para la comunidad docente: \"Compartir el enlace de la grabación con Andrea.\" movida a hito \"Webinar 7 Judit Cañamero\"",
+        "Webinars para la comunidad docente: \"Gestionar el pago de 100 € al ponente.\" movida a hito \"Webinar 7 Judit Cañamero\"",
+        "Webinars para la comunidad docente: \"Enviar el kit al ponente.\" movida a hito \"Webinar 7 Judit Cañamero\"",
+        "Webinars para la comunidad docente: \"Actualizar el Excel de Founderz con Andrea.\" movida a hito \"Webinar 7 Judit Cañamero\""
+      ]
+    },
+    {
       "fecha": "2026-11-16T15:52:49.204Z",
       "autor": "Andrea",
       "cambios": [
@@ -1665,6 +1699,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-16T15:52:49.204Z",
-  "actualizadoPor": "Andrea"
+  "actualizado": "2026-11-16T15:54:16.391Z",
+  "actualizadoPor": "Esther"
 }
