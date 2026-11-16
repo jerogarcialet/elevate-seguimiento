@@ -106,16 +106,6 @@
           "hito": "h-web-3"
         },
         {
-          "id": "t-mwjayt9fbj6s",
-          "titulo": "Andrea escribir a Jero",
-          "owner": "Andrea",
-          "prioridad": "media",
-          "estado": "pendiente",
-          "fecha": "",
-          "notas": "",
-          "hito": ""
-        },
-        {
           "id": "t-mwjaw0m7xia9",
           "titulo": "Víncular Youtube con Teams",
           "owner": "Jero y Esther",
@@ -134,16 +124,6 @@
           "fecha": "2026-11-02",
           "notas": "",
           "hito": "h-web-3"
-        },
-        {
-          "id": "t-mwjb2e1mqxvw",
-          "titulo": "Actualizar Excel con la info",
-          "owner": "Esther",
-          "prioridad": "media",
-          "estado": "pendiente",
-          "fecha": "",
-          "notas": "descripción,  correo, cargo",
-          "hito": ""
         },
         {
           "id": "t-mwjb8i6u45ir",
@@ -695,83 +675,89 @@
       "hitos": [
         {
           "id": "h-con-1",
-          "titulo": "Castilla y León: se abre la matrícula",
+          "titulo": "Castilla y León",
           "fecha": "2026-11-23",
           "hecho": false
         },
         {
-          "id": "h-con-2",
-          "titulo": "Castilla y León: cierre de matrícula",
-          "fecha": "2026-12-11",
+          "id": "h-mwjdfjq85hb3",
+          "titulo": "Cantabria",
+          "fecha": "2026-12-31",
           "hecho": false
         },
         {
-          "id": "h-con-3",
-          "titulo": "Castilla y León: sesión de bienvenida",
-          "fecha": "2026-12-14",
+          "id": "h-mwjdjwnu4s5b",
+          "titulo": "Valencia GVA",
+          "fecha": "2027-03-31",
+          "hecho": false
+        },
+        {
+          "id": "h-mwjdlk60qxpl",
+          "titulo": "Andalucía",
+          "fecha": "2027-01-29",
           "hecho": false
         }
       ],
       "tareas": [
         {
           "id": "t-con-1",
-          "titulo": "Castilla y León: documento propuesta de formación",
+          "titulo": "Documento propuesta de formación",
           "owner": "Jero",
           "prioridad": "alta",
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": ""
+          "hito": "h-con-1"
         },
         {
           "id": "t-con-2",
-          "titulo": "Castilla y León: mail de puesta en marcha de la formación",
+          "titulo": "Mail de puesta en marcha de la formación",
           "owner": "Andrea",
           "prioridad": "alta",
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": ""
+          "hito": "h-con-1"
         },
         {
           "id": "t-con-3",
-          "titulo": "Castilla y León: OK reunión, fechas cerradas",
-          "owner": "",
+          "titulo": "OK reunión, fechas cerradas",
+          "owner": "Andrea y Jero",
           "prioridad": "alta",
-          "estado": "pendiente",
-          "fecha": "",
+          "estado": "en curso",
+          "fecha": "2026-11-23",
           "notas": "",
-          "hito": ""
+          "hito": "h-con-1"
         },
         {
           "id": "t-con-4",
-          "titulo": "Castilla y León: montaje del curso",
+          "titulo": "Montaje del curso",
           "owner": "Jero",
           "prioridad": "alta",
           "estado": "pendiente",
-          "fecha": "2026-11-23",
+          "fecha": "2026-11-30",
           "notas": "Jero y Esther",
-          "hito": ""
+          "hito": "h-con-1"
         },
         {
           "id": "t-con-5",
-          "titulo": "Castilla y León: seguimiento de la formación",
+          "titulo": "Seguimiento de la formación",
           "owner": "",
           "prioridad": "media",
           "estado": "pendiente",
-          "fecha": "",
+          "fecha": "2026-12-31",
           "notas": "",
-          "hito": ""
+          "hito": "h-con-1"
         },
         {
           "id": "t-con-6",
-          "titulo": "Castilla y León: sesiones de formación",
-          "owner": "",
+          "titulo": "Configurar sesiones de formación",
+          "owner": "Jero",
           "prioridad": "media",
           "estado": "pendiente",
-          "fecha": "2026-12-14",
+          "fecha": "2026-12-30",
           "notas": "",
-          "hito": ""
+          "hito": "h-con-1"
         },
         {
           "id": "t-con-7",
@@ -781,7 +767,7 @@
           "estado": "en curso",
           "fecha": "",
           "notas": "",
-          "hito": ""
+          "hito": "h-mwjdfjq85hb3"
         },
         {
           "id": "t-con-8",
@@ -789,9 +775,89 @@
           "owner": "Jero",
           "prioridad": "media",
           "estado": "en curso",
-          "fecha": "",
+          "fecha": "2026-11-23",
+          "notas": "Escribir Vicent",
+          "hito": "h-mwjdjwnu4s5b"
+        },
+        {
+          "id": "t-mwjdhpi8k9ms",
+          "titulo": "Valorar incorporar docente Microsoft CyL",
+          "owner": "Jero",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "2026-11-30",
           "notas": "",
-          "hito": ""
+          "hito": "h-con-1"
+        },
+        {
+          "id": "t-mwjdi60xcshr",
+          "titulo": "Comunicación en RRSS lanzamiento formación",
+          "owner": "Jero y Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "2026-11-30",
+          "notas": "",
+          "hito": "h-con-1"
+        },
+        {
+          "id": "t-mwjding6cbyd",
+          "titulo": "Lanzamiento curso formación",
+          "owner": "Jero",
+          "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "2026-11-10",
+          "notas": "",
+          "hito": "h-mwjdfjq85hb3"
+        },
+        {
+          "id": "t-mwjdj236p9wl",
+          "titulo": "Capturas de pantalla para la POE",
+          "owner": "Andrea y Jero",
+          "prioridad": "alta",
+          "estado": "pendiente",
+          "fecha": "2026-12-31",
+          "notas": "",
+          "hito": "h-mwjdfjq85hb3"
+        },
+        {
+          "id": "t-mwjdkpwvctqm",
+          "titulo": "Confirmar Andrea foco de formaciones masivas",
+          "owner": "Andrea",
+          "prioridad": "alta",
+          "estado": "en curso",
+          "fecha": "2026-11-19",
+          "notas": "",
+          "hito": "h-mwjdjwnu4s5b"
+        },
+        {
+          "id": "t-mwjdm06eh07r",
+          "titulo": "Mandar técnico bloque modelo LMS para pruebas",
+          "owner": "Andrea",
+          "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "2026-11-16",
+          "notas": "",
+          "hito": "h-mwjdlk60qxpl"
+        },
+        {
+          "id": "t-mwjdmd3proud",
+          "titulo": "Reunión equipo Andalucía para convocatorias y contenidos",
+          "owner": "Andrea y Jero",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "2026-11-23",
+          "notas": "",
+          "hito": "h-mwjdlk60qxpl"
+        },
+        {
+          "id": "t-mwjeu5bympvi",
+          "titulo": "Seguimiento propuesta next steps",
+          "owner": "Andrea",
+          "prioridad": "alta",
+          "estado": "en curso",
+          "fecha": "2026-11-19",
+          "notas": "",
+          "hito": "h-con-1"
         }
       ]
     },
@@ -846,6 +912,51 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-16T15:42:15.503Z",
+      "autor": "Andrea",
+      "cambios": [
+        "Webinars para la comunidad docente: tarea eliminada \"Andrea escribir a Jero\"",
+        "Webinars para la comunidad docente: tarea eliminada \"Actualizar Excel con la info\"",
+        "Formaciones MOOC Microsoft 365 para consejerías: hito \"Castilla y León: se abre la matrícula\" renombrado a \"Castilla y León\"",
+        "Formaciones MOOC Microsoft 365 para consejerías: nuevo hito \"Cantabria\" (jue, 31 dic)",
+        "Formaciones MOOC Microsoft 365 para consejerías: nuevo hito \"Valencia GVA\" (mié, 31 mar)",
+        "Formaciones MOOC Microsoft 365 para consejerías: nuevo hito \"Andalucía\" (vie, 29 ene)",
+        "Formaciones MOOC Microsoft 365 para consejerías: hito eliminado \"Castilla y León: cierre de matrícula\"",
+        "Formaciones MOOC Microsoft 365 para consejerías: hito eliminado \"Castilla y León: sesión de bienvenida\"",
+        "Formaciones MOOC Microsoft 365 para consejerías: tarea \"Castilla y León: documento propuesta de formación\" renombrada a \"Documento propuesta de formación\"",
+        "Formaciones MOOC Microsoft 365 para consejerías: \"Documento propuesta de formación\" movida a hito \"Castilla y León\"",
+        "Formaciones MOOC Microsoft 365 para consejerías: tarea \"Castilla y León: mail de puesta en marcha de la formación\" renombrada a \"Mail de puesta en marcha de la formación\"",
+        "Formaciones MOOC Microsoft 365 para consejerías: \"Mail de puesta en marcha de la formación\" movida a hito \"Castilla y León\"",
+        "Formaciones MOOC Microsoft 365 para consejerías: tarea \"Castilla y León: OK reunión, fechas cerradas\" renombrada a \"OK reunión, fechas cerradas\"",
+        "Formaciones MOOC Microsoft 365 para consejerías: \"OK reunión, fechas cerradas\" pendiente → en curso",
+        "Formaciones MOOC Microsoft 365 para consejerías: \"OK reunión, fechas cerradas\" owner sin asignar → Andrea y Jero",
+        "Formaciones MOOC Microsoft 365 para consejerías: \"OK reunión, fechas cerradas\" fecha sin fecha → lun, 23 nov",
+        "Formaciones MOOC Microsoft 365 para consejerías: \"OK reunión, fechas cerradas\" movida a hito \"Castilla y León\"",
+        "Formaciones MOOC Microsoft 365 para consejerías: tarea \"Castilla y León: montaje del curso\" renombrada a \"Montaje del curso\"",
+        "Formaciones MOOC Microsoft 365 para consejerías: \"Montaje del curso\" fecha lun, 23 nov → lun, 30 nov",
+        "Formaciones MOOC Microsoft 365 para consejerías: \"Montaje del curso\" movida a hito \"Castilla y León\"",
+        "Formaciones MOOC Microsoft 365 para consejerías: tarea \"Castilla y León: seguimiento de la formación\" renombrada a \"Seguimiento de la formación\"",
+        "Formaciones MOOC Microsoft 365 para consejerías: \"Seguimiento de la formación\" fecha sin fecha → jue, 31 dic",
+        "Formaciones MOOC Microsoft 365 para consejerías: \"Seguimiento de la formación\" movida a hito \"Castilla y León\"",
+        "Formaciones MOOC Microsoft 365 para consejerías: tarea \"Castilla y León: sesiones de formación\" renombrada a \"Configurar sesiones de formación\"",
+        "Formaciones MOOC Microsoft 365 para consejerías: \"Configurar sesiones de formación\" owner sin asignar → Jero",
+        "Formaciones MOOC Microsoft 365 para consejerías: \"Configurar sesiones de formación\" fecha lun, 14 dic → mié, 30 dic",
+        "Formaciones MOOC Microsoft 365 para consejerías: \"Configurar sesiones de formación\" movida a hito \"Castilla y León\"",
+        "Formaciones MOOC Microsoft 365 para consejerías: \"Seguimiento propuesta Cantabria\" movida a hito \"Cantabria\"",
+        "Formaciones MOOC Microsoft 365 para consejerías: \"Seguimiento propuesta Valencia (GVA)\" fecha sin fecha → lun, 23 nov",
+        "Formaciones MOOC Microsoft 365 para consejerías: \"Seguimiento propuesta Valencia (GVA)\" notas editadas",
+        "Formaciones MOOC Microsoft 365 para consejerías: \"Seguimiento propuesta Valencia (GVA)\" movida a hito \"Valencia GVA\"",
+        "Formaciones MOOC Microsoft 365 para consejerías: nueva tarea \"Valorar incorporar docente Microsoft CyL\"",
+        "Formaciones MOOC Microsoft 365 para consejerías: nueva tarea \"Comunicación en RRSS lanzamiento formación\"",
+        "Formaciones MOOC Microsoft 365 para consejerías: nueva tarea \"Lanzamiento curso formación\"",
+        "Formaciones MOOC Microsoft 365 para consejerías: nueva tarea \"Capturas de pantalla para la POE\"",
+        "Formaciones MOOC Microsoft 365 para consejerías: nueva tarea \"Confirmar Andrea foco de formaciones masivas\"",
+        "Formaciones MOOC Microsoft 365 para consejerías: nueva tarea \"Mandar técnico bloque modelo LMS para pruebas\"",
+        "Formaciones MOOC Microsoft 365 para consejerías: nueva tarea \"Reunión equipo Andalucía para convocatorias y contenidos\"",
+        "Formaciones MOOC Microsoft 365 para consejerías: nueva tarea \"Seguimiento propuesta next steps\""
+      ]
+    },
     {
       "fecha": "2026-11-16T15:35:51.590Z",
       "autor": "Esther",
@@ -1074,6 +1185,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-16T15:35:51.590Z",
-  "actualizadoPor": "Esther"
+  "actualizado": "2026-11-16T15:42:15.503Z",
+  "actualizadoPor": "Andrea"
 }
