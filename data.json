@@ -1400,7 +1400,7 @@
     {
       "id": "b-mwjfml5c6bov",
       "nombre": "Pilotos Yasira - Minecraft",
-      "descripcion": "Seguimiento y coordinación del proyecto Yasira",
+      "descripcion": "Seguimiento y coordinación del proyecto Yasira\nhttps://docs.google.com/spreadsheets/d/17bJMpbhucpmBPU7EKAbR-YJIhwzcSWZ31Qvt9LG6Feo/edit?gid=0#gid=0",
       "color": "#038387",
       "owner": "Andrea y Esther",
       "prioridad": "media",
@@ -1448,7 +1448,7 @@
           "titulo": "Escribir correo a Juanjo para que complete formulario de fechas e información",
           "owner": "Andrea",
           "prioridad": "media",
-          "estado": "en curso",
+          "estado": "hecha",
           "fecha": "2026-11-17",
           "notas": "",
           "hito": "h-mwjfn2mo71xg"
@@ -1616,21 +1616,21 @@
         {
           "id": "t-mwkgrihykvzd",
           "titulo": "Concretar día del taller Minecraft",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
           "estado": "pendiente",
-          "fecha": "",
+          "fecha": "2026-11-24",
           "notas": "Unos 15 días después de la charla (sobre el 7/12). 5º y 6º de primaria, 1º y 2º de ESO (línea 1",
           "hito": "h-mwkgq6503g1w"
         },
         {
           "id": "t-mwkgrk3mtyk5",
           "titulo": "Asignar tallerista",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
           "estado": "pendiente",
-          "fecha": "",
-          "notas": "",
+          "fecha": "2026-11-23",
+          "notas": "Ir viendo tallerista para Sevilla o desplazamientos",
           "hito": "h-mwkgq6503g1w"
         },
         {
@@ -1836,27 +1836,27 @@
         {
           "id": "t-mwkk4t94agep",
           "titulo": "Confirmar cursos de ESO",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
           "estado": "pendiente",
-          "fecha": "",
+          "fecha": "2026-11-20",
           "notas": "",
           "hito": "h-mwkk2zmu4nqs"
         },
         {
           "id": "t-mwkk4xkwojod",
           "titulo": "Revisar formulario AEPAE",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
           "estado": "pendiente",
-          "fecha": "",
+          "fecha": "2026-11-20",
           "notas": "",
           "hito": "h-mwkk2zmu4nqs"
         },
         {
           "id": "t-mwkk521nznn3",
           "titulo": "Confirmar instalación de Minecraft",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
@@ -1880,22 +1880,12 @@
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
-          "notas": "",
+          "notas": "Las llevamos nosotros",
           "hito": "h-mwkk2zmu4nqs"
         },
         {
           "id": "t-mwkk5futk3zj",
           "titulo": "Asignar tallerista",
-          "owner": "",
-          "prioridad": "media",
-          "estado": "pendiente",
-          "fecha": "",
-          "notas": "",
-          "hito": "h-mwkk2zmu4nqs"
-        },
-        {
-          "id": "t-mwkk5zpnhtvt",
-          "titulo": "Concretar cita charla AEPAE",
           "owner": "",
           "prioridad": "media",
           "estado": "pendiente",
@@ -1912,12 +1902,65 @@
           "fecha": "",
           "notas": "",
           "hito": "h-mwkk2zmu4nqs"
+        },
+        {
+          "id": "t-mwklishx5p9o",
+          "titulo": "Escribir Andrea AEPAE qué tal talleres",
+          "owner": "Andrea",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "2026-11-24",
+          "notas": "Laura Sevilla AEPAE",
+          "hito": "h-mwkgq6503g1w"
+        },
+        {
+          "id": "t-mwkqbddabw7o",
+          "titulo": "Preguntar a Laura tallerista, qué tal los talleres",
+          "owner": "Andrea",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "2026-11-30",
+          "notas": "Verónica Burgos AEPAE",
+          "hito": "h-mwkgbm3yw7k3"
+        },
+        {
+          "id": "t-mwkqdq7rx51x",
+          "titulo": "Pasar contacto tallerista AEPAE",
+          "owner": "Andrea",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "2026-11-20",
+          "notas": "",
+          "hito": "h-mwkk2zmu4nqs"
         }
       ]
     }
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-17T13:32:13.425Z",
+      "autor": "Andrea",
+      "cambios": [
+        "Pilotos Yasira - Minecraft: descripción editada",
+        "Pilotos Yasira - Minecraft: \"Escribir correo a Juanjo para que complete formulario de fechas e información\" en curso → hecha",
+        "Pilotos Yasira - Minecraft: \"Concretar día del taller Minecraft\" owner sin asignar → Esther",
+        "Pilotos Yasira - Minecraft: \"Concretar día del taller Minecraft\" fecha sin fecha → mar, 24 nov",
+        "Pilotos Yasira - Minecraft: \"Asignar tallerista\" owner sin asignar → Esther",
+        "Pilotos Yasira - Minecraft: \"Asignar tallerista\" fecha sin fecha → lun, 23 nov",
+        "Pilotos Yasira - Minecraft: \"Asignar tallerista\" notas editadas",
+        "Pilotos Yasira - Minecraft: \"Confirmar cursos de ESO\" owner sin asignar → Esther",
+        "Pilotos Yasira - Minecraft: \"Confirmar cursos de ESO\" fecha sin fecha → vie, 20 nov",
+        "Pilotos Yasira - Minecraft: \"Revisar formulario AEPAE\" owner sin asignar → Esther",
+        "Pilotos Yasira - Minecraft: \"Revisar formulario AEPAE\" fecha sin fecha → vie, 20 nov",
+        "Pilotos Yasira - Minecraft: \"Confirmar instalación de Minecraft\" owner sin asignar → Esther",
+        "Pilotos Yasira - Minecraft: \"Concretar licencias\" notas editadas",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Escribir Andrea AEPAE qué tal talleres\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Preguntar a Laura tallerista, qué tal los talleres\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Pasar contacto tallerista AEPAE\"",
+        "Pilotos Yasira - Minecraft: tarea eliminada \"Concretar cita charla AEPAE\""
+      ]
+    },
     {
       "fecha": "2026-11-17T12:18:54.788Z",
       "autor": "Esther",
@@ -2532,6 +2575,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-17T12:18:54.788Z",
-  "actualizadoPor": "Esther"
+  "actualizado": "2026-11-17T13:32:13.425Z",
+  "actualizadoPor": "Andrea"
 }
