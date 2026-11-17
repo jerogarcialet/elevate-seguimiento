@@ -166,7 +166,7 @@
           "titulo": "Pedir al ponente su cargo, teléfono y dirección de envío.",
           "owner": "Esther",
           "prioridad": "media",
-          "estado": "en curso",
+          "estado": "hecha",
           "fecha": "2026-11-16",
           "notas": "",
           "hito": "h-web-3"
@@ -448,16 +448,16 @@
           "prioridad": "media",
           "estado": "hecha",
           "fecha": "2026-11-03",
-          "notas": "",
+          "notas": "17 diciembre",
           "hito": "h-mwjcq5jsqjrw"
         },
         {
           "id": "t-mwjevv4bh2jm",
           "titulo": "Definir el tema.",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
-          "fecha": "",
+          "estado": "hecha",
+          "fecha": "2026-11-05",
           "notas": "",
           "hito": "h-mwjcq5jsqjrw"
         },
@@ -466,38 +466,38 @@
           "titulo": "Pedir al ponente su cargo, teléfono y dirección de envío.",
           "owner": "",
           "prioridad": "media",
-          "estado": "pendiente",
-          "fecha": "",
+          "estado": "en curso",
+          "fecha": "2026-11-17",
           "notas": "",
           "hito": "h-mwjcq5jsqjrw"
         },
         {
           "id": "t-mwjew2lw3u03",
           "titulo": "Enviar al ponente la plantilla PPT de la carpeta Externos.",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
-          "fecha": "",
+          "estado": "hecha",
+          "fecha": "2026-11-17",
           "notas": "",
           "hito": "h-mwjcq5jsqjrw"
         },
         {
           "id": "t-mwjew5xvvqof",
           "titulo": "Redactar la descripción del webinar.",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
-          "fecha": "",
+          "estado": "hecha",
+          "fecha": "2026-11-09",
           "notas": "",
           "hito": "h-mwjcq5jsqjrw"
         },
         {
           "id": "t-mwjew9hbt6k1",
           "titulo": "Preparar las creatividades.",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
-          "fecha": "",
+          "estado": "hecha",
+          "fecha": "2026-11-06",
           "notas": "",
           "hito": "h-mwjcq5jsqjrw"
         },
@@ -624,30 +624,30 @@
         {
           "id": "t-mwjfuxov85kk",
           "titulo": "Definir el día.",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
-          "fecha": "",
-          "notas": "",
+          "estado": "hecha",
+          "fecha": "2026-11-16",
+          "notas": "Jueves 14 enero",
           "hito": "h-mwjeysavh5b3"
         },
         {
           "id": "t-mwjfv1nr0vay",
           "titulo": "Definir el tema.",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
-          "fecha": "",
-          "notas": "",
+          "estado": "hecha",
+          "fecha": "2026-11-16",
+          "notas": "Una actividad, tres niveles: adapta sin empezar de cero",
           "hito": "h-mwjeysavh5b3"
         },
         {
           "id": "t-mwjfv5ehmj3a",
           "titulo": "Pedir al ponente su cargo, teléfono y dirección de envío.",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
-          "fecha": "",
+          "estado": "hecha",
+          "fecha": "2026-11-17",
           "notas": "",
           "hito": "h-mwjeysavh5b3"
         },
@@ -674,7 +674,7 @@
         {
           "id": "t-mwjfvn2mqwm1",
           "titulo": "Preparar las creatividades.",
-          "owner": "",
+          "owner": "Andrea",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
@@ -684,7 +684,7 @@
         {
           "id": "t-mwjfvqsllm70",
           "titulo": "Configurar el registro en Teams.",
-          "owner": "",
+          "owner": "Andrea",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
@@ -694,7 +694,7 @@
         {
           "id": "t-mwjfvuczsp5u",
           "titulo": "Acortar el enlace de registro con Bitly.",
-          "owner": "",
+          "owner": "Andrea",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
@@ -704,7 +704,7 @@
         {
           "id": "t-mwjfvxl0j4iz",
           "titulo": "Anunciar el webinar en redes sociales.",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
@@ -714,7 +714,7 @@
         {
           "id": "t-mwjfw13y0ii9",
           "titulo": "Vincular Teams con YouTube.",
-          "owner": "",
+          "owner": "Jero y Esther",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
@@ -724,7 +724,7 @@
         {
           "id": "t-mwjfw5e2jpw7",
           "titulo": "Revisar el PPT del ponente.",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
@@ -734,7 +734,7 @@
         {
           "id": "t-mwjfw92or8it",
           "titulo": "Publicar un recordatorio en redes antes del webinar.",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
@@ -744,7 +744,7 @@
         {
           "id": "t-mwjfwc6nysik",
           "titulo": "Hacer la prueba técnica y emitir el webinar.",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
@@ -754,7 +754,7 @@
         {
           "id": "t-mwjfwf8ht9pf",
           "titulo": "Publicar la grabación en YouTube.",
-          "owner": "",
+          "owner": "Andrea",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
@@ -764,7 +764,7 @@
         {
           "id": "t-mwjfwj186mht",
           "titulo": "Compartir el enlace de la grabación con Andrea.",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
@@ -774,7 +774,7 @@
         {
           "id": "t-mwjfwm8od7v4",
           "titulo": "Gestionar el pago de 100 € al ponente.",
-          "owner": "",
+          "owner": "Andrea y Esther",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
@@ -784,7 +784,7 @@
         {
           "id": "t-mwjfwrds5wsa",
           "titulo": "Enviar el kit al ponente.",
-          "owner": "",
+          "owner": "Andrea y Esther",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
@@ -793,8 +793,8 @@
         },
         {
           "id": "t-mwjfwsmqkkjd",
-          "titulo": "1. Actualizar el Excel de Founderz con Andrea.",
-          "owner": "",
+          "titulo": "Actualizar el Excel de Founderz con Andrea.",
+          "owner": "Andrea",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
@@ -1394,6 +1394,18 @@
           "titulo": "Colegio SEK",
           "fecha": "2026-11-30",
           "hecho": false
+        },
+        {
+          "id": "h-mwkgbm3yw7k3",
+          "titulo": "Colegio Jesús-María Burgos",
+          "fecha": "2026-11-27",
+          "hecho": false
+        },
+        {
+          "id": "h-mwkgq6503g1w",
+          "titulo": "Colegio Salesianos Palma del Río",
+          "fecha": "2026-11-23",
+          "hecho": false
         }
       ],
       "tareas": [
@@ -1446,12 +1458,215 @@
           "fecha": "",
           "notas": "Talleristas Madrid: Elisa",
           "hito": "h-mwjfn2mo71xg"
+        },
+        {
+          "id": "t-mwkgc29tus2y",
+          "titulo": "Enviar correo al centro",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkgbm3yw7k3"
+        },
+        {
+          "id": "t-mwkgdrgpptl1",
+          "titulo": "Revisar formulario",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkgbm3yw7k3"
+        },
+        {
+          "id": "t-mwkgdz23biyu",
+          "titulo": "Ver disponibilidad psicóloga AEPAE",
+          "owner": "Andrea",
+          "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkgbm3yw7k3"
+        },
+        {
+          "id": "t-mwkge34n1q3m",
+          "titulo": "Pasar contacto de la psicóloga al centro",
+          "owner": "Andrea",
+          "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkgbm3yw7k3"
+        },
+        {
+          "id": "t-mwkge7ceisyn",
+          "titulo": "Concretar cita charla AEPAE",
+          "owner": "Andrea",
+          "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkgbm3yw7k3"
+        },
+        {
+          "id": "t-mwkgecrnrhyh",
+          "titulo": "Concretar día del taller Minecraft",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkgbm3yw7k3"
+        },
+        {
+          "id": "t-mwkgehntuiqd",
+          "titulo": "Asignar tallerista",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkgbm3yw7k3"
+        },
+        {
+          "id": "t-mwkgqpodzm9n",
+          "titulo": "Enviar correo al centro",
+          "owner": "Andrea",
+          "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkgq6503g1w"
+        },
+        {
+          "id": "t-mwkgqut7yhja",
+          "titulo": "Revisar formulari",
+          "owner": "Andrea",
+          "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkgq6503g1w"
+        },
+        {
+          "id": "t-mwkgr2y5m1ig",
+          "titulo": "Ver disponibilidad psicóloga AEPAE",
+          "owner": "Andrea",
+          "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkgq6503g1w"
+        },
+        {
+          "id": "t-mwkgr8k8hwh8",
+          "titulo": "Pasar contacto de la psicóloga al centro",
+          "owner": "Andrea",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkgq6503g1w"
+        },
+        {
+          "id": "t-mwkgra1nn6op",
+          "titulo": "Concretar cita charla AEPAE",
+          "owner": "Andrea",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkgq6503g1w"
+        },
+        {
+          "id": "t-mwkgrihykvzd",
+          "titulo": "Concretar día del taller Minecraft",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkgq6503g1w"
+        },
+        {
+          "id": "t-mwkgrk3mtyk5",
+          "titulo": "Asignar tallerista",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkgq6503g1w"
         }
       ]
     }
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-17T09:03:01.635Z",
+      "autor": "Esther",
+      "cambios": [
+        "Webinars para la comunidad docente: \"Pedir al ponente su cargo, teléfono y dirección de envío.\" en curso → hecha",
+        "Webinars para la comunidad docente: \"Definir el día.\" notas editadas",
+        "Webinars para la comunidad docente: \"Definir el tema.\" pendiente → hecha",
+        "Webinars para la comunidad docente: \"Definir el tema.\" owner sin asignar → Esther",
+        "Webinars para la comunidad docente: \"Definir el tema.\" fecha sin fecha → jue, 5 nov",
+        "Webinars para la comunidad docente: \"Pedir al ponente su cargo, teléfono y dirección de envío.\" pendiente → en curso",
+        "Webinars para la comunidad docente: \"Pedir al ponente su cargo, teléfono y dirección de envío.\" fecha sin fecha → mar, 17 nov",
+        "Webinars para la comunidad docente: \"Enviar al ponente la plantilla PPT de la carpeta Externos.\" pendiente → hecha",
+        "Webinars para la comunidad docente: \"Enviar al ponente la plantilla PPT de la carpeta Externos.\" owner sin asignar → Esther",
+        "Webinars para la comunidad docente: \"Enviar al ponente la plantilla PPT de la carpeta Externos.\" fecha sin fecha → mar, 17 nov",
+        "Webinars para la comunidad docente: \"Redactar la descripción del webinar.\" pendiente → hecha",
+        "Webinars para la comunidad docente: \"Redactar la descripción del webinar.\" owner sin asignar → Esther",
+        "Webinars para la comunidad docente: \"Redactar la descripción del webinar.\" fecha sin fecha → lun, 9 nov",
+        "Webinars para la comunidad docente: \"Preparar las creatividades.\" pendiente → hecha",
+        "Webinars para la comunidad docente: \"Preparar las creatividades.\" owner sin asignar → Esther",
+        "Webinars para la comunidad docente: \"Preparar las creatividades.\" fecha sin fecha → vie, 6 nov",
+        "Webinars para la comunidad docente: \"Definir el día.\" pendiente → hecha",
+        "Webinars para la comunidad docente: \"Definir el día.\" owner sin asignar → Esther",
+        "Webinars para la comunidad docente: \"Definir el día.\" fecha sin fecha → lun, 16 nov",
+        "Webinars para la comunidad docente: \"Definir el día.\" notas editadas",
+        "Webinars para la comunidad docente: \"Definir el tema.\" pendiente → hecha",
+        "Webinars para la comunidad docente: \"Definir el tema.\" owner sin asignar → Esther",
+        "Webinars para la comunidad docente: \"Definir el tema.\" fecha sin fecha → lun, 16 nov",
+        "Webinars para la comunidad docente: \"Definir el tema.\" notas editadas",
+        "Webinars para la comunidad docente: \"Pedir al ponente su cargo, teléfono y dirección de envío.\" pendiente → hecha",
+        "Webinars para la comunidad docente: \"Pedir al ponente su cargo, teléfono y dirección de envío.\" owner sin asignar → Esther",
+        "Webinars para la comunidad docente: \"Pedir al ponente su cargo, teléfono y dirección de envío.\" fecha sin fecha → mar, 17 nov",
+        "Webinars para la comunidad docente: \"Preparar las creatividades.\" owner sin asignar → Andrea",
+        "Webinars para la comunidad docente: \"Configurar el registro en Teams.\" owner sin asignar → Andrea",
+        "Webinars para la comunidad docente: \"Acortar el enlace de registro con Bitly.\" owner sin asignar → Andrea",
+        "Webinars para la comunidad docente: \"Anunciar el webinar en redes sociales.\" owner sin asignar → Esther",
+        "Webinars para la comunidad docente: \"Vincular Teams con YouTube.\" owner sin asignar → Jero y Esther",
+        "Webinars para la comunidad docente: \"Revisar el PPT del ponente.\" owner sin asignar → Esther",
+        "Webinars para la comunidad docente: \"Publicar un recordatorio en redes antes del webinar.\" owner sin asignar → Esther",
+        "Webinars para la comunidad docente: \"Hacer la prueba técnica y emitir el webinar.\" owner sin asignar → Esther",
+        "Webinars para la comunidad docente: \"Publicar la grabación en YouTube.\" owner sin asignar → Andrea",
+        "Webinars para la comunidad docente: \"Compartir el enlace de la grabación con Andrea.\" owner sin asignar → Esther",
+        "Webinars para la comunidad docente: \"Gestionar el pago de 100 € al ponente.\" owner sin asignar → Andrea y Esther",
+        "Webinars para la comunidad docente: \"Enviar el kit al ponente.\" owner sin asignar → Andrea y Esther",
+        "Webinars para la comunidad docente: tarea \"1. Actualizar el Excel de Founderz con Andrea.\" renombrada a \"Actualizar el Excel de Founderz con Andrea.\"",
+        "Webinars para la comunidad docente: \"Actualizar el Excel de Founderz con Andrea.\" owner sin asignar → Andrea",
+        "Pilotos Yasira - Minecraft: nuevo hito \"Colegio Jesús-María Burgos\" (vie, 27 nov)",
+        "Pilotos Yasira - Minecraft: nuevo hito \"Colegio Salesianos Palma del Río\" (lun, 23 nov)",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Enviar correo al centro\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Revisar formulario\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Ver disponibilidad psicóloga AEPAE\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Pasar contacto de la psicóloga al centro\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Concretar cita charla AEPAE\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Concretar día del taller Minecraft\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Asignar tallerista\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Enviar correo al centro\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Revisar formulari\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Ver disponibilidad psicóloga AEPAE\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Pasar contacto de la psicóloga al centro\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Concretar cita charla AEPAE\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Concretar día del taller Minecraft\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Asignar tallerista\""
+      ]
+    },
     {
       "fecha": "2026-11-16T22:32:21.657Z",
       "autor": "Andrea",
@@ -1881,6 +2096,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-16T22:32:21.657Z",
-  "actualizadoPor": "Andrea"
+  "actualizado": "2026-11-17T09:03:01.635Z",
+  "actualizadoPor": "Esther"
 }
