@@ -1077,7 +1077,7 @@
           "owner": "Jero y Esther",
           "prioridad": "media",
           "estado": "en curso",
-          "fecha": "2026-11-16",
+          "fecha": "2026-11-17",
           "notas": "",
           "hito": "h-mwjice769636"
         },
@@ -1150,6 +1150,16 @@
           "fecha": "2026-11-16",
           "notas": "",
           "hito": "h-mwjbe12dp0b5"
+        },
+        {
+          "id": "t-mwkqndjpo728",
+          "titulo": "Pasar vídeo SIMO para poner en newsletter",
+          "owner": "Andrea",
+          "prioridad": "media",
+          "estado": "en curso",
+          "fecha": "2026-11-16",
+          "notas": "",
+          "hito": "h-mwjice769636"
         }
       ]
     },
@@ -1989,6 +1999,14 @@
   "notas": [],
   "historial": [
     {
+      "fecha": "2026-11-17T13:39:08.196Z",
+      "autor": "Andrea",
+      "cambios": [
+        "Dinamización grupo de LinkedIn: \"Newsletter Post SIMO y  convocatoria Expert\" fecha lun, 16 nov → mar, 17 nov",
+        "Dinamización grupo de LinkedIn: nueva tarea \"Pasar vídeo SIMO para poner en newsletter\""
+      ]
+    },
+    {
       "fecha": "2026-11-17T13:38:22.285Z",
       "autor": "Andrea",
       "cambios": [
@@ -2666,6 +2684,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-17T13:38:22.285Z",
+  "actualizado": "2026-11-17T13:39:08.196Z",
   "actualizadoPor": "Andrea"
 }
