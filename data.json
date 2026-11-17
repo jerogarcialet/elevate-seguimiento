@@ -1564,9 +1564,9 @@
           "titulo": "Pasar contacto de la psicóloga al centro",
           "owner": "Andrea",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "hecha",
           "fecha": "",
-          "notas": "",
+          "notas": "Ya se han coordinado",
           "hito": "h-mwkgq6503g1w"
         },
         {
@@ -1574,9 +1574,9 @@
           "titulo": "Concretar cita charla AEPAE",
           "owner": "Andrea",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "hecha",
           "fecha": "",
-          "notas": "",
+          "notas": "Charla el 23/11. Falta que Laura confirme que está todo coordinado",
           "hito": "h-mwkgq6503g1w"
         },
         {
@@ -1604,6 +1604,16 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-17T09:03:47.131Z",
+      "autor": "Esther",
+      "cambios": [
+        "Pilotos Yasira - Minecraft: \"Pasar contacto de la psicóloga al centro\" pendiente → hecha",
+        "Pilotos Yasira - Minecraft: \"Pasar contacto de la psicóloga al centro\" notas editadas",
+        "Pilotos Yasira - Minecraft: \"Concretar cita charla AEPAE\" pendiente → hecha",
+        "Pilotos Yasira - Minecraft: \"Concretar cita charla AEPAE\" notas editadas"
+      ]
+    },
     {
       "fecha": "2026-11-17T09:03:01.635Z",
       "autor": "Esther",
@@ -2096,6 +2106,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-17T09:03:01.635Z",
+  "actualizado": "2026-11-17T09:03:47.131Z",
   "actualizadoPor": "Esther"
 }
