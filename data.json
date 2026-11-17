@@ -1459,7 +1459,7 @@
           "owner": "Esther",
           "prioridad": "media",
           "estado": "en curso",
-          "fecha": "",
+          "fecha": "2026-11-19",
           "notas": "",
           "hito": "h-mwjfn2mo71xg"
         },
@@ -1469,7 +1469,7 @@
           "owner": "Andrea",
           "prioridad": "media",
           "estado": "pendiente",
-          "fecha": "",
+          "fecha": "2026-11-23",
           "notas": "",
           "hito": "h-mwjfn2mo71xg"
         },
@@ -1479,7 +1479,7 @@
           "owner": "Andrea",
           "prioridad": "media",
           "estado": "pendiente",
-          "fecha": "",
+          "fecha": "2026-11-24",
           "notas": "",
           "hito": "h-mwjfn2mo71xg"
         },
@@ -1619,17 +1619,17 @@
           "owner": "Esther",
           "prioridad": "media",
           "estado": "pendiente",
-          "fecha": "2026-11-24",
+          "fecha": "2026-11-25",
           "notas": "Unos 15 días después de la charla (sobre el 7/12). 5º y 6º de primaria, 1º y 2º de ESO (línea 1",
           "hito": "h-mwkgq6503g1w"
         },
         {
           "id": "t-mwkgrk3mtyk5",
-          "titulo": "Asignar tallerista",
+          "titulo": "Asignar tallerista Minecraft",
           "owner": "Esther",
           "prioridad": "media",
           "estado": "pendiente",
-          "fecha": "2026-11-23",
+          "fecha": "2026-11-25",
           "notas": "Ir viendo tallerista para Sevilla o desplazamientos",
           "hito": "h-mwkgq6503g1w"
         },
@@ -1659,7 +1659,7 @@
           "owner": "Esther",
           "prioridad": "media",
           "estado": "en curso",
-          "fecha": "",
+          "fecha": "2026-11-19",
           "notas": "",
           "hito": "h-mwkgunc0dzdv"
         },
@@ -1669,17 +1669,17 @@
           "owner": "Andrea",
           "prioridad": "media",
           "estado": "pendiente",
-          "fecha": "",
+          "fecha": "2026-11-19",
           "notas": "",
           "hito": "h-mwkgunc0dzdv"
         },
         {
           "id": "t-mwkgvter64k7",
-          "titulo": "Pasar contacto de la psicóloga al centro",
+          "titulo": "Pasar contacto de la psicóloga al centro y viceversa",
           "owner": "Andrea",
           "prioridad": "media",
           "estado": "pendiente",
-          "fecha": "",
+          "fecha": "2026-11-23",
           "notas": "",
           "hito": "h-mwkgunc0dzdv"
         },
@@ -1736,40 +1736,40 @@
         {
           "id": "t-mwkhf9r9kebp",
           "titulo": "Hacer seguimiento si no contesta",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
           "estado": "pendiente",
-          "fecha": "",
+          "fecha": "2026-11-20",
           "notas": "LLamar o escribir de nuevo",
           "hito": "h-mwkhet2ydvtp"
         },
         {
           "id": "t-mwkhfe0gi4fq",
           "titulo": "Revisar formulario",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
           "estado": "pendiente",
-          "fecha": "",
+          "fecha": "2026-11-20",
           "notas": "",
           "hito": "h-mwkhet2ydvtp"
         },
         {
           "id": "t-mwkhfh7ovh9h",
           "titulo": "Ver disponibilidad psicóloga AEPAE",
-          "owner": "",
+          "owner": "Andrea",
           "prioridad": "media",
           "estado": "pendiente",
-          "fecha": "",
+          "fecha": "2026-11-20",
           "notas": "",
           "hito": "h-mwkhet2ydvtp"
         },
         {
           "id": "t-mwkhflief0z5",
-          "titulo": "Pasar contacto de la psicóloga al centro",
-          "owner": "",
+          "titulo": "Pasar contacto de la psicóloga al centro y viceversa",
+          "owner": "Esther",
           "prioridad": "media",
           "estado": "pendiente",
-          "fecha": "",
+          "fecha": "2026-11-23",
           "notas": "",
           "hito": "h-mwkhet2ydvtp"
         },
@@ -1925,19 +1925,57 @@
         },
         {
           "id": "t-mwkqdq7rx51x",
-          "titulo": "Pasar contacto tallerista AEPAE",
+          "titulo": "Pasar contacto tallerista AEPAE al centro y viceversa",
           "owner": "Andrea",
           "prioridad": "media",
           "estado": "pendiente",
-          "fecha": "2026-11-20",
+          "fecha": "2026-11-23",
           "notas": "",
           "hito": "h-mwkk2zmu4nqs"
+        },
+        {
+          "id": "t-mwkqgvsgnck1",
+          "titulo": "Andrea dar un toque a Juanjo si no han contestado",
+          "owner": "Andrea",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "2026-11-19",
+          "notas": "",
+          "hito": "h-mwjfn2mo71xg"
         }
       ]
     }
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-17T13:35:16.152Z",
+      "autor": "Andrea",
+      "cambios": [
+        "Pilotos Yasira - Minecraft: \"Esther revisar que haya completado formulario\" fecha sin fecha → jue, 19 nov",
+        "Pilotos Yasira - Minecraft: \"Andrea ver con AEPAE disponibilidad psicóloga Madrid para talleres AEPAE\" fecha sin fecha → lun, 23 nov",
+        "Pilotos Yasira - Minecraft: \"Andrea pasar el contacto a la psicóloga de SEK para que coordinen los talleres AEPAE\" fecha sin fecha → mar, 24 nov",
+        "Pilotos Yasira - Minecraft: \"Concretar día del taller Minecraft\" fecha mar, 24 nov → mié, 25 nov",
+        "Pilotos Yasira - Minecraft: tarea \"Asignar tallerista\" renombrada a \"Asignar tallerista Minecraft\"",
+        "Pilotos Yasira - Minecraft: \"Asignar tallerista Minecraft\" fecha lun, 23 nov → mié, 25 nov",
+        "Pilotos Yasira - Minecraft: \"Revisar formulario\t\" fecha sin fecha → jue, 19 nov",
+        "Pilotos Yasira - Minecraft: \"Ver disponibilidad psicóloga AEPAE\" fecha sin fecha → jue, 19 nov",
+        "Pilotos Yasira - Minecraft: tarea \"Pasar contacto de la psicóloga al centro\" renombrada a \"Pasar contacto de la psicóloga al centro y viceversa\"",
+        "Pilotos Yasira - Minecraft: \"Pasar contacto de la psicóloga al centro y viceversa\" fecha sin fecha → lun, 23 nov",
+        "Pilotos Yasira - Minecraft: \"Hacer seguimiento si no contesta\" owner sin asignar → Esther",
+        "Pilotos Yasira - Minecraft: \"Hacer seguimiento si no contesta\" fecha sin fecha → vie, 20 nov",
+        "Pilotos Yasira - Minecraft: \"Revisar formulario\" owner sin asignar → Esther",
+        "Pilotos Yasira - Minecraft: \"Revisar formulario\" fecha sin fecha → vie, 20 nov",
+        "Pilotos Yasira - Minecraft: \"Ver disponibilidad psicóloga AEPAE\" owner sin asignar → Andrea",
+        "Pilotos Yasira - Minecraft: \"Ver disponibilidad psicóloga AEPAE\" fecha sin fecha → vie, 20 nov",
+        "Pilotos Yasira - Minecraft: tarea \"Pasar contacto de la psicóloga al centro\" renombrada a \"Pasar contacto de la psicóloga al centro y viceversa\"",
+        "Pilotos Yasira - Minecraft: \"Pasar contacto de la psicóloga al centro y viceversa\" owner sin asignar → Esther",
+        "Pilotos Yasira - Minecraft: \"Pasar contacto de la psicóloga al centro y viceversa\" fecha sin fecha → lun, 23 nov",
+        "Pilotos Yasira - Minecraft: tarea \"Pasar contacto tallerista AEPAE\" renombrada a \"Pasar contacto tallerista AEPAE al centro y viceversa\"",
+        "Pilotos Yasira - Minecraft: \"Pasar contacto tallerista AEPAE al centro y viceversa\" fecha vie, 20 nov → lun, 23 nov",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Andrea dar un toque a Juanjo si no han contestado\""
+      ]
+    },
     {
       "fecha": "2026-11-17T13:32:13.425Z",
       "autor": "Andrea",
@@ -2575,6 +2613,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-17T13:32:13.425Z",
+  "actualizado": "2026-11-17T13:35:16.152Z",
   "actualizadoPor": "Andrea"
 }
