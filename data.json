@@ -1406,6 +1406,18 @@
           "titulo": "Colegio Salesianos Palma del Río",
           "fecha": "2026-11-23",
           "hecho": false
+        },
+        {
+          "id": "h-mwkgunc0dzdv",
+          "titulo": "Colegio Jesuitinas Pamplona",
+          "fecha": "",
+          "hecho": false
+        },
+        {
+          "id": "h-mwkhet2ydvtp",
+          "titulo": "CEIP Pedro Gómez Bosque (Valladolid)",
+          "fecha": "",
+          "hecho": false
         }
       ],
       "tareas": [
@@ -1586,7 +1598,7 @@
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
-          "notas": "",
+          "notas": "Unos 15 días después de la charla (sobre el 7/12). 5º y 6º de primaria, 1º y 2º de ESO (línea 1",
           "hito": "h-mwkgq6503g1w"
         },
         {
@@ -1598,12 +1610,208 @@
           "fecha": "",
           "notas": "",
           "hito": "h-mwkgq6503g1w"
+        },
+        {
+          "id": "t-mwkgv326e8ms",
+          "titulo": "Enviar correo al centro",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "2026-11-16",
+          "notas": "",
+          "hito": "h-mwkgunc0dzdv"
+        },
+        {
+          "id": "t-mwkgvdsufn72",
+          "titulo": "Contactar con los coordinadores",
+          "owner": "Esther",
+          "prioridad": "alta",
+          "estado": "en curso",
+          "fecha": "2026-11-19",
+          "notas": "Enviado de nuevo formulario a coordinadores",
+          "hito": "h-mwkgunc0dzdv"
+        },
+        {
+          "id": "t-mwkgvhzznja7",
+          "titulo": "Revisar formulario\t",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "en curso",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkgunc0dzdv"
+        },
+        {
+          "id": "t-mwkgvm4koawa",
+          "titulo": "Ver disponibilidad psicóloga AEPAE",
+          "owner": "Andrea",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkgunc0dzdv"
+        },
+        {
+          "id": "t-mwkgvter64k7",
+          "titulo": "Pasar contacto de la psicóloga al centro",
+          "owner": "Andrea",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkgunc0dzdv"
+        },
+        {
+          "id": "t-mwkgvumyb388",
+          "titulo": "Concretar cita charla AEPAE",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkgunc0dzdv"
+        },
+        {
+          "id": "t-mwkgw2e5vre5",
+          "titulo": "Concretar día del taller Minecraft",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkgunc0dzdv"
+        },
+        {
+          "id": "t-mwkgw8s1embw",
+          "titulo": "Asignar tallerista",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkgunc0dzdv"
+        },
+        {
+          "id": "t-mwkhezk6ny0r",
+          "titulo": "Enviar correo al centro",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "2026-11-16",
+          "notas": "Diego Olivar",
+          "hito": "h-mwkhet2ydvtp"
+        },
+        {
+          "id": "t-mwkhf4jj1o5z",
+          "titulo": "Enviar recordatorio",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkhet2ydvtp"
+        },
+        {
+          "id": "t-mwkhf9r9kebp",
+          "titulo": "Hacer seguimiento si no contesta",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "LLamar o escribir de nuevo",
+          "hito": "h-mwkhet2ydvtp"
+        },
+        {
+          "id": "t-mwkhfe0gi4fq",
+          "titulo": "Revisar formulario",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkhet2ydvtp"
+        },
+        {
+          "id": "t-mwkhfh7ovh9h",
+          "titulo": "Ver disponibilidad psicóloga AEPAE",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkhet2ydvtp"
+        },
+        {
+          "id": "t-mwkhflief0z5",
+          "titulo": "Pasar contacto de la psicóloga al centro",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkhet2ydvtp"
+        },
+        {
+          "id": "t-mwkhfruw2tkb",
+          "titulo": "Concretar cita charla AEPAE",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "Que coincida con el día del CEIP San Fernando (Valladolid)",
+          "hito": "h-mwkhet2ydvtp"
+        },
+        {
+          "id": "t-mwkhfvkjtdtk",
+          "titulo": "Concretar día del taller Minecraft",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkhet2ydvtp"
+        },
+        {
+          "id": "t-mwkhg3amxgfn",
+          "titulo": "Asignar tallerista",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkhet2ydvtp"
         }
       ]
     }
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-17T09:23:06.572Z",
+      "autor": "Esther",
+      "cambios": [
+        "Pilotos Yasira - Minecraft: nuevo hito \"Colegio Jesuitinas Pamplona\"",
+        "Pilotos Yasira - Minecraft: nuevo hito \"CEIP Pedro Gómez Bosque (Valladolid)\"",
+        "Pilotos Yasira - Minecraft: \"Concretar día del taller Minecraft\" notas editadas",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Enviar correo al centro\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Contactar con los coordinadores\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Revisar formulario\t\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Ver disponibilidad psicóloga AEPAE\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Pasar contacto de la psicóloga al centro\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Concretar cita charla AEPAE\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Concretar día del taller Minecraft\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Asignar tallerista\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Enviar correo al centro\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Enviar recordatorio\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Hacer seguimiento si no contesta\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Revisar formulario\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Ver disponibilidad psicóloga AEPAE\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Pasar contacto de la psicóloga al centro\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Concretar cita charla AEPAE\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Concretar día del taller Minecraft\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Asignar tallerista\""
+      ]
+    },
     {
       "fecha": "2026-11-17T09:03:47.131Z",
       "autor": "Esther",
@@ -2106,6 +2314,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-17T09:03:47.131Z",
+  "actualizado": "2026-11-17T09:23:06.572Z",
   "actualizadoPor": "Esther"
 }
