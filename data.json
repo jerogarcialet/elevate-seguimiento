@@ -840,9 +840,9 @@
         {
           "id": "t-mwjfy22hv2n6",
           "titulo": "Pedir al ponente su cargo, teléfono y dirección de envío.",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "en curso",
           "fecha": "",
           "notas": "",
           "hito": "h-mwjfx6f664pl"
@@ -850,19 +850,19 @@
         {
           "id": "t-mwjfy5sj4snh",
           "titulo": "Enviar al ponente la plantilla PPT de la carpeta Externos.",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
-          "fecha": "",
+          "estado": "hecha",
+          "fecha": "2026-11-17",
           "notas": "",
           "hito": "h-mwjfx6f664pl"
         },
         {
           "id": "t-mwjfy8t5l0mw",
           "titulo": "Redactar la descripción del webinar.",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "hecha",
           "fecha": "",
           "notas": "",
           "hito": "h-mwjfx6f664pl"
@@ -1919,6 +1919,19 @@
   "notas": [],
   "historial": [
     {
+      "fecha": "2026-11-17T12:18:44.418Z",
+      "autor": "Esther",
+      "cambios": [
+        "Webinars para la comunidad docente: \"Pedir al ponente su cargo, teléfono y dirección de envío.\" pendiente → en curso",
+        "Webinars para la comunidad docente: \"Pedir al ponente su cargo, teléfono y dirección de envío.\" owner sin asignar → Esther",
+        "Webinars para la comunidad docente: \"Enviar al ponente la plantilla PPT de la carpeta Externos.\" pendiente → hecha",
+        "Webinars para la comunidad docente: \"Enviar al ponente la plantilla PPT de la carpeta Externos.\" owner sin asignar → Esther",
+        "Webinars para la comunidad docente: \"Enviar al ponente la plantilla PPT de la carpeta Externos.\" fecha sin fecha → mar, 17 nov",
+        "Webinars para la comunidad docente: \"Redactar la descripción del webinar.\" pendiente → hecha",
+        "Webinars para la comunidad docente: \"Redactar la descripción del webinar.\" owner sin asignar → Esther"
+      ]
+    },
+    {
       "fecha": "2026-11-17T11:01:59.086Z",
       "autor": "Esther",
       "cambios": [
@@ -2512,6 +2525,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-17T11:01:59.086Z",
+  "actualizado": "2026-11-17T12:18:44.418Z",
   "actualizadoPor": "Esther"
 }
