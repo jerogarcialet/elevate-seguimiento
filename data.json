@@ -1442,7 +1442,7 @@
           "titulo": "Esther revisar que haya completado formulario",
           "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "en curso",
           "fecha": "",
           "notas": "",
           "hito": "h-mwjfn2mo71xg"
@@ -1532,9 +1532,9 @@
           "titulo": "Concretar día del taller Minecraft",
           "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "en curso",
           "fecha": "",
-          "notas": "",
+          "notas": "Buscando profe",
           "hito": "h-mwkgbm3yw7k3"
         },
         {
@@ -1542,9 +1542,9 @@
           "titulo": "Asignar tallerista",
           "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "en curso",
           "fecha": "",
-          "notas": "",
+          "notas": "Buscando profe",
           "hito": "h-mwkgbm3yw7k3"
         },
         {
@@ -1792,6 +1792,17 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-17T10:34:43.842Z",
+      "autor": "Esther",
+      "cambios": [
+        "Pilotos Yasira - Minecraft: \"Esther revisar que haya completado formulario\" pendiente → en curso",
+        "Pilotos Yasira - Minecraft: \"Concretar día del taller Minecraft\" pendiente → en curso",
+        "Pilotos Yasira - Minecraft: \"Concretar día del taller Minecraft\" notas editadas",
+        "Pilotos Yasira - Minecraft: \"Asignar tallerista\" pendiente → en curso",
+        "Pilotos Yasira - Minecraft: \"Asignar tallerista\" notas editadas"
+      ]
+    },
     {
       "fecha": "2026-11-17T10:22:48.996Z",
       "autor": "Esther",
@@ -2350,6 +2361,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-17T10:22:48.996Z",
+  "actualizado": "2026-11-17T10:34:43.842Z",
   "actualizadoPor": "Esther"
 }
