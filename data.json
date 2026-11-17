@@ -1424,6 +1424,12 @@
           "titulo": "CEIP Pedro Gómez Bosque (Valladolid)",
           "fecha": "",
           "hecho": false
+        },
+        {
+          "id": "h-mwkk2zmu4nqs",
+          "titulo": "Colegio Jesús María Sant Andreu -  Barcelona",
+          "fecha": "",
+          "hecho": false
         }
       ],
       "tareas": [
@@ -1786,12 +1792,140 @@
           "fecha": "",
           "notas": "",
           "hito": "h-mwkhet2ydvtp"
+        },
+        {
+          "id": "t-mwkk4fnj8t9r",
+          "titulo": "Enviar correo al centro",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkk2zmu4nqs"
+        },
+        {
+          "id": "t-mwkk4m6h1hkf",
+          "titulo": "Reunión con el centro",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "2026-11-13",
+          "notas": "",
+          "hito": "h-mwkk2zmu4nqs"
+        },
+        {
+          "id": "t-mwkk4pqhweah",
+          "titulo": "Responder resumen de la reunión",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "2026-11-16",
+          "notas": "",
+          "hito": "h-mwkk2zmu4nqs"
+        },
+        {
+          "id": "t-mwkk4t94agep",
+          "titulo": "Confirmar cursos de ESO",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkk2zmu4nqs"
+        },
+        {
+          "id": "t-mwkk4xkwojod",
+          "titulo": "Revisar formulario AEPAE",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkk2zmu4nqs"
+        },
+        {
+          "id": "t-mwkk521nznn3",
+          "titulo": "Confirmar instalación de Minecraft",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkk2zmu4nqs"
+        },
+        {
+          "id": "t-mwkk58b1xk9o",
+          "titulo": "Enviar guías del profesorado y acceso minecraft",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkk2zmu4nqs"
+        },
+        {
+          "id": "t-mwkk5ccrxdgw",
+          "titulo": "Concretar licencias",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkk2zmu4nqs"
+        },
+        {
+          "id": "t-mwkk5futk3zj",
+          "titulo": "Asignar tallerista",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkk2zmu4nqs"
+        },
+        {
+          "id": "t-mwkk5zpnhtvt",
+          "titulo": "Concretar cita charla AEPAE",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkk2zmu4nqs"
+        },
+        {
+          "id": "t-mwkk638k2r0f",
+          "titulo": "Concretar día del taller Minecraft",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkk2zmu4nqs"
         }
       ]
     }
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-17T10:38:43.395Z",
+      "autor": "Esther",
+      "cambios": [
+        "Pilotos Yasira - Minecraft: nuevo hito \"Colegio Jesús María Sant Andreu -  Barcelona\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Enviar correo al centro\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Reunión con el centro\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Responder resumen de la reunión\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Confirmar cursos de ESO\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Revisar formulario AEPAE\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Confirmar instalación de Minecraft\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Enviar guías del profesorado y acceso minecraft\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Concretar licencias\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Asignar tallerista\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Concretar cita charla AEPAE\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Concretar día del taller Minecraft\""
+      ]
+    },
     {
       "fecha": "2026-11-17T10:34:43.842Z",
       "autor": "Esther",
@@ -2361,6 +2495,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-17T10:34:43.842Z",
+  "actualizado": "2026-11-17T10:38:43.395Z",
   "actualizadoPor": "Esther"
 }
