@@ -1376,6 +1376,16 @@
           "fecha": "2026-11-16",
           "notas": "",
           "hito": "h-mwjice769636"
+        },
+        {
+          "id": "t-mwkv88ho14h4",
+          "titulo": "",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": ""
         }
       ]
     },
@@ -2215,6 +2225,13 @@
   "notas": [],
   "historial": [
     {
+      "fecha": "2026-11-17T16:48:32.288Z",
+      "autor": "Esther",
+      "cambios": [
+        "Dinamización grupo de LinkedIn: nueva tarea \"(sin título)\""
+      ]
+    },
+    {
       "fecha": "2026-11-17T14:16:17.559Z",
       "autor": "Esther",
       "cambios": [
@@ -2948,6 +2965,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-17T14:16:17.559Z",
+  "actualizado": "2026-11-17T16:48:32.288Z",
   "actualizadoPor": "Esther"
 }
