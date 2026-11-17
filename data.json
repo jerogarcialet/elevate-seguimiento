@@ -1311,8 +1311,8 @@
           "id": "t-mwjdkpwvctqm",
           "titulo": "Confirmar Andrea foco de formaciones masivas",
           "owner": "Andrea",
-          "prioridad": "alta",
-          "estado": "en curso",
+          "prioridad": "media",
+          "estado": "hecha",
           "fecha": "2026-11-19",
           "notas": "",
           "hito": "h-mwjdjwnu4s5b"
@@ -1342,8 +1342,28 @@
           "titulo": "Seguimiento propuesta next steps",
           "owner": "Andrea",
           "prioridad": "alta",
-          "estado": "en curso",
+          "estado": "hecha",
           "fecha": "2026-11-19",
+          "notas": "",
+          "hito": "h-con-1"
+        },
+        {
+          "id": "t-mwkqjv56wdtm",
+          "titulo": "Andrea pte llamada de Ovi",
+          "owner": "Andrea",
+          "prioridad": "media",
+          "estado": "en curso",
+          "fecha": "2026-11-18",
+          "notas": "",
+          "hito": "h-mwjdjwnu4s5b"
+        },
+        {
+          "id": "t-mwkqkn50knzx",
+          "titulo": "Seguimiento Miguel Ángel técnico para flecos del curso",
+          "owner": "Jero",
+          "prioridad": "alta",
+          "estado": "en curso",
+          "fecha": "2026-11-18",
           "notas": "",
           "hito": "h-con-1"
         }
@@ -1942,12 +1962,45 @@
           "fecha": "2026-11-19",
           "notas": "",
           "hito": "h-mwjfn2mo71xg"
+        },
+        {
+          "id": "t-mwkqj0igibdz",
+          "titulo": "Taller AEPAE (lo realiza AEPAE)",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "en curso",
+          "fecha": "2026-11-23",
+          "notas": "",
+          "hito": "h-mwkgq6503g1w"
+        },
+        {
+          "id": "t-mwkqjgxirp6d",
+          "titulo": "Taller AEPAE (lo realiza AEPAE)",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "en curso",
+          "fecha": "2026-11-27",
+          "notas": "",
+          "hito": "h-mwkgbm3yw7k3"
         }
       ]
     }
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-17T13:38:22.285Z",
+      "autor": "Andrea",
+      "cambios": [
+        "Formaciones MOOC Microsoft 365 para consejerías: \"Confirmar Andrea foco de formaciones masivas\" en curso → hecha",
+        "Formaciones MOOC Microsoft 365 para consejerías: \"Confirmar Andrea foco de formaciones masivas\" prioridad alta → media",
+        "Formaciones MOOC Microsoft 365 para consejerías: \"Seguimiento propuesta next steps\" en curso → hecha",
+        "Formaciones MOOC Microsoft 365 para consejerías: nueva tarea \"Andrea pte llamada de Ovi\"",
+        "Formaciones MOOC Microsoft 365 para consejerías: nueva tarea \"Seguimiento Miguel Ángel técnico para flecos del curso\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Taller AEPAE (lo realiza AEPAE)\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Taller AEPAE (lo realiza AEPAE)\""
+      ]
+    },
     {
       "fecha": "2026-11-17T13:35:16.152Z",
       "autor": "Andrea",
@@ -2613,6 +2666,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-17T13:35:16.152Z",
+  "actualizado": "2026-11-17T13:38:22.285Z",
   "actualizadoPor": "Andrea"
 }
