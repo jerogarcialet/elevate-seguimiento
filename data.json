@@ -1878,7 +1878,7 @@
           "prioridad": "media",
           "estado": "en curso",
           "fecha": "2026-11-19",
-          "notas": "",
+          "notas": "De momento nada",
           "hito": "h-mwjfn2mo71xg"
         },
         {
@@ -2046,7 +2046,7 @@
           "titulo": "Asignar tallerista Minecraft",
           "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "en curso",
           "fecha": "2026-11-25",
           "notas": "Ir viendo tallerista para Sevilla o desplazamientos",
           "hito": "h-mwkgq6503g1w"
@@ -2126,9 +2126,9 @@
           "titulo": "Asignar tallerista",
           "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "en curso",
           "fecha": "",
-          "notas": "",
+          "notas": "Nico Chiari",
           "hito": "h-mwkgunc0dzdv"
         },
         {
@@ -2386,6 +2386,16 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-18T12:27:54.702Z",
+      "autor": "Esther",
+      "cambios": [
+        "Pilotos Yasira - Minecraft: \"Esther revisar que haya completado formulario\" notas editadas",
+        "Pilotos Yasira - Minecraft: \"Asignar tallerista Minecraft\" pendiente → en curso",
+        "Pilotos Yasira - Minecraft: \"Asignar tallerista\" pendiente → en curso",
+        "Pilotos Yasira - Minecraft: \"Asignar tallerista\" notas editadas"
+      ]
+    },
     {
       "fecha": "2026-11-18T11:17:19.876Z",
       "autor": "Esther",
@@ -3209,6 +3219,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-18T11:17:19.876Z",
+  "actualizado": "2026-11-18T12:27:54.702Z",
   "actualizadoPor": "Esther"
 }
