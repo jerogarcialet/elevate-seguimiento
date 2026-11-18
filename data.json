@@ -1394,6 +1394,16 @@
           "fecha": "",
           "notas": "",
           "hito": "h-mwkicnfx5qn0"
+        },
+        {
+          "id": "t-mwm6elckzuxm",
+          "titulo": "Gestionar entrega Kit Javier Terán",
+          "owner": "Jero y Esther",
+          "prioridad": "alta",
+          "estado": "en curso",
+          "fecha": "",
+          "notas": "",
+          "hito": ""
         }
       ]
     },
@@ -1466,7 +1476,7 @@
           "prioridad": "media",
           "estado": "en curso",
           "fecha": "2026-11-17",
-          "notas": "",
+          "notas": "Falta montar en Hubspot",
           "hito": "h-mwjice769636"
         },
         {
@@ -1474,7 +1484,7 @@
           "titulo": "Subir las fotos de los ponentes y montarla en la herramienta de envío",
           "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "en curso",
           "fecha": "",
           "notas": "",
           "hito": "h-mwjice769636"
@@ -1808,9 +1818,9 @@
           "titulo": "Vídeo de 30 segundos en vertical",
           "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "hecha",
           "fecha": "2026-11-23",
-          "notas": "",
+          "notas": "Dura un pelin más https://l3tcraftedu.sharepoint.com/:v:/s/E-LearningLetcraft/IQDQc5p-STyGQpg1zj0ywN9cAbVLLlIvCZsN4N6CCQFSeZU?e=atAazR",
           "hito": "h-mwjbazx485bo"
         }
       ]
@@ -2386,6 +2396,17 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-18T15:08:47.013Z",
+      "autor": "Esther",
+      "cambios": [
+        "Webinars para la comunidad docente: nueva tarea \"Gestionar entrega Kit Javier Terán\"",
+        "Dinamización grupo de LinkedIn: \"Newsletter Post SIMO y  convocatoria Expert\" notas editadas",
+        "Dinamización grupo de LinkedIn: \"Subir las fotos de los ponentes y montarla en la herramienta de envío\" pendiente → en curso",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Vídeo de 30 segundos en vertical\" pendiente → hecha",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Vídeo de 30 segundos en vertical\" notas editadas"
+      ]
+    },
     {
       "fecha": "2026-11-18T13:22:33.400Z",
       "autor": "Esther",
@@ -3243,6 +3264,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-18T13:22:33.400Z",
+  "actualizado": "2026-11-18T15:08:47.013Z",
   "actualizadoPor": "Esther"
 }
