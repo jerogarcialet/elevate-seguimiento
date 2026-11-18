@@ -1382,7 +1382,7 @@
           "titulo": "Pasar vídeo SIMO para poner en newsletter",
           "owner": "Andrea",
           "prioridad": "media",
-          "estado": "en curso",
+          "estado": "hecha",
           "fecha": "2026-11-16",
           "notas": "",
           "hito": "h-mwjice769636"
@@ -2225,6 +2225,13 @@
   "notas": [],
   "historial": [
     {
+      "fecha": "2026-11-18T10:19:52.017Z",
+      "autor": "Esther",
+      "cambios": [
+        "Dinamización grupo de LinkedIn: \"Pasar vídeo SIMO para poner en newsletter\" en curso → hecha"
+      ]
+    },
+    {
       "fecha": "2026-11-18T09:55:18.200Z",
       "autor": "Esther",
       "cambios": [
@@ -3007,6 +3014,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-18T09:55:18.200Z",
+  "actualizado": "2026-11-18T10:19:52.017Z",
   "actualizadoPor": "Esther"
 }
