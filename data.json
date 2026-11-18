@@ -1049,7 +1049,7 @@
           "id": "t-mwkrsskuccll",
           "titulo": "Datos para enviar Kit a Javier Terán ",
           "owner": "Esther",
-          "prioridad": "media",
+          "prioridad": "alta",
           "estado": "hecha",
           "fecha": "2026-11-18",
           "notas": "Están en el excel",
@@ -2387,6 +2387,13 @@
   "notas": [],
   "historial": [
     {
+      "fecha": "2026-11-18T13:00:15.274Z",
+      "autor": "Esther",
+      "cambios": [
+        "Webinars para la comunidad docente: \"Datos para enviar Kit a Javier Terán \" prioridad media → alta"
+      ]
+    },
+    {
       "fecha": "2026-11-18T12:58:23.020Z",
       "autor": "Esther",
       "cambios": [
@@ -3227,6 +3234,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-18T12:58:23.020Z",
+  "actualizado": "2026-11-18T13:00:15.274Z",
   "actualizadoPor": "Esther"
 }
