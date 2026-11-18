@@ -1825,7 +1825,7 @@
       "hitos": [
         {
           "id": "h-mwjfn2mo71xg",
-          "titulo": "Colegio SEK",
+          "titulo": "Colegio SEK Madrid",
           "fecha": "2026-11-30",
           "hecho": false
         },
@@ -1978,7 +1978,7 @@
           "prioridad": "media",
           "estado": "en curso",
           "fecha": "",
-          "notas": "Buscando profe",
+          "notas": "Victor?¿",
           "hito": "h-mwkgbm3yw7k3"
         },
         {
@@ -2386,6 +2386,14 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-18T12:58:23.020Z",
+      "autor": "Esther",
+      "cambios": [
+        "Pilotos Yasira - Minecraft: hito \"Colegio SEK\" renombrado a \"Colegio SEK Madrid\"",
+        "Pilotos Yasira - Minecraft: \"Asignar tallerista\" notas editadas"
+      ]
+    },
     {
       "fecha": "2026-11-18T12:27:54.702Z",
       "autor": "Esther",
@@ -3219,6 +3227,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-18T12:27:54.702Z",
+  "actualizado": "2026-11-18T12:58:23.020Z",
   "actualizadoPor": "Esther"
 }
