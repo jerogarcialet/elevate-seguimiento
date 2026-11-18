@@ -1016,10 +1016,10 @@
         {
           "id": "t-mwkrsjr58ct6",
           "titulo": "Pedir al ponente su cargo, teléfono y dirección de envío.",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
-          "estado": "en curso",
-          "fecha": "2026-11-17",
+          "estado": "hecha",
+          "fecha": "2026-11-18",
           "notas": "",
           "hito": "h-mwkrro05u0cf"
         },
@@ -1076,20 +1076,20 @@
         {
           "id": "t-mwkrt4rheaoc",
           "titulo": "Enviar al ponente la plantilla PPT de la carpeta Externos.",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
-          "fecha": "",
+          "estado": "hecha",
+          "fecha": "2026-11-18",
           "notas": "",
           "hito": "h-mwkrro05u0cf"
         },
         {
           "id": "t-mwkrt7zxix75",
           "titulo": "Redactar la descripción del webinar.",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
-          "fecha": "",
+          "estado": "hecha",
+          "fecha": "2026-11-18",
           "notas": "",
           "hito": "h-mwkrro05u0cf"
         },
@@ -1250,7 +1250,7 @@
         {
           "id": "t-lin-1",
           "titulo": "Comunicaciones periódicas de novedades",
-          "owner": "Jero",
+          "owner": "Jero y Esther",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
@@ -1260,9 +1260,9 @@
         {
           "id": "t-lin-2",
           "titulo": "Anuncios de webinars",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "en curso",
           "fecha": "",
           "notas": "",
           "hito": "h-mwjbe12dp0b5"
@@ -1343,7 +1343,7 @@
           "owner": "Esther",
           "prioridad": "media",
           "estado": "en curso",
-          "fecha": "2026-11-17",
+          "fecha": "2026-11-24",
           "notas": "",
           "hito": "h-mwjbe12dp0b5"
         },
@@ -1363,7 +1363,7 @@
           "owner": "Esther",
           "prioridad": "media",
           "estado": "en curso",
-          "fecha": "2026-11-16",
+          "fecha": "2026-11-23",
           "notas": "",
           "hito": "h-mwjbe12dp0b5"
         },
@@ -1376,16 +1376,6 @@
           "fecha": "2026-11-16",
           "notas": "",
           "hito": "h-mwjice769636"
-        },
-        {
-          "id": "t-mwkv88ho14h4",
-          "titulo": "",
-          "owner": "",
-          "prioridad": "media",
-          "estado": "pendiente",
-          "fecha": "",
-          "notas": "",
-          "hito": ""
         }
       ]
     },
@@ -2225,6 +2215,27 @@
   "notas": [],
   "historial": [
     {
+      "fecha": "2026-11-18T09:54:22.035Z",
+      "autor": "Esther",
+      "cambios": [
+        "Webinars para la comunidad docente: \"Pedir al ponente su cargo, teléfono y dirección de envío.\" en curso → hecha",
+        "Webinars para la comunidad docente: \"Pedir al ponente su cargo, teléfono y dirección de envío.\" owner sin asignar → Esther",
+        "Webinars para la comunidad docente: \"Pedir al ponente su cargo, teléfono y dirección de envío.\" fecha mar, 17 nov → mié, 18 nov",
+        "Webinars para la comunidad docente: \"Enviar al ponente la plantilla PPT de la carpeta Externos.\" pendiente → hecha",
+        "Webinars para la comunidad docente: \"Enviar al ponente la plantilla PPT de la carpeta Externos.\" owner sin asignar → Esther",
+        "Webinars para la comunidad docente: \"Enviar al ponente la plantilla PPT de la carpeta Externos.\" fecha sin fecha → mié, 18 nov",
+        "Webinars para la comunidad docente: \"Redactar la descripción del webinar.\" pendiente → hecha",
+        "Webinars para la comunidad docente: \"Redactar la descripción del webinar.\" owner sin asignar → Esther",
+        "Webinars para la comunidad docente: \"Redactar la descripción del webinar.\" fecha sin fecha → mié, 18 nov",
+        "Dinamización grupo de LinkedIn: \"Comunicaciones periódicas de novedades\" owner Jero → Jero y Esther",
+        "Dinamización grupo de LinkedIn: \"Anuncios de webinars\" pendiente → en curso",
+        "Dinamización grupo de LinkedIn: \"Anuncios de webinars\" owner sin asignar → Esther",
+        "Dinamización grupo de LinkedIn: \"Anuncio de cada webinar: una semana antes y el mismo día\" fecha mar, 17 nov → mar, 24 nov",
+        "Dinamización grupo de LinkedIn: \"Bienvenida a los nuevos miembros y respuesta a las dudas\" fecha lun, 16 nov → lun, 23 nov",
+        "Dinamización grupo de LinkedIn: tarea eliminada \"(sin título)\""
+      ]
+    },
+    {
       "fecha": "2026-11-17T16:49:06.216Z",
       "autor": "Esther",
       "cambios": [
@@ -2974,6 +2985,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-17T16:49:06.216Z",
+  "actualizado": "2026-11-18T09:54:22.035Z",
   "actualizadoPor": "Esther"
 }
