@@ -47,7 +47,7 @@
         },
         {
           "id": "h-mwkrro05u0cf",
-          "titulo": "Webinar Sandra (embajadora)",
+          "titulo": "Webinar Sandra Laguna",
           "fecha": "2027-03-10",
           "hecho": false
         }
@@ -1045,12 +1045,12 @@
         },
         {
           "id": "t-mwkrsskuccll",
-          "titulo": "Datos para enviar Kit a Javier Terán y Óscar",
+          "titulo": "Datos para enviar Kit a Javier Terán ",
           "owner": "Esther",
           "prioridad": "media",
-          "estado": "en curso",
-          "fecha": "",
-          "notas": "",
+          "estado": "hecha",
+          "fecha": "2026-11-18",
+          "notas": "Están en el excel",
           "hito": ""
         },
         {
@@ -1222,6 +1222,16 @@
           "fecha": "",
           "notas": "",
           "hito": "h-mwkrro05u0cf"
+        },
+        {
+          "id": "t-mwly32lx433t",
+          "titulo": "Datos kit a  Óscar",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": ""
         }
       ]
     },
@@ -2215,6 +2225,18 @@
   "notas": [],
   "historial": [
     {
+      "fecha": "2026-11-18T09:55:18.200Z",
+      "autor": "Esther",
+      "cambios": [
+        "Webinars para la comunidad docente: hito \"Webinar Sandra (embajadora)\" renombrado a \"Webinar Sandra Laguna\"",
+        "Webinars para la comunidad docente: tarea \"Datos para enviar Kit a Javier Terán y Óscar\" renombrada a \"Datos para enviar Kit a Javier Terán \"",
+        "Webinars para la comunidad docente: \"Datos para enviar Kit a Javier Terán \" en curso → hecha",
+        "Webinars para la comunidad docente: \"Datos para enviar Kit a Javier Terán \" fecha sin fecha → mié, 18 nov",
+        "Webinars para la comunidad docente: \"Datos para enviar Kit a Javier Terán \" notas editadas",
+        "Webinars para la comunidad docente: nueva tarea \"Datos kit a  Óscar\""
+      ]
+    },
+    {
       "fecha": "2026-11-18T09:54:22.035Z",
       "autor": "Esther",
       "cambios": [
@@ -2985,6 +3007,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-18T09:54:22.035Z",
+  "actualizado": "2026-11-18T09:55:18.200Z",
   "actualizadoPor": "Esther"
 }
