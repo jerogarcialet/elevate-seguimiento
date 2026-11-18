@@ -1978,7 +1978,7 @@
           "prioridad": "media",
           "estado": "en curso",
           "fecha": "",
-          "notas": "Victor?¿",
+          "notas": "Pendiente david",
           "hito": "h-mwkgbm3yw7k3"
         },
         {
@@ -2048,7 +2048,7 @@
           "prioridad": "media",
           "estado": "en curso",
           "fecha": "2026-11-25",
-          "notas": "Ir viendo tallerista para Sevilla o desplazamientos",
+          "notas": "techmakers y opción final Jero",
           "hito": "h-mwkgq6503g1w"
         },
         {
@@ -2218,7 +2218,7 @@
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
-          "notas": "",
+          "notas": "Victor?¿",
           "hito": "h-mwkhet2ydvtp"
         },
         {
@@ -2386,6 +2386,15 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-18T13:22:33.400Z",
+      "autor": "Esther",
+      "cambios": [
+        "Pilotos Yasira - Minecraft: \"Asignar tallerista\" notas editadas",
+        "Pilotos Yasira - Minecraft: \"Asignar tallerista Minecraft\" notas editadas",
+        "Pilotos Yasira - Minecraft: \"Asignar tallerista\" notas editadas"
+      ]
+    },
     {
       "fecha": "2026-11-18T13:00:15.274Z",
       "autor": "Esther",
@@ -3234,6 +3243,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-18T13:00:15.274Z",
+  "actualizado": "2026-11-18T13:22:33.400Z",
   "actualizadoPor": "Esther"
 }
