@@ -2428,10 +2428,55 @@
           "hito": "h-mwkgbm3yw7k3"
         }
       ]
+    },
+    {
+      "id": "b-mwnerf1yfinm",
+      "nombre": "SIMO FINAL",
+      "descripcion": "",
+      "color": "#C239B3",
+      "owner": "",
+      "prioridad": "media",
+      "hitos": [
+        {
+          "id": "h-mwnerm5mywn6",
+          "titulo": "Enviar leads a cada contacto",
+          "fecha": "2026-11-19",
+          "hecho": false
+        }
+      ],
+      "tareas": [
+        {
+          "id": "t-mwnerkb1z2j3",
+          "titulo": "",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": ""
+        },
+        {
+          "id": "t-mwnesdi6rqrt",
+          "titulo": "Repartir contactos para enviar Mails con al info",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "2026-11-19",
+          "notas": "",
+          "hito": "h-mwnerm5mywn6"
+        }
+      ]
     }
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-19T10:30:38.267Z",
+      "autor": "Esther",
+      "cambios": [
+        "Nuevo bloque \"SIMO FINAL\""
+      ]
+    },
     {
       "fecha": "2026-11-19T08:50:48.575Z",
       "autor": "Esther",
@@ -3324,6 +3369,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-19T08:50:48.575Z",
+  "actualizado": "2026-11-19T10:30:38.267Z",
   "actualizadoPor": "Esther"
 }
