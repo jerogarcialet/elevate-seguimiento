@@ -1029,7 +1029,7 @@
           "estado": "en curso",
           "fecha": "",
           "notas": "Sandra",
-          "hito": ""
+          "hito": "h-mwnb5x93kvxc"
         },
         {
           "id": "t-mwkrsjr58ct6",
@@ -1425,6 +1425,16 @@
           "id": "t-mwnb7piom2o4",
           "titulo": "Buscar tallerista Valladolid",
           "owner": "Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwnb5x93kvxc"
+        },
+        {
+          "id": "t-mwnb89p8o4gb",
+          "titulo": "",
+          "owner": "",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
@@ -2423,6 +2433,14 @@
   "notas": [],
   "historial": [
     {
+      "fecha": "2026-11-19T08:50:48.575Z",
+      "autor": "Esther",
+      "cambios": [
+        "Webinars para la comunidad docente: \"Esperando respuestas Posibles ponentes\" movida a hito \"Búsqueda de talleristas\"",
+        "Webinars para la comunidad docente: nueva tarea \"(sin título)\""
+      ]
+    },
+    {
       "fecha": "2026-11-19T08:50:25.563Z",
       "autor": "Esther",
       "cambios": [
@@ -3306,6 +3324,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-19T08:50:25.563Z",
+  "actualizado": "2026-11-19T08:50:48.575Z",
   "actualizadoPor": "Esther"
 }
