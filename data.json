@@ -1904,6 +1904,12 @@
           "titulo": "Colegio Jesús María Sant Andreu -  Barcelona",
           "fecha": "",
           "hecho": false
+        },
+        {
+          "id": "h-mwnf818ad4uv",
+          "titulo": "PPT Yasira para los ponenets",
+          "fecha": "2026-11-19",
+          "hecho": false
         }
       ],
       "tareas": [
@@ -2426,6 +2432,26 @@
           "fecha": "2026-11-27",
           "notas": "",
           "hito": "h-mwkgbm3yw7k3"
+        },
+        {
+          "id": "t-mwnf8b1nb4rm",
+          "titulo": "Pedir a Jero Ayuda ",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "2026-11-19",
+          "notas": "Me pasa una PPT que tiene",
+          "hito": "h-mwnf818ad4uv"
+        },
+        {
+          "id": "t-mwnf8hm8jbkj",
+          "titulo": "Elaborar PPT ",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "en curso",
+          "fecha": "2026-11-19",
+          "notas": "Añadir  contenido",
+          "hito": "h-mwnf818ad4uv"
         }
       ]
     },
@@ -2480,6 +2506,15 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-19T10:43:46.548Z",
+      "autor": "Esther",
+      "cambios": [
+        "Pilotos Yasira - Minecraft: nuevo hito \"PPT Yasira para los ponenets\" (jue, 19 nov)",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Pedir a Jero Ayuda \"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Elaborar PPT \""
+      ]
+    },
     {
       "fecha": "2026-11-19T10:36:54.938Z",
       "autor": "Esther",
@@ -3388,6 +3423,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-19T10:36:54.938Z",
+  "actualizado": "2026-11-19T10:43:46.548Z",
   "actualizadoPor": "Esther"
 }
