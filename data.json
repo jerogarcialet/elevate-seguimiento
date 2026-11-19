@@ -1844,7 +1844,7 @@
           "titulo": "Preparar comunicación del curso",
           "owner": "Esther",
           "prioridad": "media",
-          "estado": "en curso",
+          "estado": "hecha",
           "fecha": "2026-11-20",
           "notas": "",
           "hito": "h-mwjbazx485bo"
@@ -2482,16 +2482,6 @@
       ],
       "tareas": [
         {
-          "id": "t-mwnerkb1z2j3",
-          "titulo": "",
-          "owner": "",
-          "prioridad": "media",
-          "estado": "pendiente",
-          "fecha": "",
-          "notas": "",
-          "hito": ""
-        },
-        {
           "id": "t-mwnesdi6rqrt",
           "titulo": "Repartir contactos para enviar Mails con al info",
           "owner": "Jero",
@@ -2516,6 +2506,14 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-19T11:29:46.604Z",
+      "autor": "Esther",
+      "cambios": [
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Preparar comunicación del curso\" en curso → hecha",
+        "SIMO FINAL: tarea eliminada \"(sin título)\""
+      ]
+    },
     {
       "fecha": "2026-11-19T11:29:20.710Z",
       "autor": "Esther",
@@ -3466,6 +3464,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-19T11:29:20.710Z",
+  "actualizado": "2026-11-19T11:29:46.604Z",
   "actualizadoPor": "Esther"
 }
