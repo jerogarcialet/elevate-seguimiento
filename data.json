@@ -1414,9 +1414,9 @@
         {
           "id": "t-mwnb67ssnuau",
           "titulo": "Responder al correo de Jose Antonio - Córdoba",
-          "owner": "Esther",
+          "owner": "Andrea",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "hecha",
           "fecha": "2026-11-19",
           "notas": "",
           "hito": "h-mwnb5x93kvxc"
@@ -1844,7 +1844,7 @@
           "titulo": "Preparar comunicación del curso",
           "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "en curso",
           "fecha": "2026-11-20",
           "notas": "",
           "hito": "h-mwjbazx485bo"
@@ -2516,6 +2516,15 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-19T10:52:55.211Z",
+      "autor": "Esther",
+      "cambios": [
+        "Webinars para la comunidad docente: \"Responder al correo de Jose Antonio - Córdoba\" pendiente → hecha",
+        "Webinars para la comunidad docente: \"Responder al correo de Jose Antonio - Córdoba\" owner Esther → Andrea",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Preparar comunicación del curso\" pendiente → en curso"
+      ]
+    },
     {
       "fecha": "2026-11-19T10:51:22.061Z",
       "autor": "Esther",
@@ -3440,6 +3449,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-19T10:51:22.061Z",
+  "actualizado": "2026-11-19T10:52:55.211Z",
   "actualizadoPor": "Esther"
 }
