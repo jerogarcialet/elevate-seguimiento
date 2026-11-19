@@ -1414,10 +1414,20 @@
         {
           "id": "t-mwnb67ssnuau",
           "titulo": "Responder al correo de Jose Antonio - Córdoba",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "2026-11-19",
+          "notas": "",
+          "hito": "h-mwnb5x93kvxc"
+        },
+        {
+          "id": "t-mwnb7piom2o4",
+          "titulo": "Buscar tallerista Valladolid",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
           "notas": "",
           "hito": "h-mwnb5x93kvxc"
         }
@@ -2413,6 +2423,14 @@
   "notas": [],
   "historial": [
     {
+      "fecha": "2026-11-19T08:50:25.563Z",
+      "autor": "Esther",
+      "cambios": [
+        "Webinars para la comunidad docente: \"Responder al correo de Jose Antonio - Córdoba\" owner sin asignar → Esther",
+        "Webinars para la comunidad docente: nueva tarea \"Buscar tallerista Valladolid\""
+      ]
+    },
+    {
       "fecha": "2026-11-19T08:49:59.881Z",
       "autor": "Esther",
       "cambios": [
@@ -3288,6 +3306,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-19T08:49:59.881Z",
+  "actualizado": "2026-11-19T08:50:25.563Z",
   "actualizadoPor": "Esther"
 }
