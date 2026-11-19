@@ -62,6 +62,12 @@
           "titulo": "Webinar Yolanda Cuesta",
           "fecha": "2027-03-16",
           "hecho": false
+        },
+        {
+          "id": "h-mwnb5x93kvxc",
+          "titulo": "Búsqueda de talleristas",
+          "fecha": "2026-11-16",
+          "hecho": false
         }
       ],
       "tareas": [
@@ -1404,6 +1410,16 @@
           "fecha": "",
           "notas": "",
           "hito": ""
+        },
+        {
+          "id": "t-mwnb67ssnuau",
+          "titulo": "Responder al correo de Jose Antonio - Córdoba",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "2026-11-19",
+          "notas": "",
+          "hito": "h-mwnb5x93kvxc"
         }
       ]
     },
@@ -2397,6 +2413,14 @@
   "notas": [],
   "historial": [
     {
+      "fecha": "2026-11-19T08:49:59.881Z",
+      "autor": "Esther",
+      "cambios": [
+        "Webinars para la comunidad docente: nuevo hito \"Búsqueda de talleristas\" (lun, 16 nov)",
+        "Webinars para la comunidad docente: nueva tarea \"Responder al correo de Jose Antonio - Córdoba\""
+      ]
+    },
+    {
       "fecha": "2026-11-18T15:08:47.013Z",
       "autor": "Esther",
       "cambios": [
@@ -3264,6 +3288,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-18T15:08:47.013Z",
+  "actualizado": "2026-11-19T08:49:59.881Z",
   "actualizadoPor": "Esther"
 }
