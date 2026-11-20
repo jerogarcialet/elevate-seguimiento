@@ -1816,7 +1816,7 @@
           "titulo": "Seguimiento Miguel Ángel técnico para flecos del curso",
           "owner": "Jero",
           "prioridad": "alta",
-          "estado": "en curso",
+          "estado": "hecha",
           "fecha": "2026-11-18",
           "notas": "",
           "hito": "h-con-1"
@@ -1851,7 +1851,7 @@
         },
         {
           "id": "t-dif-2",
-          "titulo": "Paid media: 500 € en Meta",
+          "titulo": "Paid media: 250 € en Meta",
           "owner": "Jero",
           "prioridad": "media",
           "estado": "hecha",
@@ -1948,6 +1948,16 @@
           "fecha": "2026-12-07",
           "notas": "",
           "hito": "h-mwjbazx485bo"
+        },
+        {
+          "id": "t-mwoqxzjff735",
+          "titulo": "Revisar pay media impactos y ver si meter 250€ más",
+          "owner": "Jero y Esther",
+          "prioridad": "media",
+          "estado": "en curso",
+          "fecha": "2026-12-07",
+          "notas": "",
+          "hito": "h-mwjbazx485bo"
         }
       ]
     },
@@ -1997,7 +2007,7 @@
         },
         {
           "id": "h-mwnf818ad4uv",
-          "titulo": "PPT Yasira para los ponenets",
+          "titulo": "PPT Yasira para los ponentes",
           "fecha": "2026-11-19",
           "hecho": false
         }
@@ -2616,6 +2626,16 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-20T13:25:14.346Z",
+      "autor": "Andrea",
+      "cambios": [
+        "Formaciones MOOC Microsoft 365 para consejerías: \"Seguimiento Miguel Ángel técnico para flecos del curso\" en curso → hecha",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): tarea \"Paid media: 500 € en Meta\" renombrada a \"Paid media: 250 € en Meta\"",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): nueva tarea \"Revisar pay media impactos y ver si meter 250€ más\"",
+        "Pilotos Yasira - Minecraft: hito \"PPT Yasira para los ponenets\" renombrado a \"PPT Yasira para los ponentes\""
+      ]
+    },
     {
       "fecha": "2026-11-20T12:53:56.560Z",
       "autor": "Esther",
@@ -3607,6 +3627,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-20T12:53:56.560Z",
-  "actualizadoPor": "Esther"
+  "actualizado": "2026-11-20T13:25:14.346Z",
+  "actualizadoPor": "Andrea"
 }
