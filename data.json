@@ -1406,7 +1406,7 @@
           "titulo": "Gestionar entrega Kit Javier Terán",
           "owner": "Esther",
           "prioridad": "alta",
-          "estado": "en curso",
+          "estado": "hecha",
           "fecha": "2026-11-20",
           "notas": "",
           "hito": ""
@@ -1446,9 +1446,9 @@
           "titulo": "Concretar con Chinche hora  y día recogida kit",
           "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "hecha",
           "fecha": "2026-11-20",
-          "notas": "",
+          "notas": "Viernes 20 antes de las 15:00h",
           "hito": ""
         }
       ]
@@ -1854,7 +1854,7 @@
           "titulo": "Paid media: 500 € en Meta",
           "owner": "Jero",
           "prioridad": "media",
-          "estado": "en curso",
+          "estado": "hecha",
           "fecha": "2026-11-23",
           "notas": "Paymedia 500€, Meta y…",
           "hito": "h-mwjbazx485bo"
@@ -1867,6 +1867,86 @@
           "estado": "hecha",
           "fecha": "2026-11-23",
           "notas": "Dura un pelin más https://l3tcraftedu.sharepoint.com/:v:/s/E-LearningLetcraft/IQDQc5p-STyGQpg1zj0ywN9cAbVLLlIvCZsN4N6CCQFSeZU?e=atAazR",
+          "hito": "h-mwjbazx485bo"
+        },
+        {
+          "id": "t-mwordnsaib3s",
+          "titulo": "19 :se activa la campaña de anuncios ",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "2026-11-19",
+          "notas": "",
+          "hito": "h-mwjbazx485bo"
+        },
+        {
+          "id": "t-mwot9ksx3gto",
+          "titulo": "20 : Se publica El anuncio del cursos en post",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "2026-11-20",
+          "notas": "",
+          "hito": "h-mwjbazx485bo"
+        },
+        {
+          "id": "t-mwot9ujh9tzm",
+          "titulo": "23:  reel redes ( el mismo que el anuncio)",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "en curso",
+          "fecha": "2026-11-23",
+          "notas": "",
+          "hito": "h-mwjbazx485bo"
+        },
+        {
+          "id": "t-mwota763v3op",
+          "titulo": "1 dic : Mail con info exclusiva del curso y de regalo un dossier de como elaborar situaciones de aprendizaje.",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "2026-12-01",
+          "notas": "",
+          "hito": "h-mwjbazx485bo"
+        },
+        {
+          "id": "t-mwotan2xx3u0",
+          "titulo": "26: Se promociona en el  webinar",
+          "owner": "Jero y Esther",
+          "prioridad": "media",
+          "estado": "en curso",
+          "fecha": "2026-11-26",
+          "notas": "",
+          "hito": "h-mwjbazx485bo"
+        },
+        {
+          "id": "t-mwotb4syuws4",
+          "titulo": "3 dic: Recordatorio en el webinar",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "2026-12-03",
+          "notas": "",
+          "hito": "h-mwjbazx485bo"
+        },
+        {
+          "id": "t-mwotbynttsue",
+          "titulo": "4 dic: Demo 1 material, 3 niveles ( tutorial)",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "2026-12-04",
+          "notas": "",
+          "hito": "h-mwjbazx485bo"
+        },
+        {
+          "id": "t-mwotc78q937b",
+          "titulo": "7 dic: Rúbrica evaluación en 2 minutos",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "2026-12-07",
+          "notas": "",
           "hito": "h-mwjbazx485bo"
         }
       ]
@@ -1881,37 +1961,37 @@
       "hitos": [
         {
           "id": "h-mwjfn2mo71xg",
-          "titulo": "Colegio SEK Madrid",
+          "titulo": "Colegio SEK   - MADRID (T. Andrea..)",
           "fecha": "2026-11-30",
           "hecho": false
         },
         {
           "id": "h-mwkgbm3yw7k3",
-          "titulo": "Colegio Jesús-María Burgos",
+          "titulo": "Colegio Jesús-María  -  BURGOS ( T. buscando)",
           "fecha": "2026-11-27",
           "hecho": false
         },
         {
           "id": "h-mwkgq6503g1w",
-          "titulo": "Colegio Salesianos Palma del Río",
+          "titulo": "Colegio Salesianos Palma del Río - CÓRDOBA  (T. Jose techmakers)",
           "fecha": "2026-11-23",
           "hecho": false
         },
         {
           "id": "h-mwkgunc0dzdv",
-          "titulo": "Colegio Jesuitinas Pamplona",
+          "titulo": "Colegio Jesuitinas - PAMPLONA ( T. Nico)",
           "fecha": "",
           "hecho": false
         },
         {
           "id": "h-mwkhet2ydvtp",
-          "titulo": "CEIP Pedro Gómez Bosque (Valladolid)",
+          "titulo": "CEIP Pedro Gómez Bosque - VALLADOLID ( T. Buscando)",
           "fecha": "",
           "hecho": false
         },
         {
           "id": "h-mwkk2zmu4nqs",
-          "titulo": "Colegio Jesús María Sant Andreu -  Barcelona",
+          "titulo": "Colegio Jesús María Sant Andreu -  BARCELONA ( T. buscando)",
           "fecha": "",
           "hecho": false
         },
@@ -2099,7 +2179,7 @@
           "owner": "Esther",
           "prioridad": "media",
           "estado": "pendiente",
-          "fecha": "2026-11-25",
+          "fecha": "2026-11-24",
           "notas": "Unos 15 días después de la charla (sobre el 7/12). 5º y 6º de primaria, 1º y 2º de ESO (línea 1",
           "hito": "h-mwkgq6503g1w"
         },
@@ -2110,7 +2190,7 @@
           "prioridad": "media",
           "estado": "en curso",
           "fecha": "2026-11-25",
-          "notas": "techmakers y opción final Jero",
+          "notas": "techmakers  JOSE",
           "hito": "h-mwkgq6503g1w"
         },
         {
@@ -2129,7 +2209,7 @@
           "owner": "Esther",
           "prioridad": "alta",
           "estado": "en curso",
-          "fecha": "2026-11-19",
+          "fecha": "2026-11-20",
           "notas": "Enviado de nuevo formulario a coordinadores",
           "hito": "h-mwkgunc0dzdv"
         },
@@ -2139,7 +2219,7 @@
           "owner": "Esther",
           "prioridad": "media",
           "estado": "en curso",
-          "fecha": "2026-11-19",
+          "fecha": "2026-11-23",
           "notas": "",
           "hito": "h-mwkgunc0dzdv"
         },
@@ -2149,7 +2229,7 @@
           "owner": "Andrea",
           "prioridad": "media",
           "estado": "pendiente",
-          "fecha": "2026-11-19",
+          "fecha": "2026-11-23",
           "notas": "",
           "hito": "h-mwkgunc0dzdv"
         },
@@ -2462,6 +2542,36 @@
           "fecha": "2026-11-19",
           "notas": "Añadir  contenido",
           "hito": "h-mwnf818ad4uv"
+        },
+        {
+          "id": "t-mwotjc0jm85k",
+          "titulo": "Enviar a Jose las presentaciones del taller",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "2026-11-24",
+          "notas": "",
+          "hito": "h-mwkgq6503g1w"
+        },
+        {
+          "id": "t-mwotjz4k522g",
+          "titulo": "Contactar con el cole. para pasarle. contacto Jose que. hará el taller del cole",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "2026-11-25",
+          "notas": "",
+          "hito": "h-mwkgq6503g1w"
+        },
+        {
+          "id": "t-mwotkvjnk5jp",
+          "titulo": "",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwkgq6503g1w"
         }
       ]
     },
@@ -2494,7 +2604,7 @@
         {
           "id": "t-mwnezkrdl2rk",
           "titulo": " Enviar mails",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
@@ -2506,6 +2616,39 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-20T12:53:56.560Z",
+      "autor": "Esther",
+      "cambios": [
+        "Webinars para la comunidad docente: \"Gestionar entrega Kit Javier Terán\" en curso → hecha",
+        "Webinars para la comunidad docente: \"Concretar con Chinche hora  y día recogida kit\" pendiente → hecha",
+        "Webinars para la comunidad docente: \"Concretar con Chinche hora  y día recogida kit\" notas editadas",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Paid media: 500 € en Meta\" en curso → hecha",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): nueva tarea \"19 :se activa la campaña de anuncios \"",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): nueva tarea \"20 : Se publica El anuncio del cursos en post\"",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): nueva tarea \"23:  reel redes ( el mismo que el anuncio)\"",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): nueva tarea \"1 dic : Mail con info exclusiva del curso y de regalo un dossier de como elaborar situaciones de aprendizaje.\"",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): nueva tarea \"26: Se promociona en el  webinar\"",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): nueva tarea \"3 dic: Recordatorio en el webinar\"",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): nueva tarea \"4 dic: Demo 1 material, 3 niveles ( tutorial)\"",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): nueva tarea \"7 dic: Rúbrica evaluación en 2 minutos\"",
+        "Pilotos Yasira - Minecraft: hito \"Colegio SEK Madrid\" renombrado a \"Colegio SEK   - MADRID (T. Andrea..)\"",
+        "Pilotos Yasira - Minecraft: hito \"Colegio Jesús-María Burgos\" renombrado a \"Colegio Jesús-María  -  BURGOS ( T. buscando)\"",
+        "Pilotos Yasira - Minecraft: hito \"Colegio Salesianos Palma del Río\" renombrado a \"Colegio Salesianos Palma del Río - CÓRDOBA  (T. Jose techmakers)\"",
+        "Pilotos Yasira - Minecraft: hito \"Colegio Jesuitinas Pamplona\" renombrado a \"Colegio Jesuitinas - PAMPLONA ( T. Nico)\"",
+        "Pilotos Yasira - Minecraft: hito \"CEIP Pedro Gómez Bosque (Valladolid)\" renombrado a \"CEIP Pedro Gómez Bosque - VALLADOLID ( T. Buscando)\"",
+        "Pilotos Yasira - Minecraft: hito \"Colegio Jesús María Sant Andreu -  Barcelona\" renombrado a \"Colegio Jesús María Sant Andreu -  BARCELONA ( T. buscando)\"",
+        "Pilotos Yasira - Minecraft: \"Concretar día del taller Minecraft\" fecha mié, 25 nov → mar, 24 nov",
+        "Pilotos Yasira - Minecraft: \"Asignar tallerista Minecraft\" notas editadas",
+        "Pilotos Yasira - Minecraft: \"Contactar con los coordinadores\" fecha jue, 19 nov → vie, 20 nov",
+        "Pilotos Yasira - Minecraft: \"Revisar formulario\t\" fecha jue, 19 nov → lun, 23 nov",
+        "Pilotos Yasira - Minecraft: \"Ver disponibilidad psicóloga AEPAE\" fecha jue, 19 nov → lun, 23 nov",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Enviar a Jose las presentaciones del taller\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Contactar con el cole. para pasarle. contacto Jose que. hará el taller del cole\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"(sin título)\"",
+        "SIMO FINAL: \" Enviar mails\" owner sin asignar → Esther"
+      ]
+    },
     {
       "fecha": "2026-11-19T11:29:46.604Z",
       "autor": "Esther",
@@ -3464,6 +3607,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-19T11:29:46.604Z",
+  "actualizado": "2026-11-20T12:53:56.560Z",
   "actualizadoPor": "Esther"
 }
