@@ -2674,10 +2674,55 @@
           "hito": "h-mwnerm5mywn6"
         }
       ]
+    },
+    {
+      "id": "b-mwt8tnohqnxv",
+      "nombre": "Articulate",
+      "descripcion": "",
+      "color": "#986F0B",
+      "owner": "",
+      "prioridad": "media",
+      "hitos": [
+        {
+          "id": "h-mwt8tt8klpr6",
+          "titulo": "Curso ",
+          "fecha": "",
+          "hecho": false
+        }
+      ],
+      "tareas": [
+        {
+          "id": "t-mwt8tvnarc5o",
+          "titulo": "ocultar apartado expert",
+          "owner": "Jero",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwt8tt8klpr6"
+        },
+        {
+          "id": "t-mwt8uva52qrw",
+          "titulo": "Conoce a otros elevate expert",
+          "owner": "Jero",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwt8tt8klpr6"
+        }
+      ]
     }
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-23T12:30:53.564Z",
+      "autor": "Esther",
+      "cambios": [
+        "Nuevo bloque \"Articulate\""
+      ]
+    },
     {
       "fecha": "2026-11-23T12:24:23.670Z",
       "autor": "Esther",
@@ -3754,6 +3799,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-23T12:24:23.670Z",
+  "actualizado": "2026-11-23T12:30:53.564Z",
   "actualizadoPor": "Esther"
 }
