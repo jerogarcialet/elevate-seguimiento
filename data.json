@@ -2734,7 +2734,7 @@
         {
           "id": "t-mwt8zkdwio1b",
           "titulo": "Pantallazos de la parte de explorer a expert",
-          "owner": "",
+          "owner": "Jero y Esther",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
@@ -2744,7 +2744,7 @@
         {
           "id": "t-mwt90rs79n3y",
           "titulo": "Post de que te piden en aplicación para expert",
-          "owner": "",
+          "owner": "Jero y Esther",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
@@ -2766,6 +2766,14 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-23T12:44:40.710Z",
+      "autor": "Esther",
+      "cambios": [
+        "Articulate M365: \"Pantallazos de la parte de explorer a expert\" owner sin asignar → Jero y Esther",
+        "Articulate M365: \"Post de que te piden en aplicación para expert\" owner sin asignar → Jero y Esther"
+      ]
+    },
     {
       "fecha": "2026-11-23T12:36:42.437Z",
       "autor": "Esther",
@@ -3869,6 +3877,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-23T12:36:42.437Z",
+  "actualizado": "2026-11-23T12:44:40.710Z",
   "actualizadoPor": "Esther"
 }
