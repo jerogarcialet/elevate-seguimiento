@@ -1468,9 +1468,9 @@
         {
           "id": "t-lin-3",
           "titulo": "Convocatoria MEE",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "hecha",
           "fecha": "",
           "notas": "",
           "hito": "h-mwjbe12dp0b5"
@@ -1864,7 +1864,7 @@
           "titulo": "23:  reel redes ( el mismo que el anuncio)",
           "owner": "Esther",
           "prioridad": "media",
-          "estado": "en curso",
+          "estado": "hecha",
           "fecha": "2026-11-23",
           "notas": "",
           "hito": "h-mwjbazx485bo"
@@ -2164,7 +2164,7 @@
           "titulo": "Concretar día del taller Minecraft",
           "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "en curso",
           "fecha": "2026-11-24",
           "notas": "Unos 15 días después de la charla (sobre el 7/12). 5º y 6º de primaria, 1º y 2º de ESO (línea 1",
           "hito": "h-mwkgq6503g1w"
@@ -2284,7 +2284,7 @@
           "titulo": "LLamar por teléfono a Diego",
           "owner": "Esther",
           "prioridad": "alta",
-          "estado": "pendiente",
+          "estado": "hecha",
           "fecha": "2026-11-23",
           "notas": "LLamar o escribir de nuevo",
           "hito": "h-mwkhet2ydvtp"
@@ -2294,7 +2294,7 @@
           "titulo": "Revisar formulario",
           "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "en curso",
           "fecha": "2026-11-20",
           "notas": "",
           "hito": "h-mwkhet2ydvtp"
@@ -2454,9 +2454,9 @@
           "titulo": "Escribir Andrea AEPAE qué tal talleres",
           "owner": "Andrea",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "en curso",
           "fecha": "2026-11-24",
-          "notas": "Laura Sevilla AEPAE",
+          "notas": "Programado mañana con la propuesta talleres",
           "hito": "h-mwkgq6503g1w"
         },
         {
@@ -2494,7 +2494,7 @@
           "titulo": "Taller AEPAE (lo realiza AEPAE)",
           "owner": "",
           "prioridad": "media",
-          "estado": "en curso",
+          "estado": "hecha",
           "fecha": "2026-11-23",
           "notas": "",
           "hito": "h-mwkgq6503g1w"
@@ -2524,7 +2524,7 @@
           "titulo": "Elaborar PPT ",
           "owner": "Esther",
           "prioridad": "media",
-          "estado": "en curso",
+          "estado": "hecha",
           "fecha": "2026-11-19",
           "notas": "Añadir  contenido",
           "hito": "h-mwnf818ad4uv"
@@ -2593,7 +2593,7 @@
           "id": "h-mwnerm5mywn6",
           "titulo": "Enviar leads a cada contacto",
           "fecha": "2026-11-19",
-          "hecho": false
+          "hecho": true
         }
       ],
       "tareas": [
@@ -2603,7 +2603,7 @@
           "owner": "Jero",
           "prioridad": "media",
           "estado": "hecha",
-          "fecha": "2026-11-19",
+          "fecha": "2026-11-23",
           "notas": "",
           "hito": "h-mwnerm5mywn6"
         },
@@ -2612,7 +2612,7 @@
           "titulo": " Enviar mails",
           "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "hecha",
           "fecha": "",
           "notas": "",
           "hito": "h-mwnerm5mywn6"
@@ -2622,6 +2622,25 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-23T12:19:41.765Z",
+      "autor": "Esther",
+      "cambios": [
+        "Dinamización grupo de LinkedIn: \"Convocatoria MEE\" pendiente → hecha",
+        "Dinamización grupo de LinkedIn: \"Convocatoria MEE\" owner sin asignar → Esther",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"23:  reel redes ( el mismo que el anuncio)\" en curso → hecha",
+        "Pilotos Yasira - Minecraft: \"Concretar día del taller Minecraft\" pendiente → en curso",
+        "Pilotos Yasira - Minecraft: \"LLamar por teléfono a Diego\" pendiente → hecha",
+        "Pilotos Yasira - Minecraft: \"Revisar formulario\" pendiente → en curso",
+        "Pilotos Yasira - Minecraft: \"Escribir Andrea AEPAE qué tal talleres\" pendiente → en curso",
+        "Pilotos Yasira - Minecraft: \"Escribir Andrea AEPAE qué tal talleres\" notas editadas",
+        "Pilotos Yasira - Minecraft: \"Taller AEPAE (lo realiza AEPAE)\" en curso → hecha",
+        "Pilotos Yasira - Minecraft: \"Elaborar PPT \" en curso → hecha",
+        "SIMO FINAL: hito \"Enviar leads a cada contacto\" cumplido ✓",
+        "SIMO FINAL: \"Repartir contactos para enviar Mails con al info\" fecha jue, 19 nov → lun, 23 nov",
+        "SIMO FINAL: \" Enviar mails\" pendiente → hecha"
+      ]
+    },
     {
       "fecha": "2026-11-23T08:43:43.722Z",
       "autor": "Esther",
@@ -3641,6 +3660,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-23T08:43:43.722Z",
+  "actualizado": "2026-11-23T12:19:41.765Z",
   "actualizadoPor": "Esther"
 }
