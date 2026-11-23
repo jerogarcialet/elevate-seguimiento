@@ -1949,9 +1949,9 @@
           "id": "t-mwt8kgtp5jf0",
           "titulo": "Info Webinars dic- enero",
           "owner": "Esther",
-          "prioridad": "media",
+          "prioridad": "alta",
           "estado": "pendiente",
-          "fecha": "",
+          "fecha": "2026-11-24",
           "notas": "",
           "hito": "h-mwt8jh8v2wv0"
         },
@@ -1959,9 +1959,9 @@
           "id": "t-mwt8kpc9atfa",
           "titulo": "Info curso para compañeros",
           "owner": "",
-          "prioridad": "media",
+          "prioridad": "alta",
           "estado": "pendiente",
-          "fecha": "",
+          "fecha": "2026-11-24",
           "notas": "",
           "hito": "h-mwt8jh8v2wv0"
         },
@@ -1969,9 +1969,9 @@
           "id": "t-mwt8l7jzwq2r",
           "titulo": "Grupo linked in",
           "owner": "",
-          "prioridad": "media",
+          "prioridad": "alta",
           "estado": "pendiente",
-          "fecha": "",
+          "fecha": "2026-11-24",
           "notas": "",
           "hito": "h-mwt8jh8v2wv0"
         }
@@ -2668,6 +2668,18 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-23T12:23:32.654Z",
+      "autor": "Esther",
+      "cambios": [
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Info Webinars dic- enero\" prioridad media → alta",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Info Webinars dic- enero\" fecha sin fecha → mar, 24 nov",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Info curso para compañeros\" prioridad media → alta",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Info curso para compañeros\" fecha sin fecha → mar, 24 nov",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Grupo linked in\" prioridad media → alta",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Grupo linked in\" fecha sin fecha → mar, 24 nov"
+      ]
+    },
     {
       "fecha": "2026-11-23T12:23:16.972Z",
       "autor": "Esther",
@@ -3725,6 +3737,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-23T12:23:16.972Z",
+  "actualizado": "2026-11-23T12:23:32.654Z",
   "actualizadoPor": "Esther"
 }
