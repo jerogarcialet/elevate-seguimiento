@@ -2677,7 +2677,7 @@
     },
     {
       "id": "b-mwt8tnohqnxv",
-      "nombre": "Articulate",
+      "nombre": "Articulate M365",
       "descripcion": "",
       "color": "#986F0B",
       "owner": "",
@@ -2710,12 +2710,30 @@
           "fecha": "",
           "notas": "",
           "hito": "h-mwt8tt8klpr6"
+        },
+        {
+          "id": "t-mwt8vc085iuv",
+          "titulo": "Cambiar el apartado elevate expert",
+          "owner": "Jero y Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwt8tt8klpr6"
         }
       ]
     }
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-23T12:31:18.736Z",
+      "autor": "Esther",
+      "cambios": [
+        "Bloque \"Articulate\" renombrado a \"Articulate M365\"",
+        "Articulate M365: nueva tarea \"Cambiar el apartado elevate expert\""
+      ]
+    },
     {
       "fecha": "2026-11-23T12:30:53.564Z",
       "autor": "Esther",
@@ -3799,6 +3817,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-23T12:30:53.564Z",
+  "actualizado": "2026-11-23T12:31:18.736Z",
   "actualizadoPor": "Esther"
 }
