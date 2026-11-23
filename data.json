@@ -1940,9 +1940,9 @@
           "titulo": "Mailing para Corp del curso",
           "owner": "Esther",
           "prioridad": "alta",
-          "estado": "pendiente",
-          "fecha": "",
-          "notas": "Webinars dic-enero, MC",
+          "estado": "en curso",
+          "fecha": "2026-11-23",
+          "notas": "FALTAN ENLACES WEBINARS",
           "hito": "h-mwt8jh8v2wv0"
         },
         {
@@ -1950,27 +1950,7 @@
           "titulo": "Info Webinars dic- enero",
           "owner": "Esther",
           "prioridad": "alta",
-          "estado": "pendiente",
-          "fecha": "2026-11-24",
-          "notas": "",
-          "hito": "h-mwt8jh8v2wv0"
-        },
-        {
-          "id": "t-mwt8kpc9atfa",
-          "titulo": "Info curso para compañeros",
-          "owner": "",
-          "prioridad": "alta",
-          "estado": "pendiente",
-          "fecha": "2026-11-24",
-          "notas": "",
-          "hito": "h-mwt8jh8v2wv0"
-        },
-        {
-          "id": "t-mwt8l7jzwq2r",
-          "titulo": "Grupo linked in",
-          "owner": "",
-          "prioridad": "alta",
-          "estado": "pendiente",
+          "estado": "hecha",
           "fecha": "2026-11-24",
           "notas": "",
           "hito": "h-mwt8jh8v2wv0"
@@ -2034,7 +2014,7 @@
         {
           "id": "h-mwnf818ad4uv",
           "titulo": "PPT Yasira para los ponentes",
-          "fecha": "2026-11-19",
+          "fecha": "2026-11-25",
           "hecho": false
         },
         {
@@ -2766,6 +2746,19 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-23T15:25:55.517Z",
+      "autor": "Esther",
+      "cambios": [
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Mailing para Corp del curso\" pendiente → en curso",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Mailing para Corp del curso\" fecha sin fecha → lun, 23 nov",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Mailing para Corp del curso\" notas editadas",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Info Webinars dic- enero\" pendiente → hecha",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): tarea eliminada \"Info curso para compañeros\"",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): tarea eliminada \"Grupo linked in\"",
+        "Pilotos Yasira - Minecraft: fecha del hito \"PPT Yasira para los ponentes\" jue, 19 nov → mié, 25 nov"
+      ]
+    },
     {
       "fecha": "2026-11-23T12:44:40.710Z",
       "autor": "Esther",
@@ -3877,6 +3870,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-23T12:44:40.710Z",
+  "actualizado": "2026-11-23T15:25:55.517Z",
   "actualizadoPor": "Esther"
 }
