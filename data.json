@@ -1806,6 +1806,12 @@
           "titulo": "Curso gratuito Microsoft 365 - Explorer",
           "fecha": "2026-12-31",
           "hecho": false
+        },
+        {
+          "id": "h-mwt8jh8v2wv0",
+          "titulo": "Mailing para Corp del curso",
+          "fecha": "",
+          "hecho": false
         }
       ],
       "tareas": [
@@ -1936,8 +1942,38 @@
           "prioridad": "alta",
           "estado": "pendiente",
           "fecha": "",
+          "notas": "Webinars dic-enero, MC",
+          "hito": "h-mwt8jh8v2wv0"
+        },
+        {
+          "id": "t-mwt8kgtp5jf0",
+          "titulo": "Info Webinars dic- enero",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
           "notas": "",
-          "hito": "h-mwjbazx485bo"
+          "hito": "h-mwt8jh8v2wv0"
+        },
+        {
+          "id": "t-mwt8kpc9atfa",
+          "titulo": "Info curso para compañeros",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwt8jh8v2wv0"
+        },
+        {
+          "id": "t-mwt8l7jzwq2r",
+          "titulo": "Grupo linked in",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwt8jh8v2wv0"
         }
       ]
     },
@@ -2632,6 +2668,18 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-23T12:23:16.972Z",
+      "autor": "Esther",
+      "cambios": [
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): nuevo hito \"Mailing para Corp del curso\"",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Mailing para Corp del curso\" notas editadas",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Mailing para Corp del curso\" movida a hito \"Mailing para Corp del curso\"",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): nueva tarea \"Info Webinars dic- enero\"",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): nueva tarea \"Info curso para compañeros\"",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): nueva tarea \"Grupo linked in\""
+      ]
+    },
     {
       "fecha": "2026-11-23T12:20:07.179Z",
       "autor": "Esther",
@@ -3677,6 +3725,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-23T12:20:07.179Z",
+  "actualizado": "2026-11-23T12:23:16.972Z",
   "actualizadoPor": "Esther"
 }
