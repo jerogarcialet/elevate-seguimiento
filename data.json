@@ -1974,6 +1974,16 @@
           "fecha": "2026-11-24",
           "notas": "",
           "hito": "h-mwt8jh8v2wv0"
+        },
+        {
+          "id": "t-mwt8mgav2omk",
+          "titulo": "Añadir imágenes a la POE",
+          "owner": "Jero y Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwt8jh8v2wv0"
         }
       ]
     },
@@ -2668,6 +2678,13 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-23T12:24:23.670Z",
+      "autor": "Esther",
+      "cambios": [
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): nueva tarea \"Añadir imágenes a la POE\""
+      ]
+    },
     {
       "fecha": "2026-11-23T12:23:32.654Z",
       "autor": "Esther",
@@ -3737,6 +3754,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-23T12:23:32.654Z",
+  "actualizado": "2026-11-23T12:24:23.670Z",
   "actualizadoPor": "Esther"
 }
