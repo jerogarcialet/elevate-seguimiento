@@ -2703,8 +2703,8 @@
         },
         {
           "id": "t-mwt8uva52qrw",
-          "titulo": "Conoce a otros elevate expert",
-          "owner": "Jero",
+          "titulo": "Conoce a otros elevate expert - píldoras founderz",
+          "owner": "Andrea",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "",
@@ -2720,12 +2720,64 @@
           "fecha": "",
           "notas": "",
           "hito": "h-mwt8tt8klpr6"
+        },
+        {
+          "id": "t-mwt8x7fx3ggr",
+          "titulo": "Explicar convocatorias",
+          "owner": "Jero y Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwt8tt8klpr6"
+        },
+        {
+          "id": "t-mwt8zkdwio1b",
+          "titulo": "Pantallazos de la parte de explorer a expert",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwt8tt8klpr6"
+        },
+        {
+          "id": "t-mwt90rs79n3y",
+          "titulo": "Post de que te piden en aplicación para expert",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwt8tt8klpr6"
+        },
+        {
+          "id": "t-mwt910bxgif0",
+          "titulo": "",
+          "owner": "",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwt8tt8klpr6"
         }
       ]
     }
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-23T12:36:42.437Z",
+      "autor": "Esther",
+      "cambios": [
+        "Articulate M365: tarea \"Conoce a otros elevate expert\" renombrada a \"Conoce a otros elevate expert - píldoras founderz\"",
+        "Articulate M365: \"Conoce a otros elevate expert - píldoras founderz\" owner Jero → Andrea",
+        "Articulate M365: nueva tarea \"Explicar convocatorias\"",
+        "Articulate M365: nueva tarea \"Pantallazos de la parte de explorer a expert\"",
+        "Articulate M365: nueva tarea \"Post de que te piden en aplicación para expert\"",
+        "Articulate M365: nueva tarea \"(sin título)\""
+      ]
+    },
     {
       "fecha": "2026-11-23T12:31:18.736Z",
       "autor": "Esther",
@@ -3817,6 +3869,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-23T12:31:18.736Z",
+  "actualizado": "2026-11-23T12:36:42.437Z",
   "actualizadoPor": "Esther"
 }
