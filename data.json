@@ -1928,6 +1928,16 @@
           "fecha": "2026-12-07",
           "notas": "",
           "hito": "h-mwjbazx485bo"
+        },
+        {
+          "id": "t-mwt8gxxocsyn",
+          "titulo": "Mailing para Corp del curso",
+          "owner": "Esther",
+          "prioridad": "alta",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "",
+          "hito": "h-mwjbazx485bo"
         }
       ]
     },
@@ -2622,6 +2632,13 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-23T12:20:07.179Z",
+      "autor": "Esther",
+      "cambios": [
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): nueva tarea \"Mailing para Corp del curso\""
+      ]
+    },
     {
       "fecha": "2026-11-23T12:19:41.765Z",
       "autor": "Esther",
@@ -3660,6 +3677,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-23T12:19:41.765Z",
+  "actualizado": "2026-11-23T12:20:07.179Z",
   "actualizadoPor": "Esther"
 }
