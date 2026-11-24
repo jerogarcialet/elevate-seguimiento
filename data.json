@@ -1608,6 +1608,12 @@
           "titulo": "Andalucía",
           "fecha": "2027-01-29",
           "hecho": false
+        },
+        {
+          "id": "h-mwuiw1784wlo",
+          "titulo": "Baleares",
+          "fecha": "2027-05-31",
+          "hecho": false
         }
       ],
       "tareas": [
@@ -1790,6 +1796,46 @@
           "fecha": "2026-11-18",
           "notas": "",
           "hito": "h-con-1"
+        },
+        {
+          "id": "t-mwuiw9tiyec5",
+          "titulo": "Definir programa de webinars de formación",
+          "owner": "Andrea",
+          "prioridad": "media",
+          "estado": "en curso",
+          "fecha": "2026-12-07",
+          "notas": "",
+          "hito": "h-mwuiw1784wlo"
+        },
+        {
+          "id": "t-mwuiwmry1a7l",
+          "titulo": "Programar webinar de bienvenida comunidad",
+          "owner": "Andrea",
+          "prioridad": "media",
+          "estado": "en curso",
+          "fecha": "2027-01-11",
+          "notas": "",
+          "hito": "h-mwuiw1784wlo"
+        },
+        {
+          "id": "t-mwuiwz1mf8iv",
+          "titulo": "Descargar de cada webinar listado de asistentes de baleares y tiempos de conexión",
+          "owner": "Esther",
+          "prioridad": "alta",
+          "estado": "pendiente",
+          "fecha": "2027-05-31",
+          "notas": "",
+          "hito": "h-mwuiw1784wlo"
+        },
+        {
+          "id": "t-mwuixidmv1ig",
+          "titulo": "Enviar reporte baleares de asistencia para acreditación docente",
+          "owner": "Andrea y Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "2027-05-31",
+          "notas": "Esther pasar a Andrea reportes, Andrea mandar mail a Emilio",
+          "hito": "h-mwuiw1784wlo"
         }
       ]
     },
@@ -2746,6 +2792,17 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-24T10:19:45.270Z",
+      "autor": "Andrea",
+      "cambios": [
+        "Formaciones MOOC Microsoft 365 para consejerías: nuevo hito \"Baleares\" (lun, 31 may)",
+        "Formaciones MOOC Microsoft 365 para consejerías: nueva tarea \"Definir programa de webinars de formación\"",
+        "Formaciones MOOC Microsoft 365 para consejerías: nueva tarea \"Programar webinar de bienvenida comunidad\"",
+        "Formaciones MOOC Microsoft 365 para consejerías: nueva tarea \"Descargar de cada webinar listado de asistentes de baleares y tiempos de conexión\"",
+        "Formaciones MOOC Microsoft 365 para consejerías: nueva tarea \"Enviar reporte baleares de asistencia para acreditación docente\""
+      ]
+    },
     {
       "fecha": "2026-11-23T15:25:55.517Z",
       "autor": "Esther",
@@ -3870,6 +3927,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-23T15:25:55.517Z",
-  "actualizadoPor": "Esther"
+  "actualizado": "2026-11-24T10:19:45.270Z",
+  "actualizadoPor": "Andrea"
 }
