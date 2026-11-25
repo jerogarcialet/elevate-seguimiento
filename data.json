@@ -121,7 +121,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-web-3"
+          "hito": "h-web-3",
+          "url": ""
         },
         {
           "id": "t-web-2",
@@ -131,7 +132,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-web-3"
+          "hito": "h-web-3",
+          "url": ""
         },
         {
           "id": "t-web-3",
@@ -141,7 +143,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-web-3"
+          "hito": "h-web-3",
+          "url": ""
         },
         {
           "id": "t-web-4",
@@ -151,7 +154,8 @@
           "estado": "hecha",
           "fecha": "2026-11-26",
           "notas": "",
-          "hito": "h-web-3"
+          "hito": "h-web-3",
+          "url": ""
         },
         {
           "id": "t-web-5",
@@ -161,7 +165,8 @@
           "estado": "pendiente",
           "fecha": "2026-11-30",
           "notas": "2-3 días después del webinar",
-          "hito": "h-web-3"
+          "hito": "h-web-3",
+          "url": ""
         },
         {
           "id": "t-web-6",
@@ -171,7 +176,8 @@
           "estado": "pendiente",
           "fecha": "2026-11-27",
           "notas": "",
-          "hito": "h-web-3"
+          "hito": "h-web-3",
+          "url": ""
         },
         {
           "id": "t-web-7",
@@ -181,7 +187,8 @@
           "estado": "pendiente",
           "fecha": "2026-11-30",
           "notas": "Copiado tal cual de la hoja de Andrea: concretar",
-          "hito": "h-web-3"
+          "hito": "h-web-3",
+          "url": ""
         },
         {
           "id": "t-mwjaw0m7xia9",
@@ -191,7 +198,8 @@
           "estado": "hecha",
           "fecha": "2026-11-09",
           "notas": "",
-          "hito": "h-web-3"
+          "hito": "h-web-3",
+          "url": ""
         },
         {
           "id": "t-mwjb1xxhh11c",
@@ -201,7 +209,8 @@
           "estado": "hecha",
           "fecha": "2026-11-02",
           "notas": "",
-          "hito": "h-web-3"
+          "hito": "h-web-3",
+          "url": ""
         },
         {
           "id": "t-mwjb8i6u45ir",
@@ -211,7 +220,8 @@
           "estado": "hecha",
           "fecha": "2026-11-03",
           "notas": "",
-          "hito": "h-mwjb7unrg2rr"
+          "hito": "h-mwjb7unrg2rr",
+          "url": ""
         },
         {
           "id": "t-mwjbk4mbvkx0",
@@ -221,7 +231,8 @@
           "estado": "hecha",
           "fecha": "2026-11-03",
           "notas": "",
-          "hito": "h-web-3"
+          "hito": "h-web-3",
+          "url": ""
         },
         {
           "id": "t-mwjbxl6wmo3e",
@@ -231,7 +242,8 @@
           "estado": "hecha",
           "fecha": "2026-11-10",
           "notas": "",
-          "hito": "h-web-3"
+          "hito": "h-web-3",
+          "url": ""
         },
         {
           "id": "t-mwjby5uazrpv",
@@ -241,7 +253,8 @@
           "estado": "hecha",
           "fecha": "2026-11-16",
           "notas": "",
-          "hito": "h-web-3"
+          "hito": "h-web-3",
+          "url": ""
         },
         {
           "id": "t-mwjbzgpx9b69",
@@ -251,7 +264,8 @@
           "estado": "hecha",
           "fecha": "2026-11-10",
           "notas": "",
-          "hito": "h-web-3"
+          "hito": "h-web-3",
+          "url": ""
         },
         {
           "id": "t-mwjbzwn73tlc",
@@ -261,7 +275,8 @@
           "estado": "hecha",
           "fecha": "2026-11-09",
           "notas": "",
-          "hito": "h-web-3"
+          "hito": "h-web-3",
+          "url": ""
         },
         {
           "id": "t-mwjc4np1wshs",
@@ -271,7 +286,8 @@
           "estado": "pendiente",
           "fecha": "2026-11-25",
           "notas": "",
-          "hito": "h-web-3"
+          "hito": "h-web-3",
+          "url": ""
         },
         {
           "id": "t-mwjc5qs45pk4",
@@ -281,7 +297,8 @@
           "estado": "pendiente",
           "fecha": "2026-11-26",
           "notas": "",
-          "hito": "h-web-3"
+          "hito": "h-web-3",
+          "url": ""
         },
         {
           "id": "t-mwjc705dg1j5",
@@ -291,7 +308,8 @@
           "estado": "pendiente",
           "fecha": "2026-11-27",
           "notas": "",
-          "hito": "h-web-3"
+          "hito": "h-web-3",
+          "url": ""
         },
         {
           "id": "t-mwjc85739uet",
@@ -301,7 +319,8 @@
           "estado": "bloqueada",
           "fecha": "2026-11-30",
           "notas": "Ya le dimos a Mar el kit en SIMO. 2-3 días después del webinar",
-          "hito": "h-web-3"
+          "hito": "h-web-3",
+          "url": ""
         },
         {
           "id": "t-mwjc9rgzmf7l",
@@ -311,7 +330,8 @@
           "estado": "hecha",
           "fecha": "2026-11-17",
           "notas": "Linked in, Insta, X",
-          "hito": "h-web-3"
+          "hito": "h-web-3",
+          "url": ""
         },
         {
           "id": "t-mwjcb8kusw77",
@@ -321,7 +341,8 @@
           "estado": "pendiente",
           "fecha": "2026-11-24",
           "notas": "",
-          "hito": "h-web-3"
+          "hito": "h-web-3",
+          "url": ""
         },
         {
           "id": "t-mwjcfh5ao65s",
@@ -331,7 +352,8 @@
           "estado": "hecha",
           "fecha": "2026-11-09",
           "notas": "",
-          "hito": "h-mwjb7unrg2rr"
+          "hito": "h-mwjb7unrg2rr",
+          "url": ""
         },
         {
           "id": "t-mwjcg7sbx4wf",
@@ -341,7 +363,8 @@
           "estado": "hecha",
           "fecha": "2026-11-02",
           "notas": "",
-          "hito": "h-mwjb7unrg2rr"
+          "hito": "h-mwjb7unrg2rr",
+          "url": ""
         },
         {
           "id": "t-mwjcgdh9227t",
@@ -351,7 +374,8 @@
           "estado": "en curso",
           "fecha": "2026-11-16",
           "notas": "",
-          "hito": "h-mwjb7unrg2rr"
+          "hito": "h-mwjb7unrg2rr",
+          "url": ""
         },
         {
           "id": "t-mwjcghxf4phd",
@@ -361,7 +385,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjb7unrg2rr"
+          "hito": "h-mwjb7unrg2rr",
+          "url": ""
         },
         {
           "id": "t-mwjcgtzn808f",
@@ -371,7 +396,8 @@
           "estado": "hecha",
           "fecha": "2026-11-09",
           "notas": "",
-          "hito": "h-mwjb7unrg2rr"
+          "hito": "h-mwjb7unrg2rr",
+          "url": ""
         },
         {
           "id": "t-mwjcgvyivudl",
@@ -381,7 +407,8 @@
           "estado": "hecha",
           "fecha": "2026-11-09",
           "notas": "",
-          "hito": "h-mwjb7unrg2rr"
+          "hito": "h-mwjb7unrg2rr",
+          "url": ""
         },
         {
           "id": "t-mwjcgz6itne5",
@@ -391,7 +418,8 @@
           "estado": "hecha",
           "fecha": "2026-11-04",
           "notas": "",
-          "hito": "h-mwjb7unrg2rr"
+          "hito": "h-mwjb7unrg2rr",
+          "url": ""
         },
         {
           "id": "t-mwjch4m3bq6i",
@@ -401,7 +429,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjb7unrg2rr"
+          "hito": "h-mwjb7unrg2rr",
+          "url": ""
         },
         {
           "id": "t-mwjchal208p6",
@@ -411,7 +440,8 @@
           "estado": "pendiente",
           "fecha": "2026-11-30",
           "notas": "",
-          "hito": "h-mwjb7unrg2rr"
+          "hito": "h-mwjb7unrg2rr",
+          "url": ""
         },
         {
           "id": "t-mwjchczz25nm",
@@ -421,7 +451,8 @@
           "estado": "hecha",
           "fecha": "2026-11-02",
           "notas": "",
-          "hito": "h-mwjb7unrg2rr"
+          "hito": "h-mwjb7unrg2rr",
+          "url": ""
         },
         {
           "id": "t-mwjchhdiv4ua",
@@ -431,7 +462,8 @@
           "estado": "pendiente",
           "fecha": "2026-12-02",
           "notas": "",
-          "hito": "h-mwjb7unrg2rr"
+          "hito": "h-mwjb7unrg2rr",
+          "url": ""
         },
         {
           "id": "t-mwjchmktuqt2",
@@ -441,7 +473,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjb7unrg2rr"
+          "hito": "h-mwjb7unrg2rr",
+          "url": ""
         },
         {
           "id": "t-mwjchqzl2qop",
@@ -451,7 +484,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjb7unrg2rr"
+          "hito": "h-mwjb7unrg2rr",
+          "url": ""
         },
         {
           "id": "t-mwjchurr6nu0",
@@ -461,7 +495,8 @@
           "estado": "pendiente",
           "fecha": "2026-12-04",
           "notas": "",
-          "hito": "h-mwjb7unrg2rr"
+          "hito": "h-mwjb7unrg2rr",
+          "url": ""
         },
         {
           "id": "t-mwjchyg7zz4i",
@@ -471,7 +506,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjb7unrg2rr"
+          "hito": "h-mwjb7unrg2rr",
+          "url": ""
         },
         {
           "id": "t-mwjci34hmi0k",
@@ -481,7 +517,8 @@
           "estado": "pendiente",
           "fecha": "2026-12-07",
           "notas": "",
-          "hito": "h-mwjb7unrg2rr"
+          "hito": "h-mwjb7unrg2rr",
+          "url": ""
         },
         {
           "id": "t-mwjci70qrm2l",
@@ -491,7 +528,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjb7unrg2rr"
+          "hito": "h-mwjb7unrg2rr",
+          "url": ""
         },
         {
           "id": "t-mwjciajaza7r",
@@ -501,7 +539,8 @@
           "estado": "pendiente",
           "fecha": "2026-12-07",
           "notas": "",
-          "hito": "h-mwjb7unrg2rr"
+          "hito": "h-mwjb7unrg2rr",
+          "url": ""
         },
         {
           "id": "t-mwjcrdr5l8af",
@@ -511,7 +550,8 @@
           "estado": "hecha",
           "fecha": "2026-11-03",
           "notas": "",
-          "hito": "h-mwjcq5jsqjrw"
+          "hito": "h-mwjcq5jsqjrw",
+          "url": ""
         },
         {
           "id": "t-mwjcrl8lfer0",
@@ -521,7 +561,8 @@
           "estado": "hecha",
           "fecha": "2026-11-03",
           "notas": "17 diciembre",
-          "hito": "h-mwjcq5jsqjrw"
+          "hito": "h-mwjcq5jsqjrw",
+          "url": ""
         },
         {
           "id": "t-mwjevv4bh2jm",
@@ -531,7 +572,8 @@
           "estado": "hecha",
           "fecha": "2026-11-05",
           "notas": "",
-          "hito": "h-mwjcq5jsqjrw"
+          "hito": "h-mwjcq5jsqjrw",
+          "url": ""
         },
         {
           "id": "t-mwjevyvq8qzf",
@@ -541,7 +583,8 @@
           "estado": "hecha",
           "fecha": "2026-11-17",
           "notas": "",
-          "hito": "h-mwjcq5jsqjrw"
+          "hito": "h-mwjcq5jsqjrw",
+          "url": ""
         },
         {
           "id": "t-mwjew2lw3u03",
@@ -551,7 +594,8 @@
           "estado": "hecha",
           "fecha": "2026-11-17",
           "notas": "",
-          "hito": "h-mwjcq5jsqjrw"
+          "hito": "h-mwjcq5jsqjrw",
+          "url": ""
         },
         {
           "id": "t-mwjew5xvvqof",
@@ -561,7 +605,8 @@
           "estado": "hecha",
           "fecha": "2026-11-09",
           "notas": "",
-          "hito": "h-mwjcq5jsqjrw"
+          "hito": "h-mwjcq5jsqjrw",
+          "url": ""
         },
         {
           "id": "t-mwjew9hbt6k1",
@@ -571,7 +616,8 @@
           "estado": "hecha",
           "fecha": "2026-11-06",
           "notas": "",
-          "hito": "h-mwjcq5jsqjrw"
+          "hito": "h-mwjcq5jsqjrw",
+          "url": ""
         },
         {
           "id": "t-mwjewcp6o1jz",
@@ -581,7 +627,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjcq5jsqjrw"
+          "hito": "h-mwjcq5jsqjrw",
+          "url": ""
         },
         {
           "id": "t-mwjewghn8xd9",
@@ -591,7 +638,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjcq5jsqjrw"
+          "hito": "h-mwjcq5jsqjrw",
+          "url": ""
         },
         {
           "id": "t-mwjewjq1jdtt",
@@ -601,7 +649,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjcq5jsqjrw"
+          "hito": "h-mwjcq5jsqjrw",
+          "url": ""
         },
         {
           "id": "t-mwjewp627psr",
@@ -611,7 +660,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjcq5jsqjrw"
+          "hito": "h-mwjcq5jsqjrw",
+          "url": ""
         },
         {
           "id": "t-mwjewszcsc4s",
@@ -621,7 +671,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjcq5jsqjrw"
+          "hito": "h-mwjcq5jsqjrw",
+          "url": ""
         },
         {
           "id": "t-mwjeww313n7a",
@@ -631,7 +682,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjcq5jsqjrw"
+          "hito": "h-mwjcq5jsqjrw",
+          "url": ""
         },
         {
           "id": "t-mwjex06t4ctv",
@@ -641,7 +693,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjcq5jsqjrw"
+          "hito": "h-mwjcq5jsqjrw",
+          "url": ""
         },
         {
           "id": "t-mwjex669j75g",
@@ -651,7 +704,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjcq5jsqjrw"
+          "hito": "h-mwjcq5jsqjrw",
+          "url": ""
         },
         {
           "id": "t-mwjexoljf5ar",
@@ -661,7 +715,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjcq5jsqjrw"
+          "hito": "h-mwjcq5jsqjrw",
+          "url": ""
         },
         {
           "id": "t-mwjexqd6gml5",
@@ -671,7 +726,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjcq5jsqjrw"
+          "hito": "h-mwjcq5jsqjrw",
+          "url": ""
         },
         {
           "id": "t-mwjexu0isc2m",
@@ -681,7 +737,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjcq5jsqjrw"
+          "hito": "h-mwjcq5jsqjrw",
+          "url": ""
         },
         {
           "id": "t-mwjfunonxnqg",
@@ -691,7 +748,8 @@
           "estado": "hecha",
           "fecha": "2026-11-16",
           "notas": "",
-          "hito": "h-mwjeysavh5b3"
+          "hito": "h-mwjeysavh5b3",
+          "url": ""
         },
         {
           "id": "t-mwjfuxov85kk",
@@ -701,7 +759,8 @@
           "estado": "hecha",
           "fecha": "2026-11-16",
           "notas": "Jueves 14 enero",
-          "hito": "h-mwjeysavh5b3"
+          "hito": "h-mwjeysavh5b3",
+          "url": ""
         },
         {
           "id": "t-mwjfv1nr0vay",
@@ -711,7 +770,8 @@
           "estado": "hecha",
           "fecha": "2026-11-16",
           "notas": "Una actividad, tres niveles: adapta sin empezar de cero",
-          "hito": "h-mwjeysavh5b3"
+          "hito": "h-mwjeysavh5b3",
+          "url": ""
         },
         {
           "id": "t-mwjfv5ehmj3a",
@@ -721,7 +781,8 @@
           "estado": "hecha",
           "fecha": "2026-11-17",
           "notas": "",
-          "hito": "h-mwjeysavh5b3"
+          "hito": "h-mwjeysavh5b3",
+          "url": ""
         },
         {
           "id": "t-mwjfvfy1ipom",
@@ -731,7 +792,8 @@
           "estado": "hecha",
           "fecha": "2026-11-18",
           "notas": "",
-          "hito": "h-mwjeysavh5b3"
+          "hito": "h-mwjeysavh5b3",
+          "url": ""
         },
         {
           "id": "t-mwjfvj4dl9bj",
@@ -741,7 +803,8 @@
           "estado": "hecha",
           "fecha": "2026-11-17",
           "notas": "",
-          "hito": "h-mwjeysavh5b3"
+          "hito": "h-mwjeysavh5b3",
+          "url": ""
         },
         {
           "id": "t-mwjfvn2mqwm1",
@@ -751,7 +814,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjeysavh5b3"
+          "hito": "h-mwjeysavh5b3",
+          "url": ""
         },
         {
           "id": "t-mwjfvqsllm70",
@@ -761,7 +825,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjeysavh5b3"
+          "hito": "h-mwjeysavh5b3",
+          "url": ""
         },
         {
           "id": "t-mwjfvuczsp5u",
@@ -771,7 +836,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjeysavh5b3"
+          "hito": "h-mwjeysavh5b3",
+          "url": ""
         },
         {
           "id": "t-mwjfvxl0j4iz",
@@ -781,7 +847,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjeysavh5b3"
+          "hito": "h-mwjeysavh5b3",
+          "url": ""
         },
         {
           "id": "t-mwjfw13y0ii9",
@@ -791,7 +858,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjeysavh5b3"
+          "hito": "h-mwjeysavh5b3",
+          "url": ""
         },
         {
           "id": "t-mwjfw5e2jpw7",
@@ -801,7 +869,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjeysavh5b3"
+          "hito": "h-mwjeysavh5b3",
+          "url": ""
         },
         {
           "id": "t-mwjfw92or8it",
@@ -811,7 +880,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjeysavh5b3"
+          "hito": "h-mwjeysavh5b3",
+          "url": ""
         },
         {
           "id": "t-mwjfwc6nysik",
@@ -821,7 +891,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjeysavh5b3"
+          "hito": "h-mwjeysavh5b3",
+          "url": ""
         },
         {
           "id": "t-mwjfwf8ht9pf",
@@ -831,7 +902,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjeysavh5b3"
+          "hito": "h-mwjeysavh5b3",
+          "url": ""
         },
         {
           "id": "t-mwjfwj186mht",
@@ -841,7 +913,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjeysavh5b3"
+          "hito": "h-mwjeysavh5b3",
+          "url": ""
         },
         {
           "id": "t-mwjfwm8od7v4",
@@ -851,7 +924,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjeysavh5b3"
+          "hito": "h-mwjeysavh5b3",
+          "url": ""
         },
         {
           "id": "t-mwjfwrds5wsa",
@@ -861,7 +935,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjeysavh5b3"
+          "hito": "h-mwjeysavh5b3",
+          "url": ""
         },
         {
           "id": "t-mwjfwsmqkkjd",
@@ -871,7 +946,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjeysavh5b3"
+          "hito": "h-mwjeysavh5b3",
+          "url": ""
         },
         {
           "id": "t-mwjfxm8hq1as",
@@ -881,7 +957,8 @@
           "estado": "hecha",
           "fecha": "2026-11-04",
           "notas": "",
-          "hito": "h-mwjfx6f664pl"
+          "hito": "h-mwjfx6f664pl",
+          "url": ""
         },
         {
           "id": "t-mwjfxp7j0801",
@@ -891,7 +968,8 @@
           "estado": "hecha",
           "fecha": "2026-11-04",
           "notas": "",
-          "hito": "h-mwjfx6f664pl"
+          "hito": "h-mwjfx6f664pl",
+          "url": ""
         },
         {
           "id": "t-mwjfxz0exw2k",
@@ -901,7 +979,8 @@
           "estado": "hecha",
           "fecha": "2026-11-04",
           "notas": "",
-          "hito": "h-mwjfx6f664pl"
+          "hito": "h-mwjfx6f664pl",
+          "url": ""
         },
         {
           "id": "t-mwjfy22hv2n6",
@@ -911,7 +990,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjfx6f664pl"
+          "hito": "h-mwjfx6f664pl",
+          "url": ""
         },
         {
           "id": "t-mwjfy5sj4snh",
@@ -921,7 +1001,8 @@
           "estado": "hecha",
           "fecha": "2026-11-17",
           "notas": "",
-          "hito": "h-mwjfx6f664pl"
+          "hito": "h-mwjfx6f664pl",
+          "url": ""
         },
         {
           "id": "t-mwjfy8t5l0mw",
@@ -931,7 +1012,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjfx6f664pl"
+          "hito": "h-mwjfx6f664pl",
+          "url": ""
         },
         {
           "id": "t-mwjfybxfrll1",
@@ -941,7 +1023,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjfx6f664pl"
+          "hito": "h-mwjfx6f664pl",
+          "url": ""
         },
         {
           "id": "t-mwjfyfjfirpl",
@@ -951,7 +1034,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjfx6f664pl"
+          "hito": "h-mwjfx6f664pl",
+          "url": ""
         },
         {
           "id": "t-mwjfyj5vonxg",
@@ -961,7 +1045,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjfx6f664pl"
+          "hito": "h-mwjfx6f664pl",
+          "url": ""
         },
         {
           "id": "t-mwjfylyjiucl",
@@ -971,7 +1056,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjfx6f664pl"
+          "hito": "h-mwjfx6f664pl",
+          "url": ""
         },
         {
           "id": "t-mwjfyozs6uv2",
@@ -981,7 +1067,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjfx6f664pl"
+          "hito": "h-mwjfx6f664pl",
+          "url": ""
         },
         {
           "id": "t-mwjfysfw415b",
@@ -991,7 +1078,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjfx6f664pl"
+          "hito": "h-mwjfx6f664pl",
+          "url": ""
         },
         {
           "id": "t-mwjfyvgs70sj",
@@ -1001,7 +1089,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjfx6f664pl"
+          "hito": "h-mwjfx6f664pl",
+          "url": ""
         },
         {
           "id": "t-mwjfyy6h6wn3",
@@ -1011,7 +1100,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjfx6f664pl"
+          "hito": "h-mwjfx6f664pl",
+          "url": ""
         },
         {
           "id": "t-mwjfz1jdytus",
@@ -1021,7 +1111,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjfx6f664pl"
+          "hito": "h-mwjfx6f664pl",
+          "url": ""
         },
         {
           "id": "t-mwjfz51aueuk",
@@ -1031,7 +1122,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjfx6f664pl"
+          "hito": "h-mwjfx6f664pl",
+          "url": ""
         },
         {
           "id": "t-mwjfz94zpu1k",
@@ -1041,7 +1133,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjfx6f664pl"
+          "hito": "h-mwjfx6f664pl",
+          "url": ""
         },
         {
           "id": "t-mwjfzds2tr88",
@@ -1051,7 +1144,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjfx6f664pl"
+          "hito": "h-mwjfx6f664pl",
+          "url": ""
         },
         {
           "id": "t-mwjfzhjdp7ez",
@@ -1061,7 +1155,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjfx6f664pl"
+          "hito": "h-mwjfx6f664pl",
+          "url": ""
         },
         {
           "id": "t-mwkkymj7t34i",
@@ -1071,7 +1166,8 @@
           "estado": "en curso",
           "fecha": "",
           "notas": "Sandra",
-          "hito": "h-mwnb5x93kvxc"
+          "hito": "h-mwnb5x93kvxc",
+          "url": ""
         },
         {
           "id": "t-mwkrsjr58ct6",
@@ -1081,7 +1177,8 @@
           "estado": "hecha",
           "fecha": "2026-11-18",
           "notas": "",
-          "hito": "h-mwkrro05u0cf"
+          "hito": "h-mwkrro05u0cf",
+          "url": ""
         },
         {
           "id": "t-mwkrsl4mungm",
@@ -1091,7 +1188,8 @@
           "estado": "hecha",
           "fecha": "2026-11-17",
           "notas": "",
-          "hito": "h-mwkrro05u0cf"
+          "hito": "h-mwkrro05u0cf",
+          "url": ""
         },
         {
           "id": "t-mwkrsskuccll",
@@ -1101,7 +1199,8 @@
           "estado": "hecha",
           "fecha": "2026-11-18",
           "notas": "Están en el excel",
-          "hito": ""
+          "hito": "",
+          "url": ""
         },
         {
           "id": "t-mwkrsyaftvxj",
@@ -1111,7 +1210,8 @@
           "estado": "hecha",
           "fecha": "2026-11-17",
           "notas": "",
-          "hito": "h-mwkrro05u0cf"
+          "hito": "h-mwkrro05u0cf",
+          "url": ""
         },
         {
           "id": "t-mwkrt1r8tp3w",
@@ -1121,7 +1221,8 @@
           "estado": "hecha",
           "fecha": "2026-11-17",
           "notas": "",
-          "hito": "h-mwkrro05u0cf"
+          "hito": "h-mwkrro05u0cf",
+          "url": ""
         },
         {
           "id": "t-mwkrt4rheaoc",
@@ -1131,7 +1232,8 @@
           "estado": "hecha",
           "fecha": "2026-11-18",
           "notas": "",
-          "hito": "h-mwkrro05u0cf"
+          "hito": "h-mwkrro05u0cf",
+          "url": ""
         },
         {
           "id": "t-mwkrt7zxix75",
@@ -1141,7 +1243,8 @@
           "estado": "hecha",
           "fecha": "2026-11-18",
           "notas": "",
-          "hito": "h-mwkrro05u0cf"
+          "hito": "h-mwkrro05u0cf",
+          "url": ""
         },
         {
           "id": "t-mwkrtbbqitub",
@@ -1151,7 +1254,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkrro05u0cf"
+          "hito": "h-mwkrro05u0cf",
+          "url": ""
         },
         {
           "id": "t-mwkrtfa9jk82",
@@ -1161,7 +1265,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkrro05u0cf"
+          "hito": "h-mwkrro05u0cf",
+          "url": ""
         },
         {
           "id": "t-mwkrttg30cx9",
@@ -1171,7 +1276,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkrro05u0cf"
+          "hito": "h-mwkrro05u0cf",
+          "url": ""
         },
         {
           "id": "t-mwkrtzn7pvus",
@@ -1181,7 +1287,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkrro05u0cf"
+          "hito": "h-mwkrro05u0cf",
+          "url": ""
         },
         {
           "id": "t-mwkru67morbb",
@@ -1191,7 +1298,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkrro05u0cf"
+          "hito": "h-mwkrro05u0cf",
+          "url": ""
         },
         {
           "id": "t-mwkrui15bjny",
@@ -1201,7 +1309,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkrro05u0cf"
+          "hito": "h-mwkrro05u0cf",
+          "url": ""
         },
         {
           "id": "t-mwkruq7n2ht8",
@@ -1211,7 +1320,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkrro05u0cf"
+          "hito": "h-mwkrro05u0cf",
+          "url": ""
         },
         {
           "id": "t-mwkruvkks3re",
@@ -1221,7 +1331,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkrro05u0cf"
+          "hito": "h-mwkrro05u0cf",
+          "url": ""
         },
         {
           "id": "t-mwkrv0q3fnzn",
@@ -1231,7 +1342,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkrro05u0cf"
+          "hito": "h-mwkrro05u0cf",
+          "url": ""
         },
         {
           "id": "t-mwkrv9yk39pe",
@@ -1241,7 +1353,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkrro05u0cf"
+          "hito": "h-mwkrro05u0cf",
+          "url": ""
         },
         {
           "id": "t-mwkrvd7nv16n",
@@ -1251,7 +1364,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkrro05u0cf"
+          "hito": "h-mwkrro05u0cf",
+          "url": ""
         },
         {
           "id": "t-mwkrvl8tr0s0",
@@ -1261,7 +1375,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkrro05u0cf"
+          "hito": "h-mwkrro05u0cf",
+          "url": ""
         },
         {
           "id": "t-mwkrvq9y6mkd",
@@ -1271,7 +1386,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkrro05u0cf"
+          "hito": "h-mwkrro05u0cf",
+          "url": ""
         },
         {
           "id": "t-mwly32lx433t",
@@ -1281,7 +1397,8 @@
           "estado": "en curso",
           "fecha": "",
           "notas": "",
-          "hito": ""
+          "hito": "",
+          "url": ""
         },
         {
           "id": "t-mwm0o6n2y4hz",
@@ -1291,7 +1408,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkicnfx5qn0"
+          "hito": "h-mwkicnfx5qn0",
+          "url": ""
         },
         {
           "id": "t-mwm0o7yq1ogp",
@@ -1301,7 +1419,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkicnfx5qn0"
+          "hito": "h-mwkicnfx5qn0",
+          "url": ""
         },
         {
           "id": "t-mwm0ogglskmo",
@@ -1311,7 +1430,8 @@
           "estado": "en curso",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkicnfx5qn0"
+          "hito": "h-mwkicnfx5qn0",
+          "url": ""
         },
         {
           "id": "t-mwm0ojzlq75g",
@@ -1321,7 +1441,8 @@
           "estado": "en curso",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkicnfx5qn0"
+          "hito": "h-mwkicnfx5qn0",
+          "url": ""
         },
         {
           "id": "t-mwm0op5yxxo7",
@@ -1331,7 +1452,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkicnfx5qn0"
+          "hito": "h-mwkicnfx5qn0",
+          "url": ""
         },
         {
           "id": "t-mwm0ospgrwkt",
@@ -1341,7 +1463,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkicnfx5qn0"
+          "hito": "h-mwkicnfx5qn0",
+          "url": ""
         },
         {
           "id": "t-mwm0owgyyi1p",
@@ -1351,7 +1474,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkicnfx5qn0"
+          "hito": "h-mwkicnfx5qn0",
+          "url": ""
         },
         {
           "id": "t-mwm0ozpo2mds",
@@ -1361,7 +1485,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkicnfx5qn0"
+          "hito": "h-mwkicnfx5qn0",
+          "url": ""
         },
         {
           "id": "t-mwm0p4dcgcsx",
@@ -1371,7 +1496,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkicnfx5qn0"
+          "hito": "h-mwkicnfx5qn0",
+          "url": ""
         },
         {
           "id": "t-mwm0pake5xmu",
@@ -1381,7 +1507,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkicnfx5qn0"
+          "hito": "h-mwkicnfx5qn0",
+          "url": ""
         },
         {
           "id": "t-mwm0pkm00sp2",
@@ -1391,7 +1518,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkicnfx5qn0"
+          "hito": "h-mwkicnfx5qn0",
+          "url": ""
         },
         {
           "id": "t-mwm0pmxi4ze0",
@@ -1401,7 +1529,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkicnfx5qn0"
+          "hito": "h-mwkicnfx5qn0",
+          "url": ""
         },
         {
           "id": "t-mwm0pq79f3g7",
@@ -1411,7 +1540,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkicnfx5qn0"
+          "hito": "h-mwkicnfx5qn0",
+          "url": ""
         },
         {
           "id": "t-mwm0pv1kg1e8",
@@ -1421,7 +1551,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkicnfx5qn0"
+          "hito": "h-mwkicnfx5qn0",
+          "url": ""
         },
         {
           "id": "t-mwm0q0tptle9",
@@ -1431,7 +1562,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkicnfx5qn0"
+          "hito": "h-mwkicnfx5qn0",
+          "url": ""
         },
         {
           "id": "t-mwm0q48kg7gx",
@@ -1441,7 +1573,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkicnfx5qn0"
+          "hito": "h-mwkicnfx5qn0",
+          "url": ""
         },
         {
           "id": "t-mwm6elckzuxm",
@@ -1451,7 +1584,8 @@
           "estado": "hecha",
           "fecha": "2026-11-20",
           "notas": "",
-          "hito": ""
+          "hito": "",
+          "url": ""
         },
         {
           "id": "t-mwnfj1y8yqxk",
@@ -1461,7 +1595,8 @@
           "estado": "hecha",
           "fecha": "2026-11-20",
           "notas": "Viernes 20 antes de las 15:00h",
-          "hito": ""
+          "hito": "",
+          "url": ""
         },
         {
           "id": "t-mwwbm5d4itwg",
@@ -1471,7 +1606,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10w6g27k4"
+          "hito": "h-mwm10w6g27k4",
+          "url": ""
         },
         {
           "id": "t-mwwbm5itz32f",
@@ -1481,7 +1617,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10w6g27k4"
+          "hito": "h-mwm10w6g27k4",
+          "url": ""
         },
         {
           "id": "t-mwwbm5p6b81t",
@@ -1491,7 +1628,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10w6g27k4"
+          "hito": "h-mwm10w6g27k4",
+          "url": ""
         },
         {
           "id": "t-mwwbmcpx0jxy",
@@ -1501,7 +1639,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10w6g27k4"
+          "hito": "h-mwm10w6g27k4",
+          "url": ""
         },
         {
           "id": "t-mwwbmcv8irkv",
@@ -1511,7 +1650,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10w6g27k4"
+          "hito": "h-mwm10w6g27k4",
+          "url": ""
         },
         {
           "id": "t-mwwbmd2u0yyd",
@@ -1521,7 +1661,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10w6g27k4"
+          "hito": "h-mwm10w6g27k4",
+          "url": ""
         },
         {
           "id": "t-mwwbmd7m3jo1",
@@ -1531,7 +1672,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10w6g27k4"
+          "hito": "h-mwm10w6g27k4",
+          "url": ""
         },
         {
           "id": "t-mwwbmdcjyb4f",
@@ -1541,7 +1683,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10w6g27k4"
+          "hito": "h-mwm10w6g27k4",
+          "url": ""
         },
         {
           "id": "t-mwwbmdj4mw6e",
@@ -1551,7 +1694,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10w6g27k4"
+          "hito": "h-mwm10w6g27k4",
+          "url": ""
         },
         {
           "id": "t-mwwbmdpdka71",
@@ -1561,7 +1705,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10w6g27k4"
+          "hito": "h-mwm10w6g27k4",
+          "url": ""
         },
         {
           "id": "t-mwwbmdvkzajn",
@@ -1571,7 +1716,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10w6g27k4"
+          "hito": "h-mwm10w6g27k4",
+          "url": ""
         },
         {
           "id": "t-mwwbmobfnqon",
@@ -1581,7 +1727,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10w6g27k4"
+          "hito": "h-mwm10w6g27k4",
+          "url": ""
         },
         {
           "id": "t-mwwbmoiqzgsi",
@@ -1591,7 +1738,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10w6g27k4"
+          "hito": "h-mwm10w6g27k4",
+          "url": ""
         },
         {
           "id": "t-mwwbmonhdbct",
@@ -1601,7 +1749,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10w6g27k4"
+          "hito": "h-mwm10w6g27k4",
+          "url": ""
         },
         {
           "id": "t-mwwbmosgl36z",
@@ -1611,7 +1760,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10w6g27k4"
+          "hito": "h-mwm10w6g27k4",
+          "url": ""
         },
         {
           "id": "t-mwwbmoxs04h8",
@@ -1621,7 +1771,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10w6g27k4"
+          "hito": "h-mwm10w6g27k4",
+          "url": ""
         },
         {
           "id": "t-mwwbmp2zciov",
@@ -1631,7 +1782,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10w6g27k4"
+          "hito": "h-mwm10w6g27k4",
+          "url": ""
         },
         {
           "id": "t-mwwbmp8mxbmb",
@@ -1641,7 +1793,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10w6g27k4"
+          "hito": "h-mwm10w6g27k4",
+          "url": ""
         },
         {
           "id": "t-mwwbmpdoelwi",
@@ -1651,7 +1804,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10w6g27k4"
+          "hito": "h-mwm10w6g27k4",
+          "url": ""
         },
         {
           "id": "t-mwwbqego1izt",
@@ -1661,7 +1815,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjcq5jsqjrw"
+          "hito": "h-mwjcq5jsqjrw",
+          "url": ""
         },
         {
           "id": "t-mwwbqu5tlsrq",
@@ -1671,7 +1826,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkicnfx5qn0"
+          "hito": "h-mwkicnfx5qn0",
+          "url": ""
         },
         {
           "id": "t-mwwbr03mewyi",
@@ -1681,7 +1837,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkicnfx5qn0"
+          "hito": "h-mwkicnfx5qn0",
+          "url": ""
         },
         {
           "id": "t-mwwbr0cliqvq",
@@ -1691,7 +1848,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkicnfx5qn0"
+          "hito": "h-mwkicnfx5qn0",
+          "url": ""
         },
         {
           "id": "t-mwwbrnj7yydm",
@@ -1701,7 +1859,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10gpvna1d"
+          "hito": "h-mwm10gpvna1d",
+          "url": ""
         },
         {
           "id": "t-mwwbrnscpeuj",
@@ -1711,7 +1870,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10gpvna1d"
+          "hito": "h-mwm10gpvna1d",
+          "url": ""
         },
         {
           "id": "t-mwwbro00ztjl",
@@ -1721,7 +1881,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10gpvna1d"
+          "hito": "h-mwm10gpvna1d",
+          "url": ""
         },
         {
           "id": "t-mwwbro7smhj1",
@@ -1731,7 +1892,8 @@
           "estado": "en curso",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10gpvna1d"
+          "hito": "h-mwm10gpvna1d",
+          "url": ""
         },
         {
           "id": "t-mwwbrofm8kzn",
@@ -1741,7 +1903,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10gpvna1d"
+          "hito": "h-mwm10gpvna1d",
+          "url": ""
         },
         {
           "id": "t-mwwbronchir9",
@@ -1751,7 +1914,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10gpvna1d"
+          "hito": "h-mwm10gpvna1d",
+          "url": ""
         },
         {
           "id": "t-mwwbrx7p5itw",
@@ -1761,7 +1925,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10gpvna1d"
+          "hito": "h-mwm10gpvna1d",
+          "url": ""
         },
         {
           "id": "t-mwwbrxh5x112",
@@ -1771,7 +1936,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10gpvna1d"
+          "hito": "h-mwm10gpvna1d",
+          "url": ""
         },
         {
           "id": "t-mwwbrxpb70c6",
@@ -1781,7 +1947,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10gpvna1d"
+          "hito": "h-mwm10gpvna1d",
+          "url": ""
         },
         {
           "id": "t-mwwbrxxhjro2",
@@ -1791,7 +1958,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10gpvna1d"
+          "hito": "h-mwm10gpvna1d",
+          "url": ""
         },
         {
           "id": "t-mwwbry5ns9h7",
@@ -1801,7 +1969,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10gpvna1d"
+          "hito": "h-mwm10gpvna1d",
+          "url": ""
         },
         {
           "id": "t-mwwbrye6ycnu",
@@ -1811,7 +1980,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10gpvna1d"
+          "hito": "h-mwm10gpvna1d",
+          "url": ""
         },
         {
           "id": "t-mwwbs7vdrafy",
@@ -1821,7 +1991,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10gpvna1d"
+          "hito": "h-mwm10gpvna1d",
+          "url": ""
         },
         {
           "id": "t-mwwbs85z8k35",
@@ -1831,7 +2002,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10gpvna1d"
+          "hito": "h-mwm10gpvna1d",
+          "url": ""
         },
         {
           "id": "t-mwwbs8elqumz",
@@ -1841,7 +2013,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10gpvna1d"
+          "hito": "h-mwm10gpvna1d",
+          "url": ""
         },
         {
           "id": "t-mwwbs8n7ax97",
@@ -1851,7 +2024,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10gpvna1d"
+          "hito": "h-mwm10gpvna1d",
+          "url": ""
         },
         {
           "id": "t-mwwbs8w8xd2c",
@@ -1861,7 +2035,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10gpvna1d"
+          "hito": "h-mwm10gpvna1d",
+          "url": ""
         },
         {
           "id": "t-mwwbs94xpfnr",
@@ -1871,7 +2046,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10gpvna1d"
+          "hito": "h-mwm10gpvna1d",
+          "url": ""
         },
         {
           "id": "t-mwwbsfk4k7wl",
@@ -1881,7 +2057,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwm10gpvna1d"
+          "hito": "h-mwm10gpvna1d",
+          "url": ""
         },
         {
           "id": "t-mwwc6rh5qu22",
@@ -1891,7 +2068,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc5vxa78bh"
+          "hito": "h-mwwc5vxa78bh",
+          "url": ""
         },
         {
           "id": "t-mwwc6rpsyt92",
@@ -1901,7 +2079,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc5vxa78bh"
+          "hito": "h-mwwc5vxa78bh",
+          "url": ""
         },
         {
           "id": "t-mwwc6rx92e1a",
@@ -1911,7 +2090,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc5vxa78bh"
+          "hito": "h-mwwc5vxa78bh",
+          "url": ""
         },
         {
           "id": "t-mwwc6s52e6gy",
@@ -1921,7 +2101,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc5vxa78bh"
+          "hito": "h-mwwc5vxa78bh",
+          "url": ""
         },
         {
           "id": "t-mwwc6scfupgp",
@@ -1931,7 +2112,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc5vxa78bh"
+          "hito": "h-mwwc5vxa78bh",
+          "url": ""
         },
         {
           "id": "t-mwwc6sjlo0zp",
@@ -1941,7 +2123,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc5vxa78bh"
+          "hito": "h-mwwc5vxa78bh",
+          "url": ""
         },
         {
           "id": "t-mwwc70tas9pr",
@@ -1951,7 +2134,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc5vxa78bh"
+          "hito": "h-mwwc5vxa78bh",
+          "url": ""
         },
         {
           "id": "t-mwwc711ilurl",
@@ -1961,7 +2145,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc5vxa78bh"
+          "hito": "h-mwwc5vxa78bh",
+          "url": ""
         },
         {
           "id": "t-mwwc717ztzj8",
@@ -1971,7 +2156,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc5vxa78bh"
+          "hito": "h-mwwc5vxa78bh",
+          "url": ""
         },
         {
           "id": "t-mwwc71euck7s",
@@ -1981,7 +2167,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc5vxa78bh"
+          "hito": "h-mwwc5vxa78bh",
+          "url": ""
         },
         {
           "id": "t-mwwc71lg5ld7",
@@ -1991,7 +2178,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc5vxa78bh"
+          "hito": "h-mwwc5vxa78bh",
+          "url": ""
         },
         {
           "id": "t-mwwc71t7gpw5",
@@ -2001,7 +2189,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc5vxa78bh"
+          "hito": "h-mwwc5vxa78bh",
+          "url": ""
         },
         {
           "id": "t-mwwc7a3ktqku",
@@ -2011,7 +2200,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc5vxa78bh"
+          "hito": "h-mwwc5vxa78bh",
+          "url": ""
         },
         {
           "id": "t-mwwc7abrgyb0",
@@ -2021,7 +2211,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc5vxa78bh"
+          "hito": "h-mwwc5vxa78bh",
+          "url": ""
         },
         {
           "id": "t-mwwc7aivyguq",
@@ -2031,7 +2222,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc5vxa78bh"
+          "hito": "h-mwwc5vxa78bh",
+          "url": ""
         },
         {
           "id": "t-mwwc7apvys16",
@@ -2041,7 +2233,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc5vxa78bh"
+          "hito": "h-mwwc5vxa78bh",
+          "url": ""
         },
         {
           "id": "t-mwwc7axj99bu",
@@ -2051,7 +2244,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc5vxa78bh"
+          "hito": "h-mwwc5vxa78bh",
+          "url": ""
         },
         {
           "id": "t-mwwc7b6i29ch",
@@ -2061,7 +2255,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc5vxa78bh"
+          "hito": "h-mwwc5vxa78bh",
+          "url": ""
         },
         {
           "id": "t-mwwc7dw4t65x",
@@ -2071,7 +2266,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc5vxa78bh"
+          "hito": "h-mwwc5vxa78bh",
+          "url": ""
         },
         {
           "id": "t-mwwc7oinwhai",
@@ -2081,7 +2277,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc69vdb78o"
+          "hito": "h-mwwc69vdb78o",
+          "url": ""
         },
         {
           "id": "t-mwwc7orbsprv",
@@ -2091,7 +2288,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc69vdb78o"
+          "hito": "h-mwwc69vdb78o",
+          "url": ""
         },
         {
           "id": "t-mwwc7p079wm3",
@@ -2101,7 +2299,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc69vdb78o"
+          "hito": "h-mwwc69vdb78o",
+          "url": ""
         },
         {
           "id": "t-mwwc7p8qhctw",
@@ -2111,7 +2310,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc69vdb78o"
+          "hito": "h-mwwc69vdb78o",
+          "url": ""
         },
         {
           "id": "t-mwwc7ph5rbn7",
@@ -2121,7 +2321,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc69vdb78o"
+          "hito": "h-mwwc69vdb78o",
+          "url": ""
         },
         {
           "id": "t-mwwc7pptnwhr",
@@ -2131,7 +2332,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc69vdb78o"
+          "hito": "h-mwwc69vdb78o",
+          "url": ""
         },
         {
           "id": "t-mwwc7xrxolfu",
@@ -2141,7 +2343,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc69vdb78o"
+          "hito": "h-mwwc69vdb78o",
+          "url": ""
         },
         {
           "id": "t-mwwc7y1citu8",
@@ -2151,7 +2354,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc69vdb78o"
+          "hito": "h-mwwc69vdb78o",
+          "url": ""
         },
         {
           "id": "t-mwwc7y97fy4l",
@@ -2161,7 +2365,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc69vdb78o"
+          "hito": "h-mwwc69vdb78o",
+          "url": ""
         },
         {
           "id": "t-mwwc7yhv23wn",
@@ -2171,7 +2376,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc69vdb78o"
+          "hito": "h-mwwc69vdb78o",
+          "url": ""
         },
         {
           "id": "t-mwwc7yqa8e53",
@@ -2181,7 +2387,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc69vdb78o"
+          "hito": "h-mwwc69vdb78o",
+          "url": ""
         },
         {
           "id": "t-mwwc7yz11yxe",
@@ -2191,7 +2398,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc69vdb78o"
+          "hito": "h-mwwc69vdb78o",
+          "url": ""
         },
         {
           "id": "t-mwwc87e6af2c",
@@ -2201,7 +2409,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc69vdb78o"
+          "hito": "h-mwwc69vdb78o",
+          "url": ""
         },
         {
           "id": "t-mwwc87o0momr",
@@ -2211,7 +2420,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc69vdb78o"
+          "hito": "h-mwwc69vdb78o",
+          "url": ""
         },
         {
           "id": "t-mwwc87wc0tak",
@@ -2221,7 +2431,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc69vdb78o"
+          "hito": "h-mwwc69vdb78o",
+          "url": ""
         },
         {
           "id": "t-mwwc884zblk6",
@@ -2231,7 +2442,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc69vdb78o"
+          "hito": "h-mwwc69vdb78o",
+          "url": ""
         },
         {
           "id": "t-mwwc88djahw5",
@@ -2241,7 +2453,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc69vdb78o"
+          "hito": "h-mwwc69vdb78o",
+          "url": ""
         },
         {
           "id": "t-mwwc88m7cjgs",
@@ -2251,7 +2464,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc69vdb78o"
+          "hito": "h-mwwc69vdb78o",
+          "url": ""
         },
         {
           "id": "t-mwwc8ekp4hpv",
@@ -2261,7 +2475,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwwc69vdb78o"
+          "hito": "h-mwwc69vdb78o",
+          "url": ""
         }
       ]
     },
@@ -2295,7 +2510,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjbe12dp0b5"
+          "hito": "h-mwjbe12dp0b5",
+          "url": ""
         },
         {
           "id": "t-lin-2",
@@ -2305,7 +2521,8 @@
           "estado": "en curso",
           "fecha": "2026-12-09",
           "notas": "programar",
-          "hito": "h-mwjbe12dp0b5"
+          "hito": "h-mwjbe12dp0b5",
+          "url": ""
         },
         {
           "id": "t-lin-3",
@@ -2315,7 +2532,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjbe12dp0b5"
+          "hito": "h-mwjbe12dp0b5",
+          "url": ""
         },
         {
           "id": "t-lin-4",
@@ -2325,7 +2543,8 @@
           "estado": "bloqueada",
           "fecha": "",
           "notas": "Estado: parado",
-          "hito": "h-mwjbe12dp0b5"
+          "hito": "h-mwjbe12dp0b5",
+          "url": ""
         },
         {
           "id": "t-mwji9kcb9pv4",
@@ -2335,7 +2554,8 @@
           "estado": "en curso",
           "fecha": "2026-11-17",
           "notas": "Falta montar en Hubspot",
-          "hito": "h-mwjice769636"
+          "hito": "h-mwjice769636",
+          "url": ""
         },
         {
           "id": "t-mwjiffnimdt4",
@@ -2345,7 +2565,8 @@
           "estado": "en curso",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjice769636"
+          "hito": "h-mwjice769636",
+          "url": ""
         },
         {
           "id": "t-mwjig76g5u8k",
@@ -2355,7 +2576,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjice769636"
+          "hito": "h-mwjice769636",
+          "url": ""
         },
         {
           "id": "t-mwjignm4kidw",
@@ -2365,7 +2587,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjice769636"
+          "hito": "h-mwjice769636",
+          "url": ""
         },
         {
           "id": "t-mwjigy0jg15q",
@@ -2375,7 +2598,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjice769636"
+          "hito": "h-mwjice769636",
+          "url": ""
         },
         {
           "id": "t-mwjiiqku3y6y",
@@ -2385,7 +2609,8 @@
           "estado": "en curso",
           "fecha": "2026-11-25",
           "notas": "",
-          "hito": "h-mwjbe12dp0b5"
+          "hito": "h-mwjbe12dp0b5",
+          "url": ""
         },
         {
           "id": "t-mwjijvnd4afr",
@@ -2395,7 +2620,8 @@
           "estado": "en curso",
           "fecha": "2026-11-23",
           "notas": "",
-          "hito": "h-mwjbe12dp0b5"
+          "hito": "h-mwjbe12dp0b5",
+          "url": ""
         },
         {
           "id": "t-mwkqndjpo728",
@@ -2405,7 +2631,8 @@
           "estado": "hecha",
           "fecha": "2026-11-16",
           "notas": "",
-          "hito": "h-mwjice769636"
+          "hito": "h-mwjice769636",
+          "url": ""
         }
       ]
     },
@@ -2457,7 +2684,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-con-1"
+          "hito": "h-con-1",
+          "url": ""
         },
         {
           "id": "t-con-2",
@@ -2467,7 +2695,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-con-1"
+          "hito": "h-con-1",
+          "url": ""
         },
         {
           "id": "t-con-3",
@@ -2477,27 +2706,30 @@
           "estado": "en curso",
           "fecha": "2026-11-23",
           "notas": "",
-          "hito": "h-con-1"
+          "hito": "h-con-1",
+          "url": ""
         },
         {
           "id": "t-con-4",
           "titulo": "Montaje del curso",
           "owner": "Jero",
           "prioridad": "alta",
-          "estado": "pendiente",
+          "estado": "hecha",
           "fecha": "2026-11-30",
           "notas": "Jero y Esther",
-          "hito": "h-con-1"
+          "hito": "h-con-1",
+          "url": ""
         },
         {
           "id": "t-con-5",
           "titulo": "Seguimiento de la formación",
-          "owner": "",
+          "owner": "Jero y Esther",
           "prioridad": "media",
           "estado": "pendiente",
           "fecha": "2026-12-31",
           "notas": "",
-          "hito": "h-con-1"
+          "hito": "h-con-1",
+          "url": ""
         },
         {
           "id": "t-con-6",
@@ -2505,9 +2737,10 @@
           "owner": "Jero",
           "prioridad": "media",
           "estado": "pendiente",
-          "fecha": "2026-12-30",
+          "fecha": "2026-11-26",
           "notas": "",
-          "hito": "h-con-1"
+          "hito": "h-con-1",
+          "url": ""
         },
         {
           "id": "t-con-7",
@@ -2517,7 +2750,8 @@
           "estado": "en curso",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwjdfjq85hb3"
+          "hito": "h-mwjdfjq85hb3",
+          "url": ""
         },
         {
           "id": "t-con-8",
@@ -2527,7 +2761,8 @@
           "estado": "en curso",
           "fecha": "2026-11-23",
           "notas": "Escribir Vicent",
-          "hito": "h-mwjdjwnu4s5b"
+          "hito": "h-mwjdjwnu4s5b",
+          "url": ""
         },
         {
           "id": "t-mwjdhpi8k9ms",
@@ -2537,7 +2772,8 @@
           "estado": "pendiente",
           "fecha": "2026-11-30",
           "notas": "",
-          "hito": "h-con-1"
+          "hito": "h-con-1",
+          "url": ""
         },
         {
           "id": "t-mwjdi60xcshr",
@@ -2547,7 +2783,8 @@
           "estado": "pendiente",
           "fecha": "2026-11-30",
           "notas": "",
-          "hito": "h-con-1"
+          "hito": "h-con-1",
+          "url": ""
         },
         {
           "id": "t-mwjding6cbyd",
@@ -2557,17 +2794,19 @@
           "estado": "hecha",
           "fecha": "2026-11-10",
           "notas": "",
-          "hito": "h-mwjdfjq85hb3"
+          "hito": "h-mwjdfjq85hb3",
+          "url": ""
         },
         {
           "id": "t-mwjdj236p9wl",
           "titulo": "Capturas de pantalla para la POE",
           "owner": "Andrea y Jero",
           "prioridad": "alta",
-          "estado": "pendiente",
+          "estado": "en curso",
           "fecha": "2026-12-31",
           "notas": "",
-          "hito": "h-mwjdfjq85hb3"
+          "hito": "h-mwjdfjq85hb3",
+          "url": ""
         },
         {
           "id": "t-mwjdkpwvctqm",
@@ -2577,7 +2816,8 @@
           "estado": "hecha",
           "fecha": "2026-11-19",
           "notas": "",
-          "hito": "h-mwjdjwnu4s5b"
+          "hito": "h-mwjdjwnu4s5b",
+          "url": ""
         },
         {
           "id": "t-mwjdm06eh07r",
@@ -2587,7 +2827,8 @@
           "estado": "hecha",
           "fecha": "2026-11-16",
           "notas": "",
-          "hito": "h-mwjdlk60qxpl"
+          "hito": "h-mwjdlk60qxpl",
+          "url": ""
         },
         {
           "id": "t-mwjdmd3proud",
@@ -2597,7 +2838,8 @@
           "estado": "pendiente",
           "fecha": "2026-11-23",
           "notas": "",
-          "hito": "h-mwjdlk60qxpl"
+          "hito": "h-mwjdlk60qxpl",
+          "url": ""
         },
         {
           "id": "t-mwjeu5bympvi",
@@ -2607,7 +2849,8 @@
           "estado": "hecha",
           "fecha": "2026-11-19",
           "notas": "",
-          "hito": "h-con-1"
+          "hito": "h-con-1",
+          "url": ""
         },
         {
           "id": "t-mwkqjv56wdtm",
@@ -2617,7 +2860,8 @@
           "estado": "en curso",
           "fecha": "2026-11-18",
           "notas": "",
-          "hito": "h-mwjdjwnu4s5b"
+          "hito": "h-mwjdjwnu4s5b",
+          "url": ""
         },
         {
           "id": "t-mwkqkn50knzx",
@@ -2627,7 +2871,8 @@
           "estado": "hecha",
           "fecha": "2026-11-18",
           "notas": "",
-          "hito": "h-con-1"
+          "hito": "h-con-1",
+          "url": ""
         },
         {
           "id": "t-mwuiw9tiyec5",
@@ -2637,7 +2882,8 @@
           "estado": "en curso",
           "fecha": "2026-12-07",
           "notas": "",
-          "hito": "h-mwuiw1784wlo"
+          "hito": "h-mwuiw1784wlo",
+          "url": ""
         },
         {
           "id": "t-mwuiwmry1a7l",
@@ -2647,7 +2893,8 @@
           "estado": "en curso",
           "fecha": "2027-01-11",
           "notas": "",
-          "hito": "h-mwuiw1784wlo"
+          "hito": "h-mwuiw1784wlo",
+          "url": ""
         },
         {
           "id": "t-mwuiwz1mf8iv",
@@ -2657,7 +2904,8 @@
           "estado": "pendiente",
           "fecha": "2027-05-31",
           "notas": "",
-          "hito": "h-mwuiw1784wlo"
+          "hito": "h-mwuiw1784wlo",
+          "url": ""
         },
         {
           "id": "t-mwuixidmv1ig",
@@ -2667,7 +2915,8 @@
           "estado": "pendiente",
           "fecha": "2027-05-31",
           "notas": "Esther pasar a Andrea reportes, Andrea mandar mail a Emilio",
-          "hito": "h-mwuiw1784wlo"
+          "hito": "h-mwuiw1784wlo",
+          "url": ""
         }
       ]
     },
@@ -2701,7 +2950,8 @@
           "estado": "hecha",
           "fecha": "2026-11-20",
           "notas": "",
-          "hito": "h-mwjbazx485bo"
+          "hito": "h-mwjbazx485bo",
+          "url": ""
         },
         {
           "id": "t-dif-2",
@@ -2711,7 +2961,8 @@
           "estado": "hecha",
           "fecha": "2026-11-23",
           "notas": "Paymedia 500€, Meta y…",
-          "hito": "h-mwjbazx485bo"
+          "hito": "h-mwjbazx485bo",
+          "url": ""
         },
         {
           "id": "t-dif-3",
@@ -2721,7 +2972,8 @@
           "estado": "hecha",
           "fecha": "2026-11-23",
           "notas": "Dura un pelin más https://l3tcraftedu.sharepoint.com/:v:/s/E-LearningLetcraft/IQDQc5p-STyGQpg1zj0ywN9cAbVLLlIvCZsN4N6CCQFSeZU?e=atAazR",
-          "hito": "h-mwjbazx485bo"
+          "hito": "h-mwjbazx485bo",
+          "url": ""
         },
         {
           "id": "t-mwordnsaib3s",
@@ -2731,7 +2983,8 @@
           "estado": "hecha",
           "fecha": "2026-11-19",
           "notas": "",
-          "hito": "h-mwjbazx485bo"
+          "hito": "h-mwjbazx485bo",
+          "url": ""
         },
         {
           "id": "t-mwot9ksx3gto",
@@ -2741,7 +2994,8 @@
           "estado": "hecha",
           "fecha": "2026-11-20",
           "notas": "",
-          "hito": "h-mwjbazx485bo"
+          "hito": "h-mwjbazx485bo",
+          "url": ""
         },
         {
           "id": "t-mwot9ujh9tzm",
@@ -2751,7 +3005,8 @@
           "estado": "hecha",
           "fecha": "2026-11-23",
           "notas": "",
-          "hito": "h-mwjbazx485bo"
+          "hito": "h-mwjbazx485bo",
+          "url": ""
         },
         {
           "id": "t-mwota763v3op",
@@ -2761,7 +3016,8 @@
           "estado": "pendiente",
           "fecha": "2026-12-01",
           "notas": "",
-          "hito": "h-mwjbazx485bo"
+          "hito": "h-mwjbazx485bo",
+          "url": ""
         },
         {
           "id": "t-mwotan2xx3u0",
@@ -2771,7 +3027,8 @@
           "estado": "en curso",
           "fecha": "2026-11-26",
           "notas": "",
-          "hito": "h-mwjbazx485bo"
+          "hito": "h-mwjbazx485bo",
+          "url": ""
         },
         {
           "id": "t-mwotb4syuws4",
@@ -2781,7 +3038,8 @@
           "estado": "pendiente",
           "fecha": "2026-12-03",
           "notas": "",
-          "hito": "h-mwjbazx485bo"
+          "hito": "h-mwjbazx485bo",
+          "url": ""
         },
         {
           "id": "t-mwotbynttsue",
@@ -2791,7 +3049,8 @@
           "estado": "pendiente",
           "fecha": "2026-12-04",
           "notas": "",
-          "hito": "h-mwjbazx485bo"
+          "hito": "h-mwjbazx485bo",
+          "url": ""
         },
         {
           "id": "t-mwotc78q937b",
@@ -2801,7 +3060,8 @@
           "estado": "pendiente",
           "fecha": "2026-12-07",
           "notas": "",
-          "hito": "h-mwjbazx485bo"
+          "hito": "h-mwjbazx485bo",
+          "url": ""
         },
         {
           "id": "t-mwoqxzjff735",
@@ -2811,7 +3071,8 @@
           "estado": "en curso",
           "fecha": "2026-12-07",
           "notas": "",
-          "hito": "h-mwjbazx485bo"
+          "hito": "h-mwjbazx485bo",
+          "url": ""
         },
         {
           "id": "t-mwt8gxxocsyn",
@@ -2821,7 +3082,8 @@
           "estado": "en curso",
           "fecha": "2026-11-23",
           "notas": "FALTAN ENLACES WEBINARS",
-          "hito": "h-mwt8jh8v2wv0"
+          "hito": "h-mwt8jh8v2wv0",
+          "url": ""
         },
         {
           "id": "t-mwt8kgtp5jf0",
@@ -2831,7 +3093,8 @@
           "estado": "hecha",
           "fecha": "2026-11-24",
           "notas": "",
-          "hito": "h-mwt8jh8v2wv0"
+          "hito": "h-mwt8jh8v2wv0",
+          "url": ""
         },
         {
           "id": "t-mwt8mgav2omk",
@@ -2841,7 +3104,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwt8jh8v2wv0"
+          "hito": "h-mwt8jh8v2wv0",
+          "url": ""
         }
       ]
     },
@@ -2911,7 +3175,8 @@
           "estado": "hecha",
           "fecha": "2026-11-17",
           "notas": "",
-          "hito": "h-mwjfn2mo71xg"
+          "hito": "h-mwjfn2mo71xg",
+          "url": ""
         },
         {
           "id": "t-mwju7n4yz8jn",
@@ -2921,7 +3186,8 @@
           "estado": "en curso",
           "fecha": "2026-11-19",
           "notas": "De momento nada",
-          "hito": "h-mwjfn2mo71xg"
+          "hito": "h-mwjfn2mo71xg",
+          "url": ""
         },
         {
           "id": "t-mwju802p1vrc",
@@ -2931,7 +3197,8 @@
           "estado": "pendiente",
           "fecha": "2026-11-23",
           "notas": "",
-          "hito": "h-mwjfn2mo71xg"
+          "hito": "h-mwjfn2mo71xg",
+          "url": ""
         },
         {
           "id": "t-mwju8gcjejmu",
@@ -2941,7 +3208,8 @@
           "estado": "pendiente",
           "fecha": "2026-11-24",
           "notas": "",
-          "hito": "h-mwjfn2mo71xg"
+          "hito": "h-mwjfn2mo71xg",
+          "url": ""
         },
         {
           "id": "t-mwju8y3u0nvx",
@@ -2951,7 +3219,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "Talleristas Madrid: Elisa",
-          "hito": "h-mwjfn2mo71xg"
+          "hito": "h-mwjfn2mo71xg",
+          "url": ""
         },
         {
           "id": "t-mwkgc29tus2y",
@@ -2961,7 +3230,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkgbm3yw7k3"
+          "hito": "h-mwkgbm3yw7k3",
+          "url": ""
         },
         {
           "id": "t-mwkgdrgpptl1",
@@ -2971,7 +3241,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkgbm3yw7k3"
+          "hito": "h-mwkgbm3yw7k3",
+          "url": ""
         },
         {
           "id": "t-mwkgdz23biyu",
@@ -2981,7 +3252,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkgbm3yw7k3"
+          "hito": "h-mwkgbm3yw7k3",
+          "url": ""
         },
         {
           "id": "t-mwkge34n1q3m",
@@ -2991,7 +3263,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkgbm3yw7k3"
+          "hito": "h-mwkgbm3yw7k3",
+          "url": ""
         },
         {
           "id": "t-mwkge7ceisyn",
@@ -3001,7 +3274,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkgbm3yw7k3"
+          "hito": "h-mwkgbm3yw7k3",
+          "url": ""
         },
         {
           "id": "t-mwkgecrnrhyh",
@@ -3011,7 +3285,8 @@
           "estado": "en curso",
           "fecha": "",
           "notas": "Buscando profe",
-          "hito": "h-mwkgbm3yw7k3"
+          "hito": "h-mwkgbm3yw7k3",
+          "url": ""
         },
         {
           "id": "t-mwkgehntuiqd",
@@ -3021,7 +3296,8 @@
           "estado": "en curso",
           "fecha": "",
           "notas": "Aranzazu si es Jueves o Viernes  de mañana",
-          "hito": "h-mwkgbm3yw7k3"
+          "hito": "h-mwkgbm3yw7k3",
+          "url": ""
         },
         {
           "id": "t-mwkgqpodzm9n",
@@ -3031,7 +3307,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkgq6503g1w"
+          "hito": "h-mwkgq6503g1w",
+          "url": ""
         },
         {
           "id": "t-mwkgqut7yhja",
@@ -3041,7 +3318,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkgq6503g1w"
+          "hito": "h-mwkgq6503g1w",
+          "url": ""
         },
         {
           "id": "t-mwkgr2y5m1ig",
@@ -3051,7 +3329,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkgq6503g1w"
+          "hito": "h-mwkgq6503g1w",
+          "url": ""
         },
         {
           "id": "t-mwkgr8k8hwh8",
@@ -3061,7 +3340,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "Ya se han coordinado",
-          "hito": "h-mwkgq6503g1w"
+          "hito": "h-mwkgq6503g1w",
+          "url": ""
         },
         {
           "id": "t-mwkgra1nn6op",
@@ -3071,7 +3351,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "Charla el 23/11. Falta que Laura confirme que está todo coordinado",
-          "hito": "h-mwkgq6503g1w"
+          "hito": "h-mwkgq6503g1w",
+          "url": ""
         },
         {
           "id": "t-mwkgrihykvzd",
@@ -3081,7 +3362,8 @@
           "estado": "en curso",
           "fecha": "2026-11-24",
           "notas": "Unos 15 días después de la charla (sobre el 7/12). 5º y 6º de primaria, 1º y 2º de ESO (línea 1",
-          "hito": "h-mwkgq6503g1w"
+          "hito": "h-mwkgq6503g1w",
+          "url": ""
         },
         {
           "id": "t-mwkgrk3mtyk5",
@@ -3091,7 +3373,8 @@
           "estado": "hecha",
           "fecha": "2026-11-25",
           "notas": "techmakers  JOSE",
-          "hito": "h-mwkgq6503g1w"
+          "hito": "h-mwkgq6503g1w",
+          "url": ""
         },
         {
           "id": "t-mwkgv326e8ms",
@@ -3101,7 +3384,8 @@
           "estado": "hecha",
           "fecha": "2026-11-16",
           "notas": "",
-          "hito": "h-mwkgunc0dzdv"
+          "hito": "h-mwkgunc0dzdv",
+          "url": ""
         },
         {
           "id": "t-mwkgvdsufn72",
@@ -3111,7 +3395,8 @@
           "estado": "hecha",
           "fecha": "2026-11-20",
           "notas": "Enviado de nuevo formulario a coordinadores",
-          "hito": "h-mwkgunc0dzdv"
+          "hito": "h-mwkgunc0dzdv",
+          "url": ""
         },
         {
           "id": "t-mwkgvhzznja7",
@@ -3121,7 +3406,8 @@
           "estado": "hecha",
           "fecha": "2026-11-23",
           "notas": "",
-          "hito": "h-mwkgunc0dzdv"
+          "hito": "h-mwkgunc0dzdv",
+          "url": ""
         },
         {
           "id": "t-mwkgvm4koawa",
@@ -3131,7 +3417,8 @@
           "estado": "en curso",
           "fecha": "2026-11-23",
           "notas": "",
-          "hito": "h-mwkgunc0dzdv"
+          "hito": "h-mwkgunc0dzdv",
+          "url": ""
         },
         {
           "id": "t-mwkgvter64k7",
@@ -3141,7 +3428,8 @@
           "estado": "pendiente",
           "fecha": "2026-11-23",
           "notas": "",
-          "hito": "h-mwkgunc0dzdv"
+          "hito": "h-mwkgunc0dzdv",
+          "url": ""
         },
         {
           "id": "t-mwkgvumyb388",
@@ -3151,7 +3439,8 @@
           "estado": "en curso",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkgunc0dzdv"
+          "hito": "h-mwkgunc0dzdv",
+          "url": ""
         },
         {
           "id": "t-mwkgw2e5vre5",
@@ -3161,7 +3450,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkgunc0dzdv"
+          "hito": "h-mwkgunc0dzdv",
+          "url": ""
         },
         {
           "id": "t-mwkgw8s1embw",
@@ -3171,7 +3461,8 @@
           "estado": "en curso",
           "fecha": "",
           "notas": "Nico Chiari",
-          "hito": "h-mwkgunc0dzdv"
+          "hito": "h-mwkgunc0dzdv",
+          "url": ""
         },
         {
           "id": "t-mwkhezk6ny0r",
@@ -3181,7 +3472,8 @@
           "estado": "hecha",
           "fecha": "2026-11-16",
           "notas": "Diego Olivar",
-          "hito": "h-mwkhet2ydvtp"
+          "hito": "h-mwkhet2ydvtp",
+          "url": ""
         },
         {
           "id": "t-mwkhf4jj1o5z",
@@ -3191,7 +3483,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkhet2ydvtp"
+          "hito": "h-mwkhet2ydvtp",
+          "url": ""
         },
         {
           "id": "t-mwkhf9r9kebp",
@@ -3201,7 +3494,8 @@
           "estado": "hecha",
           "fecha": "2026-11-23",
           "notas": "LLamar o escribir de nuevo",
-          "hito": "h-mwkhet2ydvtp"
+          "hito": "h-mwkhet2ydvtp",
+          "url": ""
         },
         {
           "id": "t-mwkhfe0gi4fq",
@@ -3211,7 +3505,8 @@
           "estado": "en curso",
           "fecha": "2026-11-20",
           "notas": "",
-          "hito": "h-mwkhet2ydvtp"
+          "hito": "h-mwkhet2ydvtp",
+          "url": ""
         },
         {
           "id": "t-mwkhfh7ovh9h",
@@ -3221,7 +3516,8 @@
           "estado": "pendiente",
           "fecha": "2026-11-20",
           "notas": "",
-          "hito": "h-mwkhet2ydvtp"
+          "hito": "h-mwkhet2ydvtp",
+          "url": ""
         },
         {
           "id": "t-mwkhflief0z5",
@@ -3231,7 +3527,8 @@
           "estado": "pendiente",
           "fecha": "2026-11-23",
           "notas": "",
-          "hito": "h-mwkhet2ydvtp"
+          "hito": "h-mwkhet2ydvtp",
+          "url": ""
         },
         {
           "id": "t-mwkhfruw2tkb",
@@ -3241,7 +3538,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "Que coincida con el día del CEIP San Fernando (Valladolid)",
-          "hito": "h-mwkhet2ydvtp"
+          "hito": "h-mwkhet2ydvtp",
+          "url": ""
         },
         {
           "id": "t-mwkhfvkjtdtk",
@@ -3251,7 +3549,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkhet2ydvtp"
+          "hito": "h-mwkhet2ydvtp",
+          "url": ""
         },
         {
           "id": "t-mwkhg3amxgfn",
@@ -3261,7 +3560,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "Victor?¿",
-          "hito": "h-mwkhet2ydvtp"
+          "hito": "h-mwkhet2ydvtp",
+          "url": ""
         },
         {
           "id": "t-mwkk4fnj8t9r",
@@ -3271,7 +3571,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkk2zmu4nqs"
+          "hito": "h-mwkk2zmu4nqs",
+          "url": ""
         },
         {
           "id": "t-mwkk4m6h1hkf",
@@ -3281,7 +3582,8 @@
           "estado": "hecha",
           "fecha": "2026-11-13",
           "notas": "",
-          "hito": "h-mwkk2zmu4nqs"
+          "hito": "h-mwkk2zmu4nqs",
+          "url": ""
         },
         {
           "id": "t-mwkk4pqhweah",
@@ -3291,7 +3593,8 @@
           "estado": "hecha",
           "fecha": "2026-11-16",
           "notas": "",
-          "hito": "h-mwkk2zmu4nqs"
+          "hito": "h-mwkk2zmu4nqs",
+          "url": ""
         },
         {
           "id": "t-mwkk4t94agep",
@@ -3301,7 +3604,8 @@
           "estado": "pendiente",
           "fecha": "2026-11-20",
           "notas": "",
-          "hito": "h-mwkk2zmu4nqs"
+          "hito": "h-mwkk2zmu4nqs",
+          "url": ""
         },
         {
           "id": "t-mwkk4xkwojod",
@@ -3311,7 +3615,8 @@
           "estado": "pendiente",
           "fecha": "2026-11-20",
           "notas": "",
-          "hito": "h-mwkk2zmu4nqs"
+          "hito": "h-mwkk2zmu4nqs",
+          "url": ""
         },
         {
           "id": "t-mwkk521nznn3",
@@ -3321,7 +3626,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkk2zmu4nqs"
+          "hito": "h-mwkk2zmu4nqs",
+          "url": ""
         },
         {
           "id": "t-mwkk58b1xk9o",
@@ -3331,7 +3637,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkk2zmu4nqs"
+          "hito": "h-mwkk2zmu4nqs",
+          "url": ""
         },
         {
           "id": "t-mwkk5ccrxdgw",
@@ -3341,7 +3648,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "Las llevamos nosotros",
-          "hito": "h-mwkk2zmu4nqs"
+          "hito": "h-mwkk2zmu4nqs",
+          "url": ""
         },
         {
           "id": "t-mwkk5futk3zj",
@@ -3351,7 +3659,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkk2zmu4nqs"
+          "hito": "h-mwkk2zmu4nqs",
+          "url": ""
         },
         {
           "id": "t-mwkk638k2r0f",
@@ -3361,7 +3670,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkk2zmu4nqs"
+          "hito": "h-mwkk2zmu4nqs",
+          "url": ""
         },
         {
           "id": "t-mwklishx5p9o",
@@ -3371,7 +3681,8 @@
           "estado": "hecha",
           "fecha": "2026-11-24",
           "notas": "Programado mañana con la propuesta talleres",
-          "hito": "h-mwkgq6503g1w"
+          "hito": "h-mwkgq6503g1w",
+          "url": ""
         },
         {
           "id": "t-mwkqbddabw7o",
@@ -3381,7 +3692,8 @@
           "estado": "pendiente",
           "fecha": "2026-11-30",
           "notas": "Verónica Burgos AEPAE",
-          "hito": "h-mwkgbm3yw7k3"
+          "hito": "h-mwkgbm3yw7k3",
+          "url": ""
         },
         {
           "id": "t-mwkqdq7rx51x",
@@ -3391,7 +3703,8 @@
           "estado": "pendiente",
           "fecha": "2026-11-23",
           "notas": "",
-          "hito": "h-mwkk2zmu4nqs"
+          "hito": "h-mwkk2zmu4nqs",
+          "url": ""
         },
         {
           "id": "t-mwkqgvsgnck1",
@@ -3401,7 +3714,8 @@
           "estado": "pendiente",
           "fecha": "2026-11-19",
           "notas": "",
-          "hito": "h-mwjfn2mo71xg"
+          "hito": "h-mwjfn2mo71xg",
+          "url": ""
         },
         {
           "id": "t-mwkqj0igibdz",
@@ -3411,7 +3725,8 @@
           "estado": "hecha",
           "fecha": "2026-11-23",
           "notas": "",
-          "hito": "h-mwkgq6503g1w"
+          "hito": "h-mwkgq6503g1w",
+          "url": ""
         },
         {
           "id": "t-mwkqjgxirp6d",
@@ -3421,7 +3736,8 @@
           "estado": "en curso",
           "fecha": "2026-11-27",
           "notas": "",
-          "hito": "h-mwkgbm3yw7k3"
+          "hito": "h-mwkgbm3yw7k3",
+          "url": ""
         },
         {
           "id": "t-mwnf8b1nb4rm",
@@ -3431,7 +3747,8 @@
           "estado": "hecha",
           "fecha": "2026-11-19",
           "notas": "Me pasa una PPT que tiene",
-          "hito": "h-mwnf818ad4uv"
+          "hito": "h-mwnf818ad4uv",
+          "url": ""
         },
         {
           "id": "t-mwnf8hm8jbkj",
@@ -3441,7 +3758,8 @@
           "estado": "hecha",
           "fecha": "2026-11-19",
           "notas": "Añadir  contenido",
-          "hito": "h-mwnf818ad4uv"
+          "hito": "h-mwnf818ad4uv",
+          "url": ""
         },
         {
           "id": "t-mwotjc0jm85k",
@@ -3451,7 +3769,8 @@
           "estado": "pendiente",
           "fecha": "2026-11-24",
           "notas": "",
-          "hito": "h-mwkgq6503g1w"
+          "hito": "h-mwkgq6503g1w",
+          "url": ""
         },
         {
           "id": "t-mwotjz4k522g",
@@ -3461,7 +3780,8 @@
           "estado": "pendiente",
           "fecha": "2026-11-25",
           "notas": "",
-          "hito": "h-mwkgq6503g1w"
+          "hito": "h-mwkgq6503g1w",
+          "url": ""
         },
         {
           "id": "t-mwotkvjnk5jp",
@@ -3471,7 +3791,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwkgq6503g1w"
+          "hito": "h-mwkgq6503g1w",
+          "url": ""
         },
         {
           "id": "t-mwt0h5qf7qtb",
@@ -3481,7 +3802,8 @@
           "estado": "en curso",
           "fecha": "",
           "notas": "Aranzazu..",
-          "hito": "h-mwt0gt2hmtuf"
+          "hito": "h-mwt0gt2hmtuf",
+          "url": ""
         },
         {
           "id": "t-mwt0i6lii0em",
@@ -3491,7 +3813,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwt0gt2hmtuf"
+          "hito": "h-mwt0gt2hmtuf",
+          "url": ""
         }
       ]
     },
@@ -3519,7 +3842,8 @@
           "estado": "hecha",
           "fecha": "2026-11-23",
           "notas": "",
-          "hito": "h-mwnerm5mywn6"
+          "hito": "h-mwnerm5mywn6",
+          "url": ""
         },
         {
           "id": "t-mwnezkrdl2rk",
@@ -3529,7 +3853,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwnerm5mywn6"
+          "hito": "h-mwnerm5mywn6",
+          "url": ""
         }
       ]
     },
@@ -3557,7 +3882,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwt8tt8klpr6"
+          "hito": "h-mwt8tt8klpr6",
+          "url": ""
         },
         {
           "id": "t-mwt8uva52qrw",
@@ -3567,7 +3893,8 @@
           "estado": "en curso",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwt8tt8klpr6"
+          "hito": "h-mwt8tt8klpr6",
+          "url": ""
         },
         {
           "id": "t-mwt8vc085iuv",
@@ -3577,7 +3904,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwt8tt8klpr6"
+          "hito": "h-mwt8tt8klpr6",
+          "url": ""
         },
         {
           "id": "t-mwt8x7fx3ggr",
@@ -3587,7 +3915,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwt8tt8klpr6"
+          "hito": "h-mwt8tt8klpr6",
+          "url": ""
         },
         {
           "id": "t-mwt8zkdwio1b",
@@ -3597,7 +3926,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwt8tt8klpr6"
+          "hito": "h-mwt8tt8klpr6",
+          "url": ""
         },
         {
           "id": "t-mwt90rs79n3y",
@@ -3607,7 +3937,8 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwt8tt8klpr6"
+          "hito": "h-mwt8tt8klpr6",
+          "url": ""
         },
         {
           "id": "t-mwt910bxgif0",
@@ -3617,7 +3948,8 @@
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
-          "hito": "h-mwt8tt8klpr6"
+          "hito": "h-mwt8tt8klpr6",
+          "url": ""
         }
       ]
     },
@@ -3638,13 +3970,24 @@
           "estado": "hecha",
           "fecha": "",
           "notas": "",
-          "hito": ""
+          "hito": "",
+          "url": ""
         }
       ]
     }
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-25T18:37:31.578Z",
+      "autor": "Jero",
+      "cambios": [
+        "Formaciones MOOC Microsoft 365 para consejerías: \"Montaje del curso\" pendiente → hecha",
+        "Formaciones MOOC Microsoft 365 para consejerías: \"Seguimiento de la formación\" owner sin asignar → Jero y Esther",
+        "Formaciones MOOC Microsoft 365 para consejerías: \"Configurar sesiones de formación\" fecha mié, 30 dic → jue, 26 nov",
+        "Formaciones MOOC Microsoft 365 para consejerías: \"Capturas de pantalla para la POE\" pendiente → en curso"
+      ]
+    },
     {
       "fecha": "2026-11-25T16:45:05.174Z",
       "autor": "Esther",
@@ -4959,6 +5302,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-25T16:45:05.174Z",
-  "actualizadoPor": "Esther"
+  "actualizado": "2026-11-25T18:37:31.578Z",
+  "actualizadoPor": "Jero"
 }
