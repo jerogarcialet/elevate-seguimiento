@@ -80,6 +80,36 @@
           "titulo": "Webinar Ignacio Torres",
           "fecha": "2027-06-02",
           "hecho": false
+        },
+        {
+          "id": "h-mwwca49c28sg",
+          "titulo": "Webinar sin ponente · ABP con herramientas de Microsoft",
+          "fecha": "2027-04-08",
+          "hecho": false
+        },
+        {
+          "id": "h-mwwca8nunfwb",
+          "titulo": "Webinar sin ponente · IA con Minecraft Education (pendiente Francisco Tejeira)",
+          "fecha": "2027-05-04",
+          "hecho": false
+        },
+        {
+          "id": "h-mwwcabb682ns",
+          "titulo": "Webinar sin ponente · Learning Activities de Microsoft",
+          "fecha": "2027-05-20",
+          "hecho": false
+        },
+        {
+          "id": "h-mwwcafnd4wvq",
+          "titulo": "Webinar sin ponente · IA ética con Copilot (pendiente Sara Galisteo)",
+          "fecha": "2027-06-17",
+          "hecho": false
+        },
+        {
+          "id": "h-mwwcajz4um8e",
+          "titulo": "Webinar sin ponente · Excel y Copilot para analizar respuestas de Forms",
+          "fecha": "2027-06-29",
+          "hecho": false
         }
       ],
       "tareas": [
@@ -3605,6 +3635,17 @@
   "notas": [],
   "historial": [
     {
+      "fecha": "2026-11-25T16:30:21.888Z",
+      "autor": "Esther",
+      "cambios": [
+        "Webinars para la comunidad docente: nuevo hito \"Webinar sin ponente · ABP con herramientas de Microsoft\" (jue, 8 abr)",
+        "Webinars para la comunidad docente: nuevo hito \"Webinar sin ponente · IA con Minecraft Education (pendiente Francisco Tejeira)\" (mar, 4 may)",
+        "Webinars para la comunidad docente: nuevo hito \"Webinar sin ponente · Learning Activities de Microsoft\" (jue, 20 may)",
+        "Webinars para la comunidad docente: nuevo hito \"Webinar sin ponente · IA ética con Copilot (pendiente Sara Galisteo)\" (jue, 17 jun)",
+        "Webinars para la comunidad docente: nuevo hito \"Webinar sin ponente · Excel y Copilot para analizar respuestas de Forms\" (mar, 29 jun)"
+      ]
+    },
+    {
       "fecha": "2026-11-25T16:28:45.086Z",
       "autor": "Esther",
       "cambios": [
@@ -4870,6 +4911,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-25T16:28:45.086Z",
+  "actualizado": "2026-11-25T16:30:21.888Z",
   "actualizadoPor": "Esther"
 }
