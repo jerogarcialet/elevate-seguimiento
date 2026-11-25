@@ -123,7 +123,7 @@ input[type=date].late{border-color:#F3B3B8;color:var(--alta);background:#FFF8F8}
 .hi{border:1px solid transparent;border-radius:4px;padding:3px 6px;background:transparent;width:100%}
 .hrow.done .hi{text-decoration:line-through;color:var(--faint)}
 .tasks{padding:6px 16px 12px 22px}
-.thead,.trow{display:grid;grid-template-columns:minmax(200px,1fr) 130px 132px 92px 112px 132px minmax(110px,.6fr) 32px;gap:8px;align-items:center}
+.thead,.trow{display:grid;grid-template-columns:minmax(200px,1fr) 130px 132px 92px 112px 132px minmax(110px,.6fr) minmax(130px,.5fr) 32px;gap:8px;align-items:center}
 .group{margin-top:10px;border:1px solid var(--line2);border-radius:8px;overflow:hidden}
 .group .trow{padding-left:10px;padding-right:6px}
 .tasks .thead{padding-left:10px;padding-right:6px}
@@ -151,6 +151,13 @@ input[type=date].late{border-color:#F3B3B8;color:var(--alta);background:#FFF8F8}
 .trow:hover{background:#FAFAFA}
 .ti,.tn{border:1px solid transparent;border-radius:4px;padding:4px 6px;background:transparent;width:100%}
 .tn{color:var(--muted);font-size:13px}
+.lnk{display:flex;align-items:center;gap:2px;min-width:0}
+.lnk .tn{flex:1;min-width:0}
+.lnk a.go{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:4px;color:var(--brand);text-decoration:none;flex:none}
+.lnk a.go:hover{background:var(--brand-l)}
+.lnk a.go[hidden]{display:none}
+.note .lnk{margin-top:6px;background:#FAFAFA;border-radius:4px;padding:0 4px}
+#nUrl{flex:1;min-width:220px}
 .trow.done .ti{text-decoration:line-through;color:var(--faint)}
 .trow.done{position:relative}
 .trow.done::after{content:"";position:absolute;inset:0;background:linear-gradient(transparent calc(50% - 1px),rgba(66,66,66,.55) calc(50% - 1px),rgba(66,66,66,.55) calc(50% + 1px),transparent calc(50% + 1px)),rgba(255,255,255,.5);pointer-events:none;transition:opacity .15s}
@@ -233,9 +240,10 @@ textarea.big:focus,.nrow select:focus,.nrow input:focus,.toolbar .search:focus,.
   .bhead{grid-template-columns:1fr}
   .bmeta{justify-content:flex-start}
   .thead{display:none}
-  .trow{grid-template-columns:1fr 1fr;padding:10px 0}
+  .trow{grid-template-columns:minmax(0,1fr) minmax(0,1fr);padding:10px 0}
+  .trow>*{min-width:0;max-width:100%}
   .trow .ti{grid-column:1/-1;font-weight:600}
-  .trow .tn{grid-column:1/-1}
+  .trow .tn,.trow .lnk{grid-column:1/-1}
   .trow .del{opacity:1;justify-self:end}
   .hrow{grid-template-columns:22px 1fr 32px}
   .hrow input[type=date],.hrow .when{grid-column:2/3}
@@ -342,10 +350,10 @@ function normalize(d) {
     b.owner = b.owner || ""; b.prioridad = b.prioridad || "media"; b.descripcion = b.descripcion || "";
     b.hitos = Array.isArray(b.hitos) ? b.hitos : []; b.tareas = Array.isArray(b.tareas) ? b.tareas : [];
     b.hitos.forEach(h => { h.id = h.id || uid("h"); h.titulo = h.titulo || ""; h.fecha = h.fecha || ""; h.hecho = !!h.hecho; });
-    b.tareas.forEach(t => { t.id = t.id || uid("t"); t.titulo = t.titulo || ""; t.owner = t.owner || ""; t.prioridad = t.prioridad || "media"; t.estado = t.estado || "pendiente"; t.fecha = t.fecha || ""; t.notas = t.notas || ""; t.hito = b.hitos.some(h => h.id === t.hito) ? t.hito : ""; });
+    b.tareas.forEach(t => { t.id = t.id || uid("t"); t.titulo = t.titulo || ""; t.owner = t.owner || ""; t.prioridad = t.prioridad || "media"; t.estado = t.estado || "pendiente"; t.fecha = t.fecha || ""; t.notas = t.notas || ""; t.url = t.url || ""; t.hito = b.hitos.some(h => h.id === t.hito) ? t.hito : ""; });
   });
   d.notas = Array.isArray(d.notas) ? d.notas : [];
-  d.notas.forEach(n => { n.id = n.id || uid("n"); n.texto = n.texto || ""; n.fecha = n.fecha || todayISO(); n.autor = n.autor || ""; n.bloque = n.bloque || ""; });
+  d.notas.forEach(n => { n.id = n.id || uid("n"); n.texto = n.texto || ""; n.fecha = n.fecha || todayISO(); n.autor = n.autor || ""; n.bloque = n.bloque || ""; n.url = n.url || ""; });
   d.historial = Array.isArray(d.historial) ? d.historial : [];
   return d;
 }
@@ -445,6 +453,7 @@ function diff(a, b) {
       if (o.prioridad !== T.prioridad) out.push(n + ": " + tt + " prioridad " + o.prioridad + " → " + T.prioridad);
       if (o.fecha !== T.fecha) out.push(n + ": " + tt + " fecha " + (fmtDay(o.fecha) || "sin fecha") + " → " + (fmtDay(T.fecha) || "sin fecha"));
       if (o.notas !== T.notas) out.push(n + ": " + tt + " notas editadas");
+      if ((o.url || "") !== (T.url || "")) out.push(n + ": " + tt + (T.url ? " enlace " + (o.url ? "cambiado" : "añadido") : " enlace quitado"));
       if ((o.hito || "") !== (T.hito || "")) { const hh = B.hitos.find(x => x.id === T.hito); out.push(n + ": " + tt + " movida a " + (hh ? "hito " + q(hh.titulo) : "sin hito")); }
     }
     for (const o of A.tareas) if (!B.tareas.some(x => x.id === o.id)) out.push(n + ": tarea eliminada " + q(o.titulo));
@@ -671,7 +680,7 @@ function taskVisible(t) {
   if (f.owner === "__none" ? t.owner : f.owner && !(t.owner === f.owner || t.owner === "Todos" || t.owner.split(" y ").includes(f.owner))) return false;
   if (f.prio && t.prioridad !== f.prio) return false;
   if (f.estado && t.estado !== f.estado) return false;
-  if (f.q) { const q = f.q.toLowerCase(); if (!(t.titulo + " " + t.notas).toLowerCase().includes(q)) return false; }
+  if (f.q) { const q = f.q.toLowerCase(); if (!(t.titulo + " " + t.notas + " " + (t.url || "")).toLowerCase().includes(q)) return false; }
   return true;
 }
 function renderMain() {
@@ -703,7 +712,7 @@ function renderBlock(b) {
       '<select class="pill' + (t.hito ? "" : " o-none") + '" data-ref="' + tr + '" data-f="hito" title="Hito al que pertenece">' + hitoOpts(t.hito) + "</select>" +
       ownerSel(tr, "owner", t.owner) + prioSel(tr, t.prioridad) + estSel(tr, t.estado) +
       '<input type="date" data-ref="' + tr + '" data-f="fecha" value="' + esc(t.fecha) + '"' + (isLate(t.fecha, done) ? ' class="late" title="Vencida"' : "") + ">" +
-      '<input class="tn" data-ref="' + tr + '" data-f="notas" value="' + esc(t.notas) + '" placeholder="Notas…">' +
+      '<input class="tn" data-ref="' + tr + '" data-f="notas" value="' + esc(t.notas) + '" placeholder="Notas…">' + linkCell(tr, t.url) +
       '<button class="btn icon subtle del" data-act="delTask" data-b="' + esc(b.id) + '" data-id="' + esc(t.id) + '" title="Eliminar tarea">' + trash + "</button></div>";
   };
   const group = h => {
@@ -741,18 +750,22 @@ function renderBlock(b) {
       "</div>" +
       '<button class="btn icon subtle del" data-act="delBlock" data-b="' + esc(b.id) + '" title="Eliminar bloque">' + trash + "</button>" +
     "</div></div>" +
-    '<div class="tasks"><div class="thead"><span>Tarea</span><span>Hito</span><span>Owner</span><span>Prioridad</span><span>Estado</span><span>Fecha límite</span><span>Notas</span><span></span></div>' +
+    '<div class="tasks"><div class="thead"><span>Tarea</span><span>Hito</span><span>Owner</span><span>Prioridad</span><span>Estado</span><span>Fecha límite</span><span>Notas</span><span>Enlace</span><span></span></div>' +
       hitos.map(group).join("") + group(null) +
       '<div class="tfoot"><button class="btn subtle" data-act="addHito" data-b="' + esc(b.id) + '">+ Añadir hito</button></div>' +
     "</div></article>";
 }
 const trash = '<svg width="14" height="14" viewBox="0 0 20 20" fill="currentColor"><path d="M8 2h4a1 1 0 011 1v1h4v1.5H3V4h4V3a1 1 0 011-1zm-3 5h10l-.8 9.1a1 1 0 01-1 .9H6.8a1 1 0 01-1-.9L5 7z"/></svg>';
+const extIcon = '<svg width="14" height="14" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 3h6v6"/><path d="M17 3l-8 8"/><path d="M15 12v4a1 1 0 01-1 1H4a1 1 0 01-1-1V6a1 1 0 011-1h4"/></svg>';
+const safeUrl = u => { u = (u || "").trim(); if (!u) return ""; return /^https?:\/\//i.test(u) ? u : "https://" + u.replace(/^\/+/, ""); };
+const linkCell = (ref, url) => '<div class="lnk"><input class="tn" inputmode="url" data-ref="' + ref + '" data-f="url" value="' + esc(url || "") + '" placeholder="Pega una URL…" title="Enlace (Drive, SharePoint, web…)"><a class="go" href="' + esc(safeUrl(url)) + '" target="_blank" rel="noopener" title="Abrir enlace"' + (url ? "" : " hidden") + '>' + extIcon + "</a></div>";
 function renderNotes() {
   const opts = '<option value="">General (todo el proyecto)</option>' + S.data.bloques.map(b => '<option value="' + esc(b.id) + '">' + esc(b.nombre) + "</option>").join("");
   const notas = [...S.data.notas].sort((a, b) => (a.fecha < b.fecha ? 1 : a.fecha > b.fecha ? -1 : 0));
   return '<div class="notenew"><h2>Nueva nota de reunión</h2>' +
     '<div class="nrow"><input type="date" id="nFecha" value="' + todayISO() + '"><select id="nBloque">' + opts + "</select></div>" +
     '<textarea class="big" id="nTexto" placeholder="Qué hemos hablado, qué hemos acordado y próximos pasos…"></textarea>' +
+    '<div class="nrow" style="margin:10px 0 0"><input id="nUrl" inputmode="url" placeholder="Enlace (opcional): pega una URL de Drive, SharePoint, web…"></div>' +
     '<div style="display:flex;justify-content:flex-end;margin-top:10px"><button class="btn primary" data-act="addNote">Añadir nota</button></div></div>' +
     (notas.length ? notas.map(n => {
       const b = n.bloque ? blockById(n.bloque) : null, ref = "n:" + n.id;
@@ -762,7 +775,7 @@ function renderNotes() {
         '<button class="btn subtle" data-act="noteToTask" data-id="' + esc(n.id) + '">→ Convertir en tarea</button>' +
         '<button class="btn subtle" data-act="noteToHito" data-id="' + esc(n.id) + '">→ Convertir en hito</button>' +
         '<button class="btn icon subtle del" data-act="delNote" data-id="' + esc(n.id) + '" title="Eliminar nota">' + trash + "</button></div>" +
-        '<textarea data-ref="' + ref + '" data-f="texto" rows="' + Math.min(14, Math.max(3, n.texto.split("\n").length + 1)) + '">' + esc(n.texto) + "</textarea></div>";
+        '<textarea data-ref="' + ref + '" data-f="texto" rows="' + Math.min(14, Math.max(3, n.texto.split("\n").length + 1)) + '">' + esc(n.texto) + "</textarea>" + linkCell(ref, n.url) + "</div>";
     }).join("") : '<div class="empty">Aún no hay notas. Escribe aquí lo que se habla en cada reunión y conviértelo en tareas o hitos con un clic.</div>');
 }
 function renderHistory() {
@@ -807,6 +820,7 @@ document.addEventListener("input", e => {
   const o = getRef(el.dataset.ref); if (!o) return;
   track(el.dataset.ref + "|" + el.dataset.f);
   o[el.dataset.f] = el.value;
+  if (el.dataset.f === "url") { const a = el.parentNode.querySelector("a.go"); if (a) { a.href = safeUrl(el.value); a.hidden = !el.value.trim(); } }
   if (el.classList.contains("bdesc")) autoGrow(el);
   renderChrome();
 });
@@ -860,7 +874,7 @@ document.addEventListener("click", async e => {
   }
   if (act === "addNote") {
     const tx = $("#nTexto").value.trim(); if (!tx) { toast("Escribe algo en la nota"); return; }
-    track(); S.data.notas.push({ id: uid("n"), fecha: $("#nFecha").value || todayISO(), bloque: $("#nBloque").value, autor: user(), texto: tx });
+    track(); S.data.notas.push({ id: uid("n"), fecha: $("#nFecha").value || todayISO(), bloque: $("#nBloque").value, autor: user(), texto: tx, url: $("#nUrl").value.trim() });
     renderChrome(); renderMain(); toast("Nota añadida. Recuerda pulsar Guardar.");
     return;
   }
@@ -930,7 +944,7 @@ function convertNote(id, kind) {
     const b = blockById($("#cB").value), titulo = $("#cT").value.trim();
     if (!b || !titulo) { toast("Falta el título"); return; }
     track();
-    if (kind === "tarea") b.tareas.push({ id: uid("t"), titulo, owner: $("#cO").value, prioridad: $("#cP").value, estado: "pendiente", fecha: $("#cF").value, notas: "De la reunión del " + fmtDay(n.fecha) });
+    if (kind === "tarea") b.tareas.push({ id: uid("t"), titulo, owner: $("#cO").value, prioridad: $("#cP").value, estado: "pendiente", fecha: $("#cF").value, notas: "De la reunión del " + fmtDay(n.fecha), url: n.url || "" });
     else b.hitos.push({ id: uid("h"), titulo, fecha: $("#cF").value, hecho: false });
     closeModal(); renderChrome(); renderMain();
     toast(cap(kind) + ' añadid' + (kind === "tarea" ? "a" : "o") + ' en "' + b.nombre + '". Recuerda pulsar Guardar.');
