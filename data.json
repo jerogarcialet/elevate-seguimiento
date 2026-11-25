@@ -2299,12 +2299,12 @@
         },
         {
           "id": "t-lin-2",
-          "titulo": "Anuncios de webinars",
+          "titulo": "Anuncios de webinar día 17 de sara",
           "owner": "Esther",
-          "prioridad": "media",
+          "prioridad": "alta",
           "estado": "en curso",
-          "fecha": "",
-          "notas": "",
+          "fecha": "2026-12-09",
+          "notas": "programar",
           "hito": "h-mwjbe12dp0b5"
         },
         {
@@ -2376,16 +2376,6 @@
           "fecha": "",
           "notas": "",
           "hito": "h-mwjice769636"
-        },
-        {
-          "id": "t-mwjiic2tbj4h",
-          "titulo": "Anuncio de cada webinar: una semana antes y el mismo día",
-          "owner": "Esther",
-          "prioridad": "media",
-          "estado": "en curso",
-          "fecha": "2026-11-24",
-          "notas": "",
-          "hito": "h-mwjbe12dp0b5"
         },
         {
           "id": "t-mwjiiqku3y6y",
@@ -2767,7 +2757,7 @@
           "id": "t-mwota763v3op",
           "titulo": "1 dic : Mail con info exclusiva del curso y de regalo un dossier de como elaborar situaciones de aprendizaje.",
           "owner": "Esther",
-          "prioridad": "media",
+          "prioridad": "alta",
           "estado": "pendiente",
           "fecha": "2026-12-01",
           "notas": "",
@@ -2797,7 +2787,7 @@
           "id": "t-mwotbynttsue",
           "titulo": "4 dic: Demo 1 material, 3 niveles ( tutorial)",
           "owner": "Esther",
-          "prioridad": "media",
+          "prioridad": "alta",
           "estado": "pendiente",
           "fecha": "2026-12-04",
           "notas": "",
@@ -2807,7 +2797,7 @@
           "id": "t-mwotc78q937b",
           "titulo": "7 dic: Rúbrica evaluación en 2 minutos",
           "owner": "Esther",
-          "prioridad": "media",
+          "prioridad": "alta",
           "estado": "pendiente",
           "fecha": "2026-12-07",
           "notas": "",
@@ -3564,7 +3554,7 @@
           "titulo": "ocultar apartado expert",
           "owner": "Jero",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "hecha",
           "fecha": "",
           "notas": "",
           "hito": "h-mwt8tt8klpr6"
@@ -3574,7 +3564,7 @@
           "titulo": "Conoce a otros elevate expert - píldoras founderz",
           "owner": "Andrea",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "en curso",
           "fecha": "",
           "notas": "",
           "hito": "h-mwt8tt8klpr6"
@@ -3584,7 +3574,7 @@
           "titulo": "Cambiar el apartado elevate expert",
           "owner": "Jero y Esther",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "hecha",
           "fecha": "",
           "notas": "",
           "hito": "h-mwt8tt8klpr6"
@@ -3594,7 +3584,7 @@
           "titulo": "Explicar convocatorias",
           "owner": "Jero y Esther",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "hecha",
           "fecha": "",
           "notas": "",
           "hito": "h-mwt8tt8klpr6"
@@ -3604,7 +3594,7 @@
           "titulo": "Pantallazos de la parte de explorer a expert",
           "owner": "Jero y Esther",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "hecha",
           "fecha": "",
           "notas": "",
           "hito": "h-mwt8tt8klpr6"
@@ -3614,7 +3604,7 @@
           "titulo": "Post de que te piden en aplicación para expert",
           "owner": "Jero y Esther",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "hecha",
           "fecha": "",
           "notas": "",
           "hito": "h-mwt8tt8klpr6"
@@ -3630,10 +3620,52 @@
           "hito": "h-mwt8tt8klpr6"
         }
       ]
+    },
+    {
+      "id": "b-mwwcss3g5bw5",
+      "nombre": "Microsoft IMPORTANTE",
+      "descripcion": "",
+      "color": "#4F6BED",
+      "owner": "",
+      "prioridad": "media",
+      "hitos": [],
+      "tareas": [
+        {
+          "id": "t-mwwctcc77kyq",
+          "titulo": "MAIL DE SONIA CORP",
+          "owner": "",
+          "prioridad": "alta",
+          "estado": "hecha",
+          "fecha": "",
+          "notas": "",
+          "hito": ""
+        }
+      ]
     }
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-25T16:45:05.174Z",
+      "autor": "Esther",
+      "cambios": [
+        "Dinamización grupo de LinkedIn: tarea \"Anuncios de webinars\" renombrada a \"Anuncios de webinar día 17 de sara\"",
+        "Dinamización grupo de LinkedIn: \"Anuncios de webinar día 17 de sara\" prioridad media → alta",
+        "Dinamización grupo de LinkedIn: \"Anuncios de webinar día 17 de sara\" fecha sin fecha → mié, 9 dic",
+        "Dinamización grupo de LinkedIn: \"Anuncios de webinar día 17 de sara\" notas editadas",
+        "Dinamización grupo de LinkedIn: tarea eliminada \"Anuncio de cada webinar: una semana antes y el mismo día\"",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"1 dic : Mail con info exclusiva del curso y de regalo un dossier de como elaborar situaciones de aprendizaje.\" prioridad media → alta",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"4 dic: Demo 1 material, 3 niveles ( tutorial)\" prioridad media → alta",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"7 dic: Rúbrica evaluación en 2 minutos\" prioridad media → alta",
+        "Articulate M365: \"ocultar apartado expert\" pendiente → hecha",
+        "Articulate M365: \"Conoce a otros elevate expert - píldoras founderz\" pendiente → en curso",
+        "Articulate M365: \"Cambiar el apartado elevate expert\" pendiente → hecha",
+        "Articulate M365: \"Explicar convocatorias\" pendiente → hecha",
+        "Articulate M365: \"Pantallazos de la parte de explorer a expert\" pendiente → hecha",
+        "Articulate M365: \"Post de que te piden en aplicación para expert\" pendiente → hecha",
+        "Nuevo bloque \"Microsoft IMPORTANTE\""
+      ]
+    },
     {
       "fecha": "2026-11-25T16:33:40.246Z",
       "autor": "Esther",
@@ -4927,6 +4959,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-25T16:33:40.246Z",
+  "actualizado": "2026-11-25T16:45:05.174Z",
   "actualizadoPor": "Esther"
 }
