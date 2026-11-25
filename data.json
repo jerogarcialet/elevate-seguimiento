@@ -11,31 +11,31 @@
       "hitos": [
         {
           "id": "h-web-3",
-          "titulo": "Webinar 3 con Mar Monfort",
+          "titulo": "Webinar 3 con Mar Monfort · Copilot y la IA de Microsoft para la creación de SdAs",
           "fecha": "2026-11-26",
           "hecho": false
         },
         {
           "id": "h-mwjb7unrg2rr",
-          "titulo": "Webinar 4 con Yasmina Moscardó",
+          "titulo": "Webinar 4 con Yasmina Moscardó · Evaluar en tiempos de IA: nuevas ideas para una evaluación más práctica y significativa",
           "fecha": "2026-12-03",
           "hecho": false
         },
         {
           "id": "h-mwjcq5jsqjrw",
-          "titulo": "Webinar 5  Sara Galisteo",
+          "titulo": "Webinar 5  Sara Galisteo · Cómo utilizar Copilot y Microsoft Forms para la evaluación docente",
           "fecha": "2026-12-17",
           "hecho": false
         },
         {
           "id": "h-mwjeysavh5b3",
-          "titulo": "Webinar 6 David Martínez",
+          "titulo": "Webinar 6 David Martínez · Una actividad, tres niveles: adapta sin empezar de cero",
           "fecha": "2027-01-14",
           "hecho": false
         },
         {
           "id": "h-mwjfx6f664pl",
-          "titulo": "Webinar 7 Judit Cañamero",
+          "titulo": "Webinar 7 Judit Cañamero · OneNote e IA para crear contenido adaptado",
           "fecha": "2027-01-28",
           "hecho": false
         },
@@ -47,19 +47,19 @@
         },
         {
           "id": "h-mwkrro05u0cf",
-          "titulo": "Webinar Sandra Laguna",
+          "titulo": "Webinar Sandra Laguna · ¿Lo has buscado bien? El Entrenador de búsqueda de Copilot en el aula",
           "fecha": "2027-03-10",
           "hecho": false
         },
         {
           "id": "h-mwm10gpvna1d",
-          "titulo": "Webinar Quique Subirñas",
+          "titulo": "Webinar Quique Subirñas · Aceleradores de aprendizaje en Teams: apoyos para los distintos ritmos de tu alumnado",
           "fecha": "2027-02-25",
           "hecho": false
         },
         {
           "id": "h-mwm10w6g27k4",
-          "titulo": "Webinar Yolanda Cuesta",
+          "titulo": "Webinar Yolanda Cuesta · Cómo crear presentaciones para tus clases con PowerPoint y ayuda de la IA",
           "fecha": "2027-03-16",
           "hecho": false
         },
@@ -71,13 +71,13 @@
         },
         {
           "id": "h-mwwc5vxa78bh",
-          "titulo": "Webinar Roberto Rivas",
+          "titulo": "Webinar Roberto Rivas · Primeros pasos con la placa micro:bit y el editor de Microsoft",
           "fecha": "2027-04-22",
           "hecho": false
         },
         {
           "id": "h-mwwc69vdb78o",
-          "titulo": "Webinar Ignacio Torres",
+          "titulo": "Webinar Ignacio Torres · Cómo preparar el próximo curso con tu aula Microsoft 365",
           "fecha": "2027-06-02",
           "hecho": false
         },
@@ -3635,6 +3635,22 @@
   "notas": [],
   "historial": [
     {
+      "fecha": "2026-11-25T16:33:40.246Z",
+      "autor": "Esther",
+      "cambios": [
+        "Webinars para la comunidad docente: hito \"Webinar 3 con Mar Monfort\" renombrado a \"Webinar 3 con Mar Monfort · Copilot y la IA de Microsoft para la creación de SdAs\"",
+        "Webinars para la comunidad docente: hito \"Webinar 4 con Yasmina Moscardó\" renombrado a \"Webinar 4 con Yasmina Moscardó · Evaluar en tiempos de IA: nuevas ideas para una evaluación más práctica y significativa\"",
+        "Webinars para la comunidad docente: hito \"Webinar 5  Sara Galisteo\" renombrado a \"Webinar 5  Sara Galisteo · Cómo utilizar Copilot y Microsoft Forms para la evaluación docente\"",
+        "Webinars para la comunidad docente: hito \"Webinar 6 David Martínez\" renombrado a \"Webinar 6 David Martínez · Una actividad, tres niveles: adapta sin empezar de cero\"",
+        "Webinars para la comunidad docente: hito \"Webinar 7 Judit Cañamero\" renombrado a \"Webinar 7 Judit Cañamero · OneNote e IA para crear contenido adaptado\"",
+        "Webinars para la comunidad docente: hito \"Webinar Sandra Laguna\" renombrado a \"Webinar Sandra Laguna · ¿Lo has buscado bien? El Entrenador de búsqueda de Copilot en el aula\"",
+        "Webinars para la comunidad docente: hito \"Webinar Quique Subirñas\" renombrado a \"Webinar Quique Subirñas · Aceleradores de aprendizaje en Teams: apoyos para los distintos ritmos de tu alumnado\"",
+        "Webinars para la comunidad docente: hito \"Webinar Yolanda Cuesta\" renombrado a \"Webinar Yolanda Cuesta · Cómo crear presentaciones para tus clases con PowerPoint y ayuda de la IA\"",
+        "Webinars para la comunidad docente: hito \"Webinar Roberto Rivas\" renombrado a \"Webinar Roberto Rivas · Primeros pasos con la placa micro:bit y el editor de Microsoft\"",
+        "Webinars para la comunidad docente: hito \"Webinar Ignacio Torres\" renombrado a \"Webinar Ignacio Torres · Cómo preparar el próximo curso con tu aula Microsoft 365\""
+      ]
+    },
+    {
       "fecha": "2026-11-25T16:30:21.888Z",
       "autor": "Esther",
       "cambios": [
@@ -4911,6 +4927,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-25T16:30:21.888Z",
+  "actualizado": "2026-11-25T16:33:40.246Z",
   "actualizadoPor": "Esther"
 }
