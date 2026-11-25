@@ -2256,7 +2256,7 @@
           "titulo": "Asignar tallerista Minecraft",
           "owner": "Esther",
           "prioridad": "media",
-          "estado": "en curso",
+          "estado": "hecha",
           "fecha": "2026-11-25",
           "notas": "techmakers  JOSE",
           "hito": "h-mwkgq6503g1w"
@@ -2276,7 +2276,7 @@
           "titulo": "Contactar con los coordinadores",
           "owner": "Esther",
           "prioridad": "alta",
-          "estado": "en curso",
+          "estado": "hecha",
           "fecha": "2026-11-20",
           "notas": "Enviado de nuevo formulario a coordinadores",
           "hito": "h-mwkgunc0dzdv"
@@ -2286,7 +2286,7 @@
           "titulo": "Revisar formulario\t",
           "owner": "Esther",
           "prioridad": "media",
-          "estado": "en curso",
+          "estado": "hecha",
           "fecha": "2026-11-23",
           "notas": "",
           "hito": "h-mwkgunc0dzdv"
@@ -2296,7 +2296,7 @@
           "titulo": "Ver disponibilidad psicóloga AEPAE",
           "owner": "Andrea",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "en curso",
           "fecha": "2026-11-23",
           "notas": "",
           "hito": "h-mwkgunc0dzdv"
@@ -2316,7 +2316,7 @@
           "titulo": "Concretar cita charla AEPAE",
           "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "en curso",
           "fecha": "",
           "notas": "",
           "hito": "h-mwkgunc0dzdv"
@@ -2536,7 +2536,7 @@
           "titulo": "Escribir Andrea AEPAE qué tal talleres",
           "owner": "Andrea",
           "prioridad": "media",
-          "estado": "en curso",
+          "estado": "hecha",
           "fecha": "2026-11-24",
           "notas": "Programado mañana con la propuesta talleres",
           "hito": "h-mwkgq6503g1w"
@@ -2792,6 +2792,18 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-25T16:06:54.351Z",
+      "autor": "Esther",
+      "cambios": [
+        "Pilotos Yasira - Minecraft: \"Asignar tallerista Minecraft\" en curso → hecha",
+        "Pilotos Yasira - Minecraft: \"Contactar con los coordinadores\" en curso → hecha",
+        "Pilotos Yasira - Minecraft: \"Revisar formulario\t\" en curso → hecha",
+        "Pilotos Yasira - Minecraft: \"Ver disponibilidad psicóloga AEPAE\" pendiente → en curso",
+        "Pilotos Yasira - Minecraft: \"Concretar cita charla AEPAE\" pendiente → en curso",
+        "Pilotos Yasira - Minecraft: \"Escribir Andrea AEPAE qué tal talleres\" en curso → hecha"
+      ]
+    },
     {
       "fecha": "2026-11-24T10:19:45.270Z",
       "autor": "Andrea",
@@ -3927,6 +3939,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-24T10:19:45.270Z",
-  "actualizadoPor": "Andrea"
+  "actualizado": "2026-11-25T16:06:54.351Z",
+  "actualizadoPor": "Esther"
 }
