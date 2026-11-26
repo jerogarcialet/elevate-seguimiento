@@ -3971,13 +3971,20 @@
           "fecha": "",
           "notas": "",
           "hito": "",
-          "url": ""
+          "url": "https://l3tcraftedu.sharepoint.com/:w:/s/E-LearningLetcraft/IQBESDJcNb8oRbfhv4GZXY9SAS91OSls7xSdZiEGPhR-2Xs?e=PFhlmt"
         }
       ]
     }
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-26T09:11:31.200Z",
+      "autor": "Esther",
+      "cambios": [
+        "Microsoft IMPORTANTE: \"MAIL DE SONIA CORP\" enlace añadido"
+      ]
+    },
     {
       "fecha": "2026-11-25T18:37:31.578Z",
       "autor": "Jero",
@@ -5302,6 +5309,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-25T18:37:31.578Z",
-  "actualizadoPor": "Jero"
+  "actualizado": "2026-11-26T09:11:31.200Z",
+  "actualizadoPor": "Esther"
 }
