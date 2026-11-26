@@ -41,7 +41,7 @@
         },
         {
           "id": "h-mwkicnfx5qn0",
-          "titulo": "Webinar 8 Esther Miguélez",
+          "titulo": "Webinar 8 Esther Miguélez · Emociones que cuentan en Teams",
           "fecha": "2027-02-11",
           "hecho": false
         },
@@ -53,7 +53,7 @@
         },
         {
           "id": "h-mwm10gpvna1d",
-          "titulo": "Webinar Quique Subirñas · Aceleradores de aprendizaje en Teams: apoyos para los distintos ritmos de tu alumnado",
+          "titulo": "Webinar Quique Subirás · Aceleradores de aprendizaje en Teams: apoyos para los distintos ritmos de tu alumnado",
           "fecha": "2027-02-25",
           "hecho": false
         },
@@ -332,7 +332,7 @@
           "titulo": "Publicar un recordatorio en redes antes del webinar.",
           "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "hecha",
           "fecha": "2026-11-24",
           "notas": "",
           "hito": "h-web-3",
@@ -1159,7 +1159,7 @@
           "prioridad": "media",
           "estado": "en curso",
           "fecha": "",
-          "notas": "Sandra",
+          "notas": "",
           "hito": "h-mwnb5x93kvxc",
           "url": ""
         },
@@ -1421,7 +1421,7 @@
           "titulo": "Definir el tema.",
           "owner": "Esther",
           "prioridad": "media",
-          "estado": "en curso",
+          "estado": "hecha",
           "fecha": "",
           "notas": "",
           "hito": "h-mwkicnfx5qn0",
@@ -1434,7 +1434,7 @@
           "prioridad": "media",
           "estado": "en curso",
           "fecha": "",
-          "notas": "",
+          "notas": "26/11 correo enviado con datos y plantilla; plazo 11/01",
           "hito": "h-mwkicnfx5qn0",
           "url": ""
         },
@@ -1630,9 +1630,9 @@
           "titulo": "Pedir al ponente su cargo, teléfono y dirección de envío.",
           "owner": "",
           "prioridad": "media",
-          "estado": "hecha",
+          "estado": "en curso",
           "fecha": "",
-          "notas": "",
+          "notas": "26/11 faltan talla y forma de pago (pedidos)",
           "hito": "h-mwm10w6g27k4",
           "url": ""
         },
@@ -1817,7 +1817,7 @@
           "titulo": "Enviar al ponente la plantilla PPT de la carpeta Externos.",
           "owner": "",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "hecha",
           "fecha": "",
           "notas": "",
           "hito": "h-mwkicnfx5qn0",
@@ -1885,7 +1885,7 @@
           "prioridad": "media",
           "estado": "en curso",
           "fecha": "",
-          "notas": "",
+          "notas": "26/11 pedidos cargo, bio, dirección, teléfono, talla y pago",
           "hito": "h-mwm10gpvna1d",
           "url": ""
         },
@@ -1894,7 +1894,7 @@
           "titulo": "Enviar al ponente la plantilla PPT de la carpeta Externos.",
           "owner": "",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "hecha",
           "fecha": "",
           "notas": "",
           "hito": "h-mwm10gpvna1d",
@@ -2072,7 +2072,7 @@
           "prioridad": "media",
           "estado": "hecha",
           "fecha": "",
-          "notas": "",
+          "notas": "Ojo: en el correo del 25/11 se le propuso el 22/04. Confirmar fecha",
           "hito": "h-mwwc5vxa78bh",
           "url": ""
         },
@@ -2092,9 +2092,9 @@
           "titulo": "Pedir al ponente su cargo, teléfono y dirección de envío.",
           "owner": "",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "en curso",
           "fecha": "",
-          "notas": "",
+          "notas": "25/11 propuesta enviada con petición de datos; sin respuesta",
           "hito": "h-mwwc5vxa78bh",
           "url": ""
         },
@@ -2301,9 +2301,9 @@
           "titulo": "Pedir al ponente su cargo, teléfono y dirección de envío.",
           "owner": "",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "en curso",
           "fecha": "",
-          "notas": "",
+          "notas": "Tenemos dirección, tel., talla L, PayPal y foto (en Excel). Faltan cargo y bio. Quiere reunión",
           "hito": "h-mwwc69vdb78o",
           "url": ""
         },
@@ -2312,7 +2312,7 @@
           "titulo": "Enviar al ponente la plantilla PPT de la carpeta Externos.",
           "owner": "",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "hecha",
           "fecha": "",
           "notas": "",
           "hito": "h-mwwc69vdb78o",
@@ -3984,6 +3984,29 @@
   "notas": [],
   "historial": [
     {
+      "fecha": "2026-11-26T13:24:09.004Z",
+      "autor": "Esther",
+      "cambios": [
+        "Webinars para la comunidad docente: hito \"Webinar 8 Esther Miguélez\" renombrado a \"Webinar 8 Esther Miguélez · Emociones que cuentan en Teams\"",
+        "Webinars para la comunidad docente: hito \"Webinar Quique Subirñas · Aceleradores de aprendizaje en Teams: apoyos para los distintos ritmos de tu alumnado\" renombrado a \"Webinar Quique Subirás · Aceleradores de aprendizaje en Teams: apoyos para los distintos ritmos de tu alumnado\"",
+        "Webinars para la comunidad docente: \"Publicar un recordatorio en redes antes del webinar.\" pendiente → hecha",
+        "Webinars para la comunidad docente: \"Esperando respuestas Posibles ponentes\" notas editadas",
+        "Webinars para la comunidad docente: \"Definir el tema.\" en curso → hecha",
+        "Webinars para la comunidad docente: \"Pedir al ponente su cargo, teléfono y dirección de envío.\" notas editadas",
+        "Webinars para la comunidad docente: \"Pedir al ponente su cargo, teléfono y dirección de envío.\" hecha → en curso",
+        "Webinars para la comunidad docente: \"Pedir al ponente su cargo, teléfono y dirección de envío.\" notas editadas",
+        "Webinars para la comunidad docente: \"Enviar al ponente la plantilla PPT de la carpeta Externos.\" pendiente → hecha",
+        "Webinars para la comunidad docente: \"Pedir al ponente su cargo, teléfono y dirección de envío.\" notas editadas",
+        "Webinars para la comunidad docente: \"Enviar al ponente la plantilla PPT de la carpeta Externos.\" pendiente → hecha",
+        "Webinars para la comunidad docente: \"Definir el día.\" notas editadas",
+        "Webinars para la comunidad docente: \"Pedir al ponente su cargo, teléfono y dirección de envío.\" pendiente → en curso",
+        "Webinars para la comunidad docente: \"Pedir al ponente su cargo, teléfono y dirección de envío.\" notas editadas",
+        "Webinars para la comunidad docente: \"Pedir al ponente su cargo, teléfono y dirección de envío.\" pendiente → en curso",
+        "Webinars para la comunidad docente: \"Pedir al ponente su cargo, teléfono y dirección de envío.\" notas editadas",
+        "Webinars para la comunidad docente: \"Enviar al ponente la plantilla PPT de la carpeta Externos.\" pendiente → hecha"
+      ]
+    },
+    {
       "fecha": "2026-11-26T11:27:32.041Z",
       "autor": "Esther",
       "cambios": [
@@ -5356,6 +5379,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-26T11:27:32.041Z",
+  "actualizado": "2026-11-26T13:24:09.004Z",
   "actualizadoPor": "Esther"
 }
