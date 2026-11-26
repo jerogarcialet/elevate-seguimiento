@@ -804,7 +804,7 @@
           "id": "t-mwjfvn2mqwm1",
           "titulo": "Preparar las creatividades.",
           "owner": "Andrea",
-          "prioridad": "media",
+          "prioridad": "alta",
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
@@ -1013,7 +1013,7 @@
           "id": "t-mwjfybxfrll1",
           "titulo": "Preparar las creatividades.",
           "owner": "",
-          "prioridad": "media",
+          "prioridad": "alta",
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
@@ -1244,7 +1244,7 @@
           "id": "t-mwkrtbbqitub",
           "titulo": "Preparar las creatividades.",
           "owner": "",
-          "prioridad": "media",
+          "prioridad": "alta",
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
@@ -1453,7 +1453,7 @@
           "id": "t-mwm0ospgrwkt",
           "titulo": "Preparar las creatividades.",
           "owner": "Andrea",
-          "prioridad": "media",
+          "prioridad": "alta",
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
@@ -1662,7 +1662,7 @@
           "id": "t-mwwbmd7m3jo1",
           "titulo": "Preparar las creatividades.",
           "owner": "",
-          "prioridad": "media",
+          "prioridad": "alta",
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
@@ -1915,7 +1915,7 @@
           "id": "t-mwwbrx7p5itw",
           "titulo": "Preparar las creatividades.",
           "owner": "",
-          "prioridad": "media",
+          "prioridad": "alta",
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
@@ -2124,7 +2124,7 @@
           "id": "t-mwwc70tas9pr",
           "titulo": "Preparar las creatividades.",
           "owner": "",
-          "prioridad": "media",
+          "prioridad": "alta",
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
@@ -2333,7 +2333,7 @@
           "id": "t-mwwc7xrxolfu",
           "titulo": "Preparar las creatividades.",
           "owner": "",
-          "prioridad": "media",
+          "prioridad": "alta",
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
@@ -2542,7 +2542,7 @@
           "id": "t-mwxl3rhk2myz",
           "titulo": "Preparar las creatividades.",
           "owner": "",
-          "prioridad": "media",
+          "prioridad": "alta",
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
@@ -4193,6 +4193,21 @@
   "notas": [],
   "historial": [
     {
+      "fecha": "2026-11-26T13:39:14.450Z",
+      "autor": "Esther",
+      "cambios": [
+        "Webinars para la comunidad docente: \"Preparar las creatividades.\" prioridad media → alta",
+        "Webinars para la comunidad docente: \"Preparar las creatividades.\" prioridad media → alta",
+        "Webinars para la comunidad docente: \"Preparar las creatividades.\" prioridad media → alta",
+        "Webinars para la comunidad docente: \"Preparar las creatividades.\" prioridad media → alta",
+        "Webinars para la comunidad docente: \"Preparar las creatividades.\" prioridad media → alta",
+        "Webinars para la comunidad docente: \"Preparar las creatividades.\" prioridad media → alta",
+        "Webinars para la comunidad docente: \"Preparar las creatividades.\" prioridad media → alta",
+        "Webinars para la comunidad docente: \"Preparar las creatividades.\" prioridad media → alta",
+        "Webinars para la comunidad docente: \"Preparar las creatividades.\" prioridad media → alta"
+      ]
+    },
+    {
       "fecha": "2026-11-26T13:31:43.481Z",
       "autor": "Esther",
       "cambios": [
@@ -5627,6 +5642,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-26T13:31:43.481Z",
+  "actualizado": "2026-11-26T13:39:14.450Z",
   "actualizadoPor": "Esther"
 }
