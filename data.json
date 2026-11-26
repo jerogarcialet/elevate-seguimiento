@@ -82,12 +82,6 @@
           "hecho": false
         },
         {
-          "id": "h-mwwca49c28sg",
-          "titulo": "Webinar sin ponente · ABP con herramientas de Microsoft",
-          "fecha": "2027-04-08",
-          "hecho": false
-        },
-        {
           "id": "h-mwwca8nunfwb",
           "titulo": "Webinar sin ponente · IA con Minecraft Education (pendiente Francisco Tejeira)",
           "fecha": "2027-05-04",
@@ -3824,7 +3818,8 @@
           "estado": "hecha",
           "fecha": "2026-11-26",
           "notas": "",
-          "hito": "h-mwkk2zmu4nqs"
+          "hito": "h-mwkk2zmu4nqs",
+          "url": ""
         }
       ]
     },
@@ -3988,6 +3983,13 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-26T10:35:45.929Z",
+      "autor": "Esther",
+      "cambios": [
+        "Webinars para la comunidad docente: hito eliminado \"Webinar sin ponente · ABP con herramientas de Microsoft\""
+      ]
+    },
     {
       "fecha": "2026-11-26T10:34:49.403Z",
       "autor": "Esther",
@@ -5332,6 +5334,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-26T10:34:49.403Z",
+  "actualizado": "2026-11-26T10:35:45.929Z",
   "actualizadoPor": "Esther"
 }
