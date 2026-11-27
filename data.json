@@ -3325,7 +3325,7 @@
           "id": "t-mwt8mgav2omk",
           "titulo": "Añadir imágenes a la POE",
           "owner": "Jero y Esther",
-          "prioridad": "media",
+          "prioridad": "alta",
           "estado": "pendiente",
           "fecha": "",
           "notas": "",
@@ -3509,7 +3509,7 @@
           "prioridad": "media",
           "estado": "en curso",
           "fecha": "",
-          "notas": "Buscando profe",
+          "notas": "Buscando profe. Aranzazu podría jueves o viernes por la mañana",
           "hito": "h-mwkgbm3yw7k3",
           "url": ""
         },
@@ -3780,11 +3780,11 @@
         {
           "id": "t-mwkhg3amxgfn",
           "titulo": "Asignar tallerista",
-          "owner": "",
+          "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "en curso",
           "fecha": "",
-          "notas": "Victor?¿",
+          "notas": "Posible tallerista: Aranzazu (solo jueves). Victor? (solo tardes)",
           "hito": "h-mwkhet2ydvtp",
           "url": ""
         },
@@ -4026,7 +4026,7 @@
           "prioridad": "media",
           "estado": "en curso",
           "fecha": "",
-          "notas": "Aranzazu..",
+          "notas": "Aranzazu: posible para Burgos (jueves o viernes por la mañana) y Valladolid (solo jueves)",
           "hito": "h-mwt0gt2hmtuf",
           "url": ""
         },
@@ -4258,6 +4258,18 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-27T14:13:28.693Z",
+      "autor": "Esther",
+      "cambios": [
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Añadir imágenes a la POE\" prioridad media → alta",
+        "Pilotos Yasira - Minecraft: \"Concretar día del taller Minecraft\" notas editadas",
+        "Pilotos Yasira - Minecraft: \"Asignar tallerista\" pendiente → en curso",
+        "Pilotos Yasira - Minecraft: \"Asignar tallerista\" owner sin asignar → Esther",
+        "Pilotos Yasira - Minecraft: \"Asignar tallerista\" notas editadas",
+        "Pilotos Yasira - Minecraft: \"Esperando respuestas Posibles ponentes\" notas editadas"
+      ]
+    },
     {
       "fecha": "2026-11-27T14:07:20.844Z",
       "autor": "Esther",
@@ -5803,6 +5815,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-27T14:07:20.844Z",
+  "actualizado": "2026-11-27T14:13:28.693Z",
   "actualizadoPor": "Esther"
 }
