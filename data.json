@@ -3356,7 +3356,7 @@
         },
         {
           "id": "h-mwkgq6503g1w",
-          "titulo": "Colegio Salesianos Palma del Río - CÓRDOBA  (T. Jose techmakers)",
+          "titulo": "Colegio Salesianos Palma del Río - CÓRDOBA (T. Macarena · Techmakers)",
           "fecha": "2026-12-15",
           "hecho": false
         },
@@ -4258,6 +4258,13 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-27T14:15:54.934Z",
+      "autor": "Esther",
+      "cambios": [
+        "Pilotos Yasira - Minecraft: hito \"Colegio Salesianos Palma del Río - CÓRDOBA  (T. Jose techmakers)\" renombrado a \"Colegio Salesianos Palma del Río - CÓRDOBA (T. Macarena · Techmakers)\""
+      ]
+    },
     {
       "fecha": "2026-11-27T14:15:10.390Z",
       "autor": "Esther",
@@ -5823,6 +5830,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-27T14:15:10.390Z",
+  "actualizado": "2026-11-27T14:15:54.934Z",
   "actualizadoPor": "Esther"
 }
