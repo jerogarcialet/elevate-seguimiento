@@ -3120,6 +3120,16 @@
           "notas": "Esther pasar a Andrea reportes, Andrea mandar mail a Emilio",
           "hito": "h-mwuiw1784wlo",
           "url": ""
+        },
+        {
+          "id": "t-mwyp21wx394l",
+          "titulo": "Reunión con Jero: centro del profesorado (formación) · lunes 30/11 9:30",
+          "owner": "Jero y Esther",
+          "prioridad": "alta",
+          "estado": "pendiente",
+          "fecha": "2026-11-30",
+          "notas": "",
+          "hito": ""
         }
       ]
     },
@@ -4186,12 +4196,30 @@
           "notas": "",
           "hito": "",
           "url": "https://l3tcraftedu.sharepoint.com/:w:/s/E-LearningLetcraft/IQBESDJcNb8oRbfhv4GZXY9SAS91OSls7xSdZiEGPhR-2Xs?e=PFhlmt"
+        },
+        {
+          "id": "t-mwyp22t4k2vc",
+          "titulo": "Forms para que los profes presenten proyectos con IA (vídeo Microsoft, cole referente) y enviarlo a la BBDD de Experts filtrando por Madrid",
+          "owner": "Esther",
+          "prioridad": "alta",
+          "estado": "pendiente",
+          "fecha": "2026-11-27",
+          "notas": "Pedido por Andrea en Discord 26/11. Microsoft quiere un cole referente en IA para grabar a varios profes de distintas etapas; mejor en Madrid. Usar la BBDD manual de Experts.",
+          "hito": ""
         }
       ]
     }
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-27T08:03:07.636Z",
+      "autor": "Esther",
+      "cambios": [
+        "Formaciones MOOC Microsoft 365 para consejerías: nueva tarea \"Reunión con Jero: centro del profesorado (formación) · lunes 30/11 9:30\"",
+        "Microsoft IMPORTANTE: nueva tarea \"Forms para que los profes presenten proyectos con IA (vídeo Microsoft, cole referente) y enviarlo a la BBDD de Experts filtrando por Madrid\""
+      ]
+    },
     {
       "fecha": "2026-11-26T13:39:14.450Z",
       "autor": "Esther",
@@ -5642,6 +5670,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-26T13:39:14.450Z",
+  "actualizado": "2026-11-27T08:03:07.636Z",
   "actualizadoPor": "Esther"
 }
