@@ -3350,7 +3350,7 @@
         },
         {
           "id": "h-mwkgbm3yw7k3",
-          "titulo": "Colegio Jesús-María  -  BURGOS ( T. buscando)",
+          "titulo": "Colegio Jesús-María  -  BURGOS (T. posible Aranzazu)",
           "fecha": "2026-11-27",
           "hecho": false
         },
@@ -3368,7 +3368,7 @@
         },
         {
           "id": "h-mwkhet2ydvtp",
-          "titulo": "CEIP Pedro Gómez Bosque - VALLADOLID ( T. Buscando)",
+          "titulo": "CEIP Pedro Gómez Bosque - VALLADOLID (T. posible Aranzazu)",
           "fecha": "",
           "hecho": false
         },
@@ -4258,6 +4258,14 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-27T14:15:10.390Z",
+      "autor": "Esther",
+      "cambios": [
+        "Pilotos Yasira - Minecraft: hito \"Colegio Jesús-María  -  BURGOS ( T. buscando)\" renombrado a \"Colegio Jesús-María  -  BURGOS (T. posible Aranzazu)\"",
+        "Pilotos Yasira - Minecraft: hito \"CEIP Pedro Gómez Bosque - VALLADOLID ( T. Buscando)\" renombrado a \"CEIP Pedro Gómez Bosque - VALLADOLID (T. posible Aranzazu)\""
+      ]
+    },
     {
       "fecha": "2026-11-27T14:13:28.693Z",
       "autor": "Esther",
@@ -5815,6 +5823,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-27T14:13:28.693Z",
+  "actualizado": "2026-11-27T14:15:10.390Z",
   "actualizadoPor": "Esther"
 }
