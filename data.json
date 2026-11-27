@@ -2680,6 +2680,16 @@
           "notas": "",
           "hito": "h-mwwca8nunfwb",
           "url": ""
+        },
+        {
+          "id": "t-mwz1vwi42osu",
+          "titulo": "Animar a los ponentes a grabar un vídeo corto presentándose y contando qué van a hacer en su webinar",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "pendiente",
+          "fecha": "",
+          "notas": "Vídeo breve (30-60 s, vertical o horizontal) para difundir en redes y LinkedIn antes de cada webinar. Proponerlo a todos los ponentes confirmados.",
+          "hito": ""
         }
       ]
     },
@@ -4239,13 +4249,21 @@
           "estado": "pendiente",
           "fecha": "2026-11-30",
           "notas": "Estilo Elevate: fondo degradado oscuro, foto de profe con alumnado, título «Proyectos con IA en el aula» y logos. 1600×400 px, texto centrado-izquierda, PNG/JPG < 1 MB. Subir en Forms: Estilo > Personalizado.",
-          "hito": ""
+          "hito": "",
+          "url": ""
         }
       ]
     }
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-27T14:02:10.154Z",
+      "autor": "Esther",
+      "cambios": [
+        "Webinars para la comunidad docente: nueva tarea \"Animar a los ponentes a grabar un vídeo corto presentándose y contando qué van a hacer en su webinar\""
+      ]
+    },
     {
       "fecha": "2026-11-27T13:58:34.862Z",
       "autor": "Esther",
@@ -5762,6 +5780,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-27T13:58:34.862Z",
+  "actualizado": "2026-11-27T14:02:10.154Z",
   "actualizadoPor": "Esther"
 }
