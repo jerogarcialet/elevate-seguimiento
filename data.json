@@ -4229,13 +4229,31 @@
           "fecha": "2026-11-27",
           "notas": "27/11 Forms creado en Microsoft Forms («Proyectos con IA en el aula · Microsoft Elevate for Educators», 18 preguntas). Falta la cabecera. Luego enviarlo a la BBDD manual de Experts filtrando por Madrid. Pedido por Andrea en Discord 26/11 (Sonia, Microsoft).",
           "hito": "",
-          "url": ""
+          "url": "https://forms.cloud.microsoft/Pages/DesignPageV2.aspx?subpage=design&FormId=m3CwvOGXfEepjYC9PWdVGxLiZEeSiopLhfxZRjkcf3VUNTlVU1BHNEs0OUVOU1RSRDlGQUFLN05CRy4u&Token=9d5e7e93b0864d15ab04e8c1f7160205"
+        },
+        {
+          "id": "t-mwz1raatavxn",
+          "titulo": "Crear el banner (cabecera) del Forms de proyectos con IA en Figma",
+          "owner": "Esther",
+          "prioridad": "alta",
+          "estado": "pendiente",
+          "fecha": "2026-11-30",
+          "notas": "Estilo Elevate: fondo degradado oscuro, foto de profe con alumnado, título «Proyectos con IA en el aula» y logos. 1600×400 px, texto centrado-izquierda, PNG/JPG < 1 MB. Subir en Forms: Estilo > Personalizado.",
+          "hito": ""
         }
       ]
     }
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-27T13:58:34.862Z",
+      "autor": "Esther",
+      "cambios": [
+        "Microsoft IMPORTANTE: \"Forms para que los profes presenten proyectos con IA (vídeo Microsoft, cole referente) y enviarlo a la BBDD de Experts filtrando por Madrid\" enlace añadido",
+        "Microsoft IMPORTANTE: nueva tarea \"Crear el banner (cabecera) del Forms de proyectos con IA en Figma\""
+      ]
+    },
     {
       "fecha": "2026-11-27T13:56:39.662Z",
       "autor": "Esther",
@@ -5744,6 +5762,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-27T13:56:39.662Z",
+  "actualizado": "2026-11-27T13:58:34.862Z",
   "actualizadoPor": "Esther"
 }
