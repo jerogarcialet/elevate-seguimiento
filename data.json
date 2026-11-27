@@ -3293,9 +3293,9 @@
           "titulo": "Mailing para Corp del curso",
           "owner": "Esther",
           "prioridad": "alta",
-          "estado": "en curso",
+          "estado": "hecha",
           "fecha": "2026-11-23",
-          "notas": "FALTAN ENLACES WEBINARS",
+          "notas": "27/11 enviado con los enlaces de los webinars",
           "hito": "h-mwt8jh8v2wv0",
           "url": ""
         },
@@ -3397,9 +3397,9 @@
           "titulo": "Esther revisar que haya completado formulario",
           "owner": "Esther",
           "prioridad": "media",
-          "estado": "en curso",
+          "estado": "hecha",
           "fecha": "2026-11-19",
-          "notas": "De momento nada",
+          "notas": "27/11 formulario rellenado y coordinado con AEPAE",
           "hito": "h-mwjfn2mo71xg",
           "url": ""
         },
@@ -3419,9 +3419,9 @@
           "titulo": "Andrea pasar el contacto a la psicóloga de SEK para que coordinen los talleres AEPAE",
           "owner": "Andrea",
           "prioridad": "media",
-          "estado": "en curso",
+          "estado": "hecha",
           "fecha": "2026-11-24",
-          "notas": "26/11 AEPAE se encarga de coordinarlo con el cole",
+          "notas": "27/11 SEK ya coordinado con AEPAE",
           "hito": "h-mwjfn2mo71xg",
           "url": ""
         },
@@ -3816,8 +3816,8 @@
           "owner": "Esther",
           "prioridad": "media",
           "estado": "pendiente",
-          "fecha": "2026-11-20",
-          "notas": "",
+          "fecha": "2026-12-04",
+          "notas": "Esperando respuesta al ultimátum del 26/11 (plazo 4/12)",
           "hito": "h-mwkk2zmu4nqs",
           "url": ""
         },
@@ -3827,8 +3827,8 @@
           "owner": "Esther",
           "prioridad": "media",
           "estado": "pendiente",
-          "fecha": "2026-11-20",
-          "notas": "",
+          "fecha": "2026-12-04",
+          "notas": "Esperando respuesta al ultimátum del 26/11 (plazo 4/12)",
           "hito": "h-mwkk2zmu4nqs",
           "url": ""
         },
@@ -4049,7 +4049,8 @@
           "estado": "hecha",
           "fecha": "2026-11-27",
           "notas": "Enviado 27/11 (CC Jose). Pendiente que confirme que descarga el mundo y elegir llamada o Teams",
-          "hito": "h-mwkgq6503g1w"
+          "hito": "h-mwkgq6503g1w",
+          "url": ""
         },
         {
           "id": "t-mwyzxburgxp7",
@@ -4059,7 +4060,8 @@
           "estado": "en curso",
           "fecha": "2026-12-10",
           "notas": "Enviado a Paola 27/11 (CC Andrea). Deben confirmar instalación antes del 10/12; ofrecida reunión de ayuda",
-          "hito": "h-mwkgq6503g1w"
+          "hito": "h-mwkgq6503g1w",
+          "url": ""
         }
       ]
     },
@@ -4234,6 +4236,22 @@
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-27T13:29:01.277Z",
+      "autor": "Esther",
+      "cambios": [
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Mailing para Corp del curso\" en curso → hecha",
+        "Campaña de comunicación del curso Microsoft gratuito (paid media): \"Mailing para Corp del curso\" notas editadas",
+        "Pilotos Yasira - Minecraft: \"Esther revisar que haya completado formulario\" en curso → hecha",
+        "Pilotos Yasira - Minecraft: \"Esther revisar que haya completado formulario\" notas editadas",
+        "Pilotos Yasira - Minecraft: \"Andrea pasar el contacto a la psicóloga de SEK para que coordinen los talleres AEPAE\" en curso → hecha",
+        "Pilotos Yasira - Minecraft: \"Andrea pasar el contacto a la psicóloga de SEK para que coordinen los talleres AEPAE\" notas editadas",
+        "Pilotos Yasira - Minecraft: \"Confirmar cursos de ESO\" fecha vie, 20 nov → vie, 4 dic",
+        "Pilotos Yasira - Minecraft: \"Confirmar cursos de ESO\" notas editadas",
+        "Pilotos Yasira - Minecraft: \"Revisar formulario AEPAE\" fecha vie, 20 nov → vie, 4 dic",
+        "Pilotos Yasira - Minecraft: \"Revisar formulario AEPAE\" notas editadas"
+      ]
+    },
     {
       "fecha": "2026-11-27T13:07:25.751Z",
       "autor": "Esther",
@@ -5710,6 +5728,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-27T13:07:25.751Z",
+  "actualizado": "2026-11-27T13:29:01.277Z",
   "actualizadoPor": "Esther"
 }
