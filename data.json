@@ -156,9 +156,9 @@
           "titulo": "Gestionar el pago de 100 € al ponente.",
           "owner": "Andrea",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "en curso",
           "fecha": "2026-11-30",
-          "notas": "2-3 días después del webinar",
+          "notas": "27/11 gestionando con Mar la forma de pago (no la indicó en su correo del 16/11)",
           "hito": "h-web-3",
           "url": ""
         },
@@ -299,9 +299,9 @@
           "titulo": "Compartir el enlace de la grabación con Andrea.",
           "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "hecha",
           "fecha": "2026-11-27",
-          "notas": "",
+          "notas": "Vídeo enviado a Andrea (27/11)",
           "hito": "h-web-3",
           "url": ""
         },
@@ -3129,7 +3129,8 @@
           "estado": "pendiente",
           "fecha": "2026-11-30",
           "notas": "",
-          "hito": ""
+          "hito": "",
+          "url": ""
         }
       ]
     },
@@ -3345,7 +3346,7 @@
         {
           "id": "h-mwkgq6503g1w",
           "titulo": "Colegio Salesianos Palma del Río - CÓRDOBA  (T. Jose techmakers)",
-          "fecha": "2026-11-23",
+          "fecha": "2026-12-15",
           "hecho": false
         },
         {
@@ -3572,9 +3573,9 @@
           "titulo": "Concretar día del taller Minecraft",
           "owner": "Esther",
           "prioridad": "media",
-          "estado": "en curso",
+          "estado": "hecha",
           "fecha": "2026-11-24",
-          "notas": "26/11 propuesto a Paola el 15/12 para los 4 grupos (alt. 16/12). Jose disponible 15 y 16. Pendiente respuesta",
+          "notas": "Confirmado 15/12: Primaria 11-13 h y ESO 13-15 h (Paola 26/11). 4 grupos, línea 1",
           "hito": "h-mwkgq6503g1w",
           "url": ""
         },
@@ -3585,7 +3586,7 @@
           "prioridad": "media",
           "estado": "hecha",
           "fecha": "2026-11-25",
-          "notas": "techmakers  JOSE",
+          "notas": "Techmakers: Macarena Trigo (coordinadora de formadores), contacto vía Jose",
           "hito": "h-mwkgq6503g1w",
           "url": ""
         },
@@ -3990,9 +3991,9 @@
           "titulo": "Contactar con el cole. para pasarle. contacto Jose que. hará el taller del cole",
           "owner": "Esther",
           "prioridad": "media",
-          "estado": "pendiente",
+          "estado": "hecha",
           "fecha": "2026-11-25",
-          "notas": "",
+          "notas": "27/11 correo a Paola: confirmada fecha y tallerista (Macarena)",
           "hito": "h-mwkgq6503g1w",
           "url": ""
         },
@@ -4039,6 +4040,26 @@
           "notas": "",
           "hito": "h-mwkk2zmu4nqs",
           "url": ""
+        },
+        {
+          "id": "t-mwyzxbctae33",
+          "titulo": "Enviar a Macarena (Techmakers) presentación, guías y mundo",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "hecha",
+          "fecha": "2026-11-27",
+          "notas": "Enviado 27/11 (CC Jose). Pendiente que confirme que descarga el mundo y elegir llamada o Teams",
+          "hito": "h-mwkgq6503g1w"
+        },
+        {
+          "id": "t-mwyzxburgxp7",
+          "titulo": "Enviar al cole mundo y guías y confirmar instalación en Chromebooks",
+          "owner": "Esther",
+          "prioridad": "media",
+          "estado": "en curso",
+          "fecha": "2026-12-10",
+          "notas": "Enviado a Paola 27/11 (CC Andrea). Deben confirmar instalación antes del 10/12; ofrecida reunión de ayuda",
+          "hito": "h-mwkgq6503g1w"
         }
       ]
     },
@@ -4205,13 +4226,32 @@
           "estado": "pendiente",
           "fecha": "2026-11-27",
           "notas": "Pedido por Andrea en Discord 26/11. Microsoft quiere un cole referente en IA para grabar a varios profes de distintas etapas; mejor en Madrid. Usar la BBDD manual de Experts.",
-          "hito": ""
+          "hito": "",
+          "url": ""
         }
       ]
     }
   ],
   "notas": [],
   "historial": [
+    {
+      "fecha": "2026-11-27T13:07:25.751Z",
+      "autor": "Esther",
+      "cambios": [
+        "Webinars para la comunidad docente: \"Gestionar el pago de 100 € al ponente.\" pendiente → en curso",
+        "Webinars para la comunidad docente: \"Gestionar el pago de 100 € al ponente.\" notas editadas",
+        "Webinars para la comunidad docente: \"Compartir el enlace de la grabación con Andrea.\" pendiente → hecha",
+        "Webinars para la comunidad docente: \"Compartir el enlace de la grabación con Andrea.\" notas editadas",
+        "Pilotos Yasira - Minecraft: fecha del hito \"Colegio Salesianos Palma del Río - CÓRDOBA  (T. Jose techmakers)\" lun, 23 nov → mar, 15 dic",
+        "Pilotos Yasira - Minecraft: \"Concretar día del taller Minecraft\" en curso → hecha",
+        "Pilotos Yasira - Minecraft: \"Concretar día del taller Minecraft\" notas editadas",
+        "Pilotos Yasira - Minecraft: \"Asignar tallerista Minecraft\" notas editadas",
+        "Pilotos Yasira - Minecraft: \"Contactar con el cole. para pasarle. contacto Jose que. hará el taller del cole\" pendiente → hecha",
+        "Pilotos Yasira - Minecraft: \"Contactar con el cole. para pasarle. contacto Jose que. hará el taller del cole\" notas editadas",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Enviar a Macarena (Techmakers) presentación, guías y mundo\"",
+        "Pilotos Yasira - Minecraft: nueva tarea \"Enviar al cole mundo y guías y confirmar instalación en Chromebooks\""
+      ]
+    },
     {
       "fecha": "2026-11-27T08:03:07.636Z",
       "autor": "Esther",
@@ -5670,6 +5710,6 @@
       ]
     }
   ],
-  "actualizado": "2026-11-27T08:03:07.636Z",
+  "actualizado": "2026-11-27T13:07:25.751Z",
   "actualizadoPor": "Esther"
 }
